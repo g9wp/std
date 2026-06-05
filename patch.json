@@ -1,0 +1,6 @@
+{
+  "unstable": {
+    "@std/cli/unstable-prompt-multiple-select": "export { promptMultipleSelect } from \"@std/cli/unstable-prompt-multiple-select\";",
+    "@std/uuid/unstable-v6": ""
+  }
+}

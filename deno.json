@@ -1,0 +1,13 @@
+{
+  "name": "@g9wp/std",
+  "version": "0.1.0",
+  "license": "MIT",
+  "tasks": {
+    "build": "deno run -A ./build.ts"
+  },
+  "fmt": {
+    "lineWidth": 120
+  },
+  "exports": {},
+  "imports": {}
+}

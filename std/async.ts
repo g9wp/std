@@ -6,4 +6,3 @@ export * from "@std/async/unstable-wait-for";
 export * from "@std/async/unstable-semaphore";
 export * from "@std/async/unstable-circuit-breaker";
 export * from "@std/async/unstable-pool-settled";
-export * from "@std/async/unstable-channel";

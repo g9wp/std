@@ -1,1 +1,1 @@
-export * from "@std/async/unstable-channel";
+export * from "@std/async/channel";

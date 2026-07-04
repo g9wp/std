@@ -214,7 +214,8 @@ class Cli {
 
     console.log(`\n🎉 生成完成。`);
 
-    await dax.$`deno check`.cwd(OUTPUT_DIR).printCommand();
+    await dax.$`deno i --minimum-dependency-age=0`.cwd(OUTPUT_DIR).printCommand();
+    await dax.$`deno check std`.cwd(OUTPUT_DIR).printCommand();
   }
 }
 

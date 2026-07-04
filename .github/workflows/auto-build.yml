@@ -1,0 +1,76 @@
+name: Auto Build on Deno Std Release
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  check-and-build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Get latest denoland/std release
+        id: get-latest-std
+        run: |
+          STD_TAG=$(curl -s https://api.github.com/repos/denoland/std/releases/latest | jq -r .tag_name)
+          echo "STD_TAG=$STD_TAG" >> $GITHUB_ENV
+          echo "STD_TAG=$STD_TAG" >> $GITHUB_OUTPUT
+
+      - name: Check if already built for this version
+        id: check-version
+        run: |
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://api.github.com/repos/${{ github.repository }}/releases/tags/std-${{ env.STD_TAG }})
+          if [ "$HTTP_STATUS" = "200" ]; then
+            echo "Version ${{ env.STD_TAG }} already built. Skipping."
+            echo "SKIP=true" >> $GITHUB_OUTPUT
+          else
+            echo "New version detected: ${{ env.STD_TAG }}. Proceeding to build."
+            echo "SKIP=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run Build Script
+        if: steps.check-version.outputs.SKIP == 'false'
+        run: |
+          deno run -A build.ts --repo_path=./deno_std
+
+      - name: Bump Version and Push
+        id: git-tasks # 增加 id 方便后续步骤读取 output
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          echo "std_tag=std-$STD_TAG" >> $GITHUB_OUTPUT
+
+          VER=v$(deno bump-version patch 2>/dev/null)
+          echo "my_ver=$VER" >> $GITHUB_OUTPUT
+          echo "VER=$VER" >> $GITHUB_ENV
+
+          git add -u
+          git add std
+          git commit -m "std $STD_TAG"
+          git push origin HEAD
+          git tag "std-$STD_TAG"
+          git push origin "std-$STD_TAG"
+          git tag "$VER"
+          git push origin "$VER"
+
+      - name: Create GitHub Release
+        if: steps.check-version.outputs.SKIP == 'false'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.VER }}
+          name: "${{ env.VER }} ${{ env.STD_TAG }}"
+          body: |
+            Automatically compiled from [denoland/std@${{ env.STD_TAG }}](https://github.com/denoland/std/releases/tag/${{ env.STD_TAG }})

@@ -1,12 +1,19 @@
-name: Auto Build on Deno Std Release
+name: Auto Build & Publish
 
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    tags:
+      - "v*" # 支持你手动推送 v* 的 tag 时直接触发发布
 
 jobs:
   check-and-build:
+    name: Check & Build Deno Std
+    # 只有定时任务或手动点击 workflow_dispatch 时才跑构建任务。
+    # 这样可以防止手动 push tag 时重复跑 build 导致死循环。
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
 
     permissions:
@@ -46,7 +53,8 @@ jobs:
           deno run -A build.ts --repo_path=./deno_std
 
       - name: Bump Version and Push
-        id: git-tasks # 增加 id 方便后续步骤读取 output
+        id: git-tasks
+        if: steps.check-version.outputs.SKIP == 'false'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -74,3 +82,31 @@ jobs:
           name: "${{ env.VER }} ${{ env.STD_TAG }}"
           body: |
             Automatically compiled from [denoland/std@${{ env.STD_TAG }}](https://github.com/denoland/std/releases/tag/${{ env.STD_TAG }})
+
+  publish:
+    name: Publish to JSR/Deno
+    # 触发逻辑微调：
+    # 1. 如果是手动 push tag 'v*' 触发的，直接执行发布。
+    # 2. 如果是每日任务，必须等 check-and-build 运行成功后才执行发布。
+    needs: check-and-build
+    if: always() && (github.event_name == 'push' || (needs.check-and-build.result == 'success' && needs.check-and-build.outputs.SKIP != 'true'))
+    runs-on: ubuntu-latest
+
+    permissions:
+      id-token: write # JSR / Deno Publish 鉴权必需
+      contents: read
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+        with:
+          # 如果是被上面 check-and-build 的推流唤醒的，我们需要拉取最新带有新 tag 的代码
+          fetch-depth: 0
+
+      - name: Install Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Publish
+        run: deno publish

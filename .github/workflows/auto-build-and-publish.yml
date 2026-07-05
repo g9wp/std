@@ -15,13 +15,14 @@ jobs:
     # 这样可以防止手动 push tag 时重复跑 build 导致死循环。
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
-
+    outputs:
+      SKIP: ${{ steps.check-version.outputs.SKIP }}
     permissions:
       contents: write
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Deno
         uses: denoland/setup-deno@v2
@@ -38,7 +39,7 @@ jobs:
       - name: Check if already built for this version
         id: check-version
         run: |
-          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://api.github.com/repos/${{ github.repository }}/releases/tags/std-${{ env.STD_TAG }})
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://api.github.com/repos/${{ github.repository }}/git/refs/tags/std-${{ env.STD_TAG }})
           if [ "$HTTP_STATUS" = "200" ]; then
             echo "Version ${{ env.STD_TAG }} already built. Skipping."
             echo "SKIP=true" >> $GITHUB_OUTPUT
@@ -89,7 +90,7 @@ jobs:
     # 1. 如果是手动 push tag 'v*' 触发的，直接执行发布。
     # 2. 如果是每日任务，必须等 check-and-build 运行成功后才执行发布。
     needs: check-and-build
-    if: always() && (github.event_name == 'push' || (needs.check-and-build.result == 'success' && needs.check-and-build.outputs.SKIP != 'true'))
+    if: always() && (github.event_name == 'push' || (needs.check-and-build.result == 'success' && needs.check-and-build.outputs.SKIP == 'false'))
     runs-on: ubuntu-latest
 
     permissions:
@@ -98,7 +99,7 @@ jobs:
 
     steps:
       - name: Clone repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           # 如果是被上面 check-and-build 的推流唤醒的，我们需要拉取最新带有新 tag 的代码
           fetch-depth: 0

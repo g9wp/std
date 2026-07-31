@@ -51,7 +51,7 @@ jobs:
       - name: Run Build Script
         if: steps.check-version.outputs.SKIP == 'false'
         run: |
-          deno run -A build.ts --repo_path=./deno_std
+          deno run -A --no-config build.ts --repo_path=./deno_std
 
       - name: Bump Version and Push
         id: git-tasks

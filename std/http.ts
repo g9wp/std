@@ -11,3 +11,4 @@ export * from "@std/http/unstable-structured-fields";
 export * from "@std/http/unstable-route";
 export * from "@std/http/unstable-cache-control";
 export * from "@std/http/unstable-message-signatures";
+export * from "@std/http/unstable-error";

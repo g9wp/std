@@ -8,6 +8,7 @@
   "fmt": {
     "lineWidth": 120
   },
+  "minimumDependencyAge": 0,
   "exports": {
     "./assert": "./std/assert.ts",
     "./assert/assert": "./std/assert/assert.ts",

@@ -52,6 +52,17 @@ jobs:
             echo "SKIP=false" >> $GITHUB_OUTPUT
           fi
 
+      # 先升级版本号：build.ts 会把 deno.json 的其它字段原样保留，
+      # 而技能生成物里的版本号（"@g9wp/std x.y.z 的 exports 清单"）也要取到升完后的值，
+      # 所以必须在 build / gen 之前 bump。
+      - name: Bump version
+        id: bump
+        if: steps.check-version.outputs.SKIP == 'false'
+        run: |
+          VER=v$(deno bump-version patch)
+          echo "my_ver=$VER" >> $GITHUB_OUTPUT
+          echo "VER=$VER" >> $GITHUB_ENV
+
       - name: Run Build Script
         if: steps.check-version.outputs.SKIP == 'false'
         run: |
@@ -74,7 +85,7 @@ jobs:
           git diff --stat -- .dsh/skills/std/references || true
 
       # 没有新上游版本时，技能生成物若确有变化（例如改了 gen.ts / SKILL.md），
-      # 单独提交一次；有新版本时由下面的 Bump 步骤连同整合包一起提交。
+      # 单独提交一次；有新版本时由下面的提交步骤连同整合包一起提交。
       - name: Commit skill-only refresh
         if: steps.check-version.outputs.SKIP == 'true'
         run: |
@@ -88,7 +99,7 @@ jobs:
           git commit -m "skill: 刷新 \$std 速查生成物（上游 $STD_TAG）"
           git push origin HEAD
 
-      - name: Bump Version and Push
+      - name: Commit, Tag and Push
         id: git-tasks
         if: steps.check-version.outputs.SKIP == 'false'
         run: |
@@ -96,10 +107,6 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           echo "std_tag=std-$STD_TAG" >> $GITHUB_OUTPUT
-
-          VER=v$(deno bump-version patch 2>/dev/null)
-          echo "my_ver=$VER" >> $GITHUB_OUTPUT
-          echo "VER=$VER" >> $GITHUB_ENV
 
           git add -u
           # 整合包与技能（含新增/删除的模块文件）一起提交

@@ -31,7 +31,7 @@ import { pooledMap } from "$std/async";          // 想减小加载面时用子�
 import { join } from "$std/path";
 ```
 
-- 本仓库（g9wp/std）与其下游项目已声明 `"$std": "jsr:@g9wp/std@^0.1.4"`，直接 `import ... from "$std/..."` 即可。
+- 本仓库（g9wp/std）自身**不需要** `$std` 别名（`std/*.ts` 直接 `export * from "@std/<模块>"`，上游映射写在仓库 `deno.json` 的 `imports` 里，由 `build.ts` 生成）；下游项目按上面加 `"$std": "jsr:@g9wp/std@^0.1.4"` 即可。
 - 无别名时可写 `import { debounce } from "jsr:@g9wp/std@^0.1.4/async";`。
 - **不要绕过 `$std` 直接用上游 `@std/*`**：版本和子路径名都不同（见下），混用会同时加载两份代码。
 

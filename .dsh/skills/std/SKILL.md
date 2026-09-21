@@ -12,7 +12,7 @@ whenToUse: "在 Deno/JSR 项目里需要选用或调用 @g9wp/std（$std）中�
 | 别名 | 包名 | 版本 | 源码仓库 | 内容 |
 | --- | --- | --- | --- | --- |
 | `$std` | `@g9wp/std`（`jsr:@g9wp/std@^0.1.4`） | 0.1.4 | `https://github.com/g9wp/std` | 上游 `denoland/std` 的 **42 个模块 / 487 个子路径**合并包（含被改名为稳定名的 unstable 模块） |
-| 上游源码 | `@std/*` | — | `https://github.com/denoland/std` | tag `release-2026.07.30`，`$std` 的符号以此为准 |
+| 上游源码 | `@std/*` | — | `https://github.com/denoland/std` | 上游 release tag（当次的 tag 记在 `references/std-modules.md` 头部，由生成器从上游 clone 自动取） |
 
 ## 安装与别名
 
@@ -104,7 +104,8 @@ scripts/gen.ts                  重新生成上述生成物
 cd <g9wp/std 克隆>/.dsh/skills/std
 deno run -A scripts/gen.ts      # stdc 默认取本技能所属仓库根，上游默认取兄弟目录 ../std
 # 或显式指定：deno run -A scripts/gen.ts <stdc 仓库> <上游 std 仓库> <输出目录>
-# 环境变量：STD_REPO / STD_UPSTREAM_REPO / STD_SKILL_OUT（兼容旧的 STDX_* 前缀）、STD_VERBOSE=1
+# 环境变量：STD_REPO / STD_UPSTREAM_REPO / STD_UPSTREAM_REF（上游 ref，缺省从 clone 的 git tag 自动取）
+#          / STD_SKILL_OUT（兼容旧的 STDX_* 前缀）、STD_VERBOSE=1
 ```
 
 > 上游 `denoland/std` 升级时：先在 `<stdc 的兄弟目录>/std` 更新 https://github.com/denoland/std 的克隆（切到新 tag），

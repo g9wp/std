@@ -1,5 +1,9 @@
 name: Auto Build & Publish
 
+# 上游 denoland/std 发新版本时**没法通知本仓库**（GitHub 不支持跨仓库 release 事件，
+# 除非上游配 webhook + PAT），所以用「每日 cron 轮询 + 手动 workflow_dispatch」发现新 tag：
+#   - 发现新 tag → 重建整合包（std/ + deno.json）+ 刷新 $std 技能生成物 → 提交、打 tag、发版、发布到 JSR
+#   - 没有新 tag → refresh-skill 作业仍会把技能生成物对齐到最新上游 tag（只有真有变化才提交）
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -53,6 +57,37 @@ jobs:
         run: |
           deno run -A --no-config build.ts --repo_path=./deno_std
 
+      # 刷新 $std 技能（.dsh/skills/std/references/*）。
+      # 两种情况都跑：
+      #   - 有新 tag：build.ts 已把上游 clone 在 ./deno_std，直接用
+      #   - 没有新 tag：自己拉一个浅 clone（只为了拿 tag 与源码），用于把技能生成物
+      #     对齐到当前上游版本（改了 gen.ts / SKILL.md 后生成物过期时也能自动补上）
+      # 生成物里只写仓库 URL；上游 ref 由 gen.ts 从该 clone 的 git tag 自动检测。
+      - name: Regenerate $std skill references
+        run: |
+          if [ ! -d ./deno_std/.git ]; then
+            git clone --depth 1 --branch "$STD_TAG" https://github.com/denoland/std.git ./deno_std \
+              || git clone --depth 1 https://github.com/denoland/std.git ./deno_std
+          fi
+          STD_UPSTREAM_REPO=./deno_std deno run -A --no-config .dsh/skills/std/scripts/gen.ts
+          echo "--- 技能生成物变更（无输出=已是最新）---"
+          git diff --stat -- .dsh/skills/std/references || true
+
+      # 没有新上游版本时，技能生成物若确有变化（例如改了 gen.ts / SKILL.md），
+      # 单独提交一次；有新版本时由下面的 Bump 步骤连同整合包一起提交。
+      - name: Commit skill-only refresh
+        if: steps.check-version.outputs.SKIP == 'true'
+        run: |
+          if [ -z "$(git status --porcelain -- .dsh/skills/std)" ]; then
+            echo "技能生成物已是最新，无需提交"
+            exit 0
+          fi
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- .dsh/skills/std
+          git commit -m "skill: 刷新 \$std 速查生成物（上游 $STD_TAG）"
+          git push origin HEAD
+
       - name: Bump Version and Push
         id: git-tasks
         if: steps.check-version.outputs.SKIP == 'false'
@@ -67,7 +102,8 @@ jobs:
           echo "VER=$VER" >> $GITHUB_ENV
 
           git add -u
-          git add std
+          # 整合包与技能（含新增/删除的模块文件）一起提交
+          git add -A -- std .dsh/skills/std
           git commit -m "std $STD_TAG"
           git push origin HEAD
           git tag "std-$STD_TAG"

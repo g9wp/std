@@ -7,12 +7,13 @@
  *   stdc     = 本脚本往上三层（即本技能所属仓库根）
  *   上游 std = stdc 的兄弟目录 `../std`（denoland/std 的克隆）
  *   输出     = 本技能目录（生成物写到其 references/ 下）
- * 环境变量可覆盖：STD_REPO / STD_UPSTREAM_REPO / STD_SKILL_OUT（兼容旧名 STDX_*；STD_VERBOSE=1 打印进度）
+ * 环境变量可覆盖：STD_REPO / STD_UPSTREAM_REPO / STD_UPSTREAM_REF / STD_SKILL_OUT（兼容旧名 STDX_*；STD_VERBOSE=1 打印进度）
+ *   其中 STD_UPSTREAM_REF 缺省时自动从上游 clone 的 git tag 取（CI 里就是刚 checkout 的那个 release tag）
  *
  * 输入（全部为本地只读数据）：
  *   - <stdc>/deno.json      $std 权威 exports 清单（487 条，由 stdc/build.ts 生成）
  *   - <stdc>/std/ 下的再导出文件（指出上游 jsr 标识符）
- *   - <上游>/ 上游 denoland/std 源码（release-2026.07.30）
+ *   - <上游>/ 上游 denoland/std 源码（tag 由 git 自动检测，见 STD_UPSTREAM_REF）
  * 输出（只写仓库相对路径 / 仓库 URL，不写本机绝对路径）：
  *   - <out>/references/std-modules.md
  *   - <out>/references/std-api/<module>.md
@@ -36,7 +37,40 @@ const VERBOSE = Deno.env.get("STD_VERBOSE") === "1" || Deno.env.get("STDX_VERBOS
 /** $std 包仓库与上游仓库（生成物里只出现仓库 URL，不出现本机路径） */
 const STDC_REPO = "https://github.com/g9wp/std";
 const STD_REPO = "https://github.com/denoland/std";
-const STD_REF = "release-2026.07.30";
+
+/**
+ * 上游 ref（用于生成 GitHub 源码链接）：优先 `STD_UPSTREAM_REF`，
+ * 否则问本地 clone 的 git（`describe --tags --exact-match` → 退回最近 tag）；
+ * 都拿不到就用默认分支 `main`，并在文件头注明。
+ */
+function detectUpstreamRef(repoDir: string): string | undefined {
+  const override = Deno.env.get("STD_UPSTREAM_REF");
+  if (override) return override;
+  for (
+    const args of [
+      ["describe", "--tags", "--exact-match"],
+      ["describe", "--tags", "--abbrev=0"],
+    ]
+  ) {
+    try {
+      const out = new Deno.Command("git", {
+        args: ["-C", repoDir, ...args],
+        stdout: "piped",
+        stderr: "null",
+      }).outputSync();
+      if (!out.success) continue;
+      const tag = new TextDecoder().decode(out.stdout).trim();
+      if (tag) return tag;
+    } catch {
+      // 没有 git / 不是 git 仓库：继续往后退
+    }
+  }
+  return undefined;
+}
+
+const STD_REF = detectUpstreamRef(STD);
+/** 生成链接时用的 ref（没检测到 tag 就退回默认分支） */
+const STD_TREE_REF = STD_REF ?? "main";
 
 type Json = Record<string, unknown>;
 
@@ -577,9 +611,9 @@ function moduleDocOf(m: string): string {
 
 const GENERATED_HEADER = (extra = "") =>
   `<!-- 本文件由 \`scripts/gen.ts\` 依据 $std 源码自动生成，请勿手工编辑。\n` +
-  `     数据源：${STDC_REPO}（@g9wp/std ${stdcConfig.version} 的 exports 清单）+ ${STD_REPO}（${STD_REF} 源码）${
-    extra ? "\n     " + extra : ""
-  }\n     需要精确签名时以 \`deno doc\` 或源码为准。 -->\n`;
+  `     数据源：${STDC_REPO}（@g9wp/std ${stdcConfig.version} 的 exports 清单）+ ${STD_REPO}${
+    STD_REF ? `（${STD_REF} 源码）` : "（源码，未检测到 tag → 链接指向默认分支）"
+  }${extra ? "\n     " + extra : ""}\n     需要精确签名时以 \`deno doc\` 或源码为准。 -->\n`;
 
 async function write(path: string, content: string) {
   const dir = path.slice(0, path.lastIndexOf("/"));
@@ -622,7 +656,7 @@ for (const m of moduleOrder) {
     .sort((a, b) => (a.sub === "" ? -1 : b.sub === "" ? 1 : a.sub.localeCompare(b.sub)));
   const lines: string[] = [];
   lines.push(`# \`$std/${m}\`${up ? ` — @std/${up.modKey}@${up.version ?? "?"}` : ""}\n`);
-  lines.push(GENERATED_HEADER(`上游源码：${STD_REPO}/tree/${STD_REF}/${up?.dir ?? "?"}`));
+  lines.push(GENERATED_HEADER(`上游源码：${STD_REPO}/tree/${STD_TREE_REF}/${up?.dir ?? "?"}`));
   const doc = collapse(moduleDocOf(m));
   if (doc) lines.push(`> ${doc}\n`);
   lines.push(
@@ -682,7 +716,7 @@ for (const m of moduleOrder) {
   }
   await write(
     `${OUT}/references/std-export-map.json`,
-    JSON.stringify({ package: stdcConfig.name, version: stdcConfig.version, upstream: "denoland/std release-2026.07.30", exports: map }, null, 2),
+    JSON.stringify({ package: stdcConfig.name, version: stdcConfig.version, upstream: `${STD_REPO} @ ${STD_REF ?? "unknown"}`, exports: map }, null, 2),
   );
 }
 

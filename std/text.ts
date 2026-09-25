@@ -9,4 +9,3 @@ export * from "@std/text/unstable-trim-by";
 export * from "@std/text/unstable-to-constant-case";
 export * from "@std/text/unstable-to-sentence-case";
 export * from "@std/text/unstable-to-title-case";
-export * from "@std/text/unstable-truncate";

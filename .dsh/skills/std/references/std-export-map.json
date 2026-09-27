@@ -1,0 +1,4548 @@
+{
+  "package": "@g9wp/std",
+  "version": "0.1.5",
+  "upstream": "https://github.com/denoland/std @ release-2026.09.24",
+  "exports": {
+    "assert": {
+      "upstream": [
+        "@std/assert",
+        "@std/assert/unstable-never"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/mod.ts",
+        "assert/unstable_never.ts"
+      ]
+    },
+    "assert/assert": {
+      "upstream": [
+        "@std/assert/assert"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/assert.ts"
+      ]
+    },
+    "assert/almost-equals": {
+      "upstream": [
+        "@std/assert/almost-equals"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/almost_equals.ts"
+      ]
+    },
+    "assert/array-includes": {
+      "upstream": [
+        "@std/assert/array-includes"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/array_includes.ts"
+      ]
+    },
+    "assert/equals": {
+      "upstream": [
+        "@std/assert/equals"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/equals.ts"
+      ]
+    },
+    "assert/exists": {
+      "upstream": [
+        "@std/assert/exists"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/exists.ts"
+      ]
+    },
+    "assert/false": {
+      "upstream": [
+        "@std/assert/false"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/false.ts"
+      ]
+    },
+    "assert/greater": {
+      "upstream": [
+        "@std/assert/greater"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/greater.ts"
+      ]
+    },
+    "assert/greater-or-equal": {
+      "upstream": [
+        "@std/assert/greater-or-equal"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/greater_or_equal.ts"
+      ]
+    },
+    "assert/instance-of": {
+      "upstream": [
+        "@std/assert/instance-of"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/instance_of.ts"
+      ]
+    },
+    "assert/is-error": {
+      "upstream": [
+        "@std/assert/is-error"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/is_error.ts"
+      ]
+    },
+    "assert/less": {
+      "upstream": [
+        "@std/assert/less"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/less.ts"
+      ]
+    },
+    "assert/less-or-equal": {
+      "upstream": [
+        "@std/assert/less-or-equal"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/less_or_equal.ts"
+      ]
+    },
+    "assert/match": {
+      "upstream": [
+        "@std/assert/match"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/match.ts"
+      ]
+    },
+    "assert/never": {
+      "upstream": [
+        "@std/assert/unstable-never"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/unstable_never.ts"
+      ]
+    },
+    "assert/not-equals": {
+      "upstream": [
+        "@std/assert/not-equals"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/not_equals.ts"
+      ]
+    },
+    "assert/not-instance-of": {
+      "upstream": [
+        "@std/assert/not-instance-of"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/not_instance_of.ts"
+      ]
+    },
+    "assert/not-match": {
+      "upstream": [
+        "@std/assert/not-match"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/not_match.ts"
+      ]
+    },
+    "assert/not-strict-equals": {
+      "upstream": [
+        "@std/assert/not-strict-equals"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/not_strict_equals.ts"
+      ]
+    },
+    "assert/object-match": {
+      "upstream": [
+        "@std/assert/object-match"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/object_match.ts"
+      ]
+    },
+    "assert/rejects": {
+      "upstream": [
+        "@std/assert/rejects"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/rejects.ts"
+      ]
+    },
+    "assert/strict-equals": {
+      "upstream": [
+        "@std/assert/strict-equals"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/strict_equals.ts"
+      ]
+    },
+    "assert/string-includes": {
+      "upstream": [
+        "@std/assert/string-includes"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/string_includes.ts"
+      ]
+    },
+    "assert/throws": {
+      "upstream": [
+        "@std/assert/throws"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/throws.ts"
+      ]
+    },
+    "assert/assertion-error": {
+      "upstream": [
+        "@std/assert/assertion-error"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/assertion_error.ts"
+      ]
+    },
+    "assert/equal": {
+      "upstream": [
+        "@std/assert/equal"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/equal.ts"
+      ]
+    },
+    "assert/fail": {
+      "upstream": [
+        "@std/assert/fail"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/fail.ts"
+      ]
+    },
+    "assert/unimplemented": {
+      "upstream": [
+        "@std/assert/unimplemented"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/unimplemented.ts"
+      ]
+    },
+    "assert/unreachable": {
+      "upstream": [
+        "@std/assert/unreachable"
+      ],
+      "module": "assert",
+      "source": [
+        "assert/unreachable.ts"
+      ]
+    },
+    "async": {
+      "upstream": [
+        "@std/async",
+        "@std/async/unstable-throttle",
+        "@std/async/unstable-wait-for",
+        "@std/async/unstable-semaphore",
+        "@std/async/unstable-circuit-breaker",
+        "@std/async/unstable-pool-settled"
+      ],
+      "module": "async",
+      "source": [
+        "async/mod.ts",
+        "async/unstable_throttle.ts",
+        "async/unstable_wait_for.ts",
+        "async/unstable_semaphore.ts",
+        "async/unstable_circuit_breaker.ts",
+        "async/unstable_pool_settled.ts"
+      ]
+    },
+    "async/abortable": {
+      "upstream": [
+        "@std/async/abortable"
+      ],
+      "module": "async",
+      "source": [
+        "async/abortable.ts"
+      ]
+    },
+    "async/channel": {
+      "upstream": [
+        "@std/async/channel"
+      ],
+      "module": "async",
+      "source": [
+        "async/channel.ts"
+      ]
+    },
+    "async/deadline": {
+      "upstream": [
+        "@std/async/deadline"
+      ],
+      "module": "async",
+      "source": [
+        "async/deadline.ts"
+      ]
+    },
+    "async/debounce": {
+      "upstream": [
+        "@std/async/debounce"
+      ],
+      "module": "async",
+      "source": [
+        "async/debounce.ts"
+      ]
+    },
+    "async/delay": {
+      "upstream": [
+        "@std/async/delay"
+      ],
+      "module": "async",
+      "source": [
+        "async/delay.ts"
+      ]
+    },
+    "async/mux-async-iterator": {
+      "upstream": [
+        "@std/async/mux-async-iterator"
+      ],
+      "module": "async",
+      "source": [
+        "async/mux_async_iterator.ts"
+      ]
+    },
+    "async/poll": {
+      "upstream": [
+        "@std/async/poll"
+      ],
+      "module": "async",
+      "source": [
+        "async/poll.ts"
+      ]
+    },
+    "async/pool": {
+      "upstream": [
+        "@std/async/pool"
+      ],
+      "module": "async",
+      "source": [
+        "async/pool.ts"
+      ]
+    },
+    "async/retry": {
+      "upstream": [
+        "@std/async/retry"
+      ],
+      "module": "async",
+      "source": [
+        "async/retry.ts"
+      ]
+    },
+    "async/tee": {
+      "upstream": [
+        "@std/async/tee"
+      ],
+      "module": "async",
+      "source": [
+        "async/tee.ts"
+      ]
+    },
+    "async/all-keyed": {
+      "upstream": [
+        "@std/async/all-keyed"
+      ],
+      "module": "async",
+      "source": [
+        "async/all_keyed.ts"
+      ]
+    },
+    "async/throttle": {
+      "upstream": [
+        "@std/async/unstable-throttle"
+      ],
+      "module": "async",
+      "source": [
+        "async/unstable_throttle.ts"
+      ]
+    },
+    "async/wait-for": {
+      "upstream": [
+        "@std/async/unstable-wait-for"
+      ],
+      "module": "async",
+      "source": [
+        "async/unstable_wait_for.ts"
+      ]
+    },
+    "async/semaphore": {
+      "upstream": [
+        "@std/async/unstable-semaphore"
+      ],
+      "module": "async",
+      "source": [
+        "async/unstable_semaphore.ts"
+      ]
+    },
+    "async/circuit-breaker": {
+      "upstream": [
+        "@std/async/unstable-circuit-breaker"
+      ],
+      "module": "async",
+      "source": [
+        "async/unstable_circuit_breaker.ts"
+      ]
+    },
+    "async/lazy": {
+      "upstream": [
+        "@std/async/lazy"
+      ],
+      "module": "async",
+      "source": [
+        "async/lazy.ts"
+      ]
+    },
+    "async/pool-settled": {
+      "upstream": [
+        "@std/async/unstable-pool-settled"
+      ],
+      "module": "async",
+      "source": [
+        "async/unstable_pool_settled.ts"
+      ]
+    },
+    "bytes": {
+      "upstream": [
+        "@std/bytes"
+      ],
+      "module": "bytes",
+      "source": [
+        "bytes/mod.ts"
+      ]
+    },
+    "bytes/concat": {
+      "upstream": [
+        "@std/bytes/concat"
+      ],
+      "module": "bytes",
+      "source": [
+        "bytes/concat.ts"
+      ]
+    },
+    "bytes/copy": {
+      "upstream": [
+        "@std/bytes/copy"
+      ],
+      "module": "bytes",
+      "source": [
+        "bytes/copy.ts"
+      ]
+    },
+    "bytes/ends-with": {
+      "upstream": [
+        "@std/bytes/ends-with"
+      ],
+      "module": "bytes",
+      "source": [
+        "bytes/ends_with.ts"
+      ]
+    },
+    "bytes/equals": {
+      "upstream": [
+        "@std/bytes/equals"
+      ],
+      "module": "bytes",
+      "source": [
+        "bytes/equals.ts"
+      ]
+    },
+    "bytes/includes-needle": {
+      "upstream": [
+        "@std/bytes/includes-needle"
+      ],
+      "module": "bytes",
+      "source": [
+        "bytes/includes_needle.ts"
+      ]
+    },
+    "bytes/index-of-needle": {
+      "upstream": [
+        "@std/bytes/index-of-needle"
+      ],
+      "module": "bytes",
+      "source": [
+        "bytes/index_of_needle.ts"
+      ]
+    },
+    "bytes/last-index-of-needle": {
+      "upstream": [
+        "@std/bytes/last-index-of-needle"
+      ],
+      "module": "bytes",
+      "source": [
+        "bytes/last_index_of_needle.ts"
+      ]
+    },
+    "bytes/repeat": {
+      "upstream": [
+        "@std/bytes/repeat"
+      ],
+      "module": "bytes",
+      "source": [
+        "bytes/repeat.ts"
+      ]
+    },
+    "bytes/starts-with": {
+      "upstream": [
+        "@std/bytes/starts-with"
+      ],
+      "module": "bytes",
+      "source": [
+        "bytes/starts_with.ts"
+      ]
+    },
+    "cache": {
+      "upstream": [
+        "@std/cache"
+      ],
+      "module": "cache",
+      "source": [
+        "cache/mod.ts"
+      ]
+    },
+    "cache/lru-cache": {
+      "upstream": [
+        "@std/cache/lru-cache"
+      ],
+      "module": "cache",
+      "source": [
+        "cache/lru_cache.ts"
+      ]
+    },
+    "cache/memoize": {
+      "upstream": [
+        "@std/cache/memoize"
+      ],
+      "module": "cache",
+      "source": [
+        "cache/memoize.ts"
+      ]
+    },
+    "cache/ttl-cache": {
+      "upstream": [
+        "@std/cache/ttl-cache"
+      ],
+      "module": "cache",
+      "source": [
+        "cache/ttl_cache.ts"
+      ]
+    },
+    "cbor": {
+      "upstream": [
+        "@std/cbor"
+      ],
+      "module": "cbor",
+      "source": [
+        "cbor/mod.ts"
+      ]
+    },
+    "cbor/array-encoder-stream": {
+      "upstream": [
+        "@std/cbor/array-encoder-stream"
+      ],
+      "module": "cbor",
+      "source": [
+        "cbor/array_encoder_stream.ts"
+      ]
+    },
+    "cbor/byte-encoder-stream": {
+      "upstream": [
+        "@std/cbor/byte-encoder-stream"
+      ],
+      "module": "cbor",
+      "source": [
+        "cbor/byte_encoder_stream.ts"
+      ]
+    },
+    "cbor/decode-cbor-sequence": {
+      "upstream": [
+        "@std/cbor/decode-cbor-sequence"
+      ],
+      "module": "cbor",
+      "source": [
+        "cbor/decode_cbor_sequence.ts"
+      ]
+    },
+    "cbor/decode-cbor": {
+      "upstream": [
+        "@std/cbor/decode-cbor"
+      ],
+      "module": "cbor",
+      "source": [
+        "cbor/decode_cbor.ts"
+      ]
+    },
+    "cbor/encode-cbor-sequence": {
+      "upstream": [
+        "@std/cbor/encode-cbor-sequence"
+      ],
+      "module": "cbor",
+      "source": [
+        "cbor/encode_cbor_sequence.ts"
+      ]
+    },
+    "cbor/encode-cbor": {
+      "upstream": [
+        "@std/cbor/encode-cbor"
+      ],
+      "module": "cbor",
+      "source": [
+        "cbor/encode_cbor.ts"
+      ]
+    },
+    "cbor/map-encoder-stream": {
+      "upstream": [
+        "@std/cbor/map-encoder-stream"
+      ],
+      "module": "cbor",
+      "source": [
+        "cbor/map_encoder_stream.ts"
+      ]
+    },
+    "cbor/sequence-decoder-stream": {
+      "upstream": [
+        "@std/cbor/sequence-decoder-stream"
+      ],
+      "module": "cbor",
+      "source": [
+        "cbor/sequence_decoder_stream.ts"
+      ]
+    },
+    "cbor/sequence-encoder-stream": {
+      "upstream": [
+        "@std/cbor/sequence-encoder-stream"
+      ],
+      "module": "cbor",
+      "source": [
+        "cbor/sequence_encoder_stream.ts"
+      ]
+    },
+    "cbor/tag": {
+      "upstream": [
+        "@std/cbor/tag"
+      ],
+      "module": "cbor",
+      "source": [
+        "cbor/tag.ts"
+      ]
+    },
+    "cbor/text-encoder-stream": {
+      "upstream": [
+        "@std/cbor/text-encoder-stream"
+      ],
+      "module": "cbor",
+      "source": [
+        "cbor/text_encoder_stream.ts"
+      ]
+    },
+    "cbor/types": {
+      "upstream": [
+        "@std/cbor/types"
+      ],
+      "module": "cbor",
+      "source": [
+        "cbor/types.ts"
+      ]
+    },
+    "cli": {
+      "upstream": [
+        "@std/cli",
+        "@std/cli/unstable-ansi",
+        "@std/cli/unstable-get-cursor",
+        "@std/cli/unstable-progress-bar",
+        "@std/cli/unstable-progress-bar-stream",
+        "@std/cli/unstable-prompt-select",
+        "@std/cli/unstable-prompt-multiple-select",
+        "@std/cli/unstable-spinner",
+        "@std/cli/unstable-static-line"
+      ],
+      "module": "cli",
+      "source": [
+        "cli/mod.ts",
+        "cli/unstable_ansi.ts",
+        "cli/unstable_get_cursor.ts",
+        "cli/unstable_progress_bar.ts",
+        "cli/unstable_progress_bar_stream.ts",
+        "cli/unstable_prompt_select.ts",
+        "cli/unstable_prompt_multiple_select.ts",
+        "cli/unstable_spinner.ts",
+        "cli/unstable_static_line.ts"
+      ]
+    },
+    "cli/parse-args": {
+      "upstream": [
+        "@std/cli/parse-args"
+      ],
+      "module": "cli",
+      "source": [
+        "cli/parse_args.ts"
+      ]
+    },
+    "cli/prompt-secret": {
+      "upstream": [
+        "@std/cli/prompt-secret"
+      ],
+      "module": "cli",
+      "source": [
+        "cli/prompt_secret.ts"
+      ]
+    },
+    "cli/ansi": {
+      "upstream": [
+        "@std/cli/unstable-ansi"
+      ],
+      "module": "cli",
+      "source": [
+        "cli/unstable_ansi.ts"
+      ]
+    },
+    "cli/get-cursor": {
+      "upstream": [
+        "@std/cli/unstable-get-cursor"
+      ],
+      "module": "cli",
+      "source": [
+        "cli/unstable_get_cursor.ts"
+      ]
+    },
+    "cli/progress-bar": {
+      "upstream": [
+        "@std/cli/unstable-progress-bar"
+      ],
+      "module": "cli",
+      "source": [
+        "cli/unstable_progress_bar.ts"
+      ]
+    },
+    "cli/progress-bar-stream": {
+      "upstream": [
+        "@std/cli/unstable-progress-bar-stream"
+      ],
+      "module": "cli",
+      "source": [
+        "cli/unstable_progress_bar_stream.ts"
+      ]
+    },
+    "cli/prompt-select": {
+      "upstream": [
+        "@std/cli/unstable-prompt-select"
+      ],
+      "module": "cli",
+      "source": [
+        "cli/unstable_prompt_select.ts"
+      ]
+    },
+    "cli/prompt-multiple-select": {
+      "upstream": [
+        "@std/cli/unstable-prompt-multiple-select"
+      ],
+      "module": "cli",
+      "source": [
+        "cli/unstable_prompt_multiple_select.ts"
+      ]
+    },
+    "cli/spinner": {
+      "upstream": [
+        "@std/cli/unstable-spinner"
+      ],
+      "module": "cli",
+      "source": [
+        "cli/unstable_spinner.ts"
+      ]
+    },
+    "cli/static-line": {
+      "upstream": [
+        "@std/cli/unstable-static-line"
+      ],
+      "module": "cli",
+      "source": [
+        "cli/unstable_static_line.ts"
+      ]
+    },
+    "cli/unicode-width": {
+      "upstream": [
+        "@std/cli/unicode-width"
+      ],
+      "module": "cli",
+      "source": [
+        "cli/unicode_width.ts"
+      ]
+    },
+    "collections": {
+      "upstream": [
+        "@std/collections",
+        "@std/collections/unstable-binary-search",
+        "@std/collections/unstable-cycle"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/mod.ts",
+        "collections/unstable_binary_search.ts",
+        "collections/unstable_cycle.ts"
+      ]
+    },
+    "collections/aggregate-groups": {
+      "upstream": [
+        "@std/collections/aggregate-groups"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/aggregate_groups.ts"
+      ]
+    },
+    "collections/associate-by": {
+      "upstream": [
+        "@std/collections/associate-by"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/associate_by.ts"
+      ]
+    },
+    "collections/associate-with": {
+      "upstream": [
+        "@std/collections/associate-with"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/associate_with.ts"
+      ]
+    },
+    "collections/chunk": {
+      "upstream": [
+        "@std/collections/chunk"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/chunk.ts"
+      ]
+    },
+    "collections/deep-merge": {
+      "upstream": [
+        "@std/collections/deep-merge"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/deep_merge.ts"
+      ]
+    },
+    "collections/distinct": {
+      "upstream": [
+        "@std/collections/distinct"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/distinct.ts"
+      ]
+    },
+    "collections/distinct-by": {
+      "upstream": [
+        "@std/collections/distinct-by"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/distinct_by.ts"
+      ]
+    },
+    "collections/drop-last-while": {
+      "upstream": [
+        "@std/collections/drop-last-while"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/drop_last_while.ts"
+      ]
+    },
+    "collections/drop-while": {
+      "upstream": [
+        "@std/collections/drop-while"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/drop_while.ts"
+      ]
+    },
+    "collections/filter-entries": {
+      "upstream": [
+        "@std/collections/filter-entries"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/filter_entries.ts"
+      ]
+    },
+    "collections/filter-keys": {
+      "upstream": [
+        "@std/collections/filter-keys"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/filter_keys.ts"
+      ]
+    },
+    "collections/filter-values": {
+      "upstream": [
+        "@std/collections/filter-values"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/filter_values.ts"
+      ]
+    },
+    "collections/find-single": {
+      "upstream": [
+        "@std/collections/find-single"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/find_single.ts"
+      ]
+    },
+    "collections/first-not-nullish-of": {
+      "upstream": [
+        "@std/collections/first-not-nullish-of"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/first_not_nullish_of.ts"
+      ]
+    },
+    "collections/includes-value": {
+      "upstream": [
+        "@std/collections/includes-value"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/includes_value.ts"
+      ]
+    },
+    "collections/interleave": {
+      "upstream": [
+        "@std/collections/interleave"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/interleave.ts"
+      ]
+    },
+    "collections/intersect": {
+      "upstream": [
+        "@std/collections/intersect"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/intersect.ts"
+      ]
+    },
+    "collections/invert-by": {
+      "upstream": [
+        "@std/collections/invert-by"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/invert_by.ts"
+      ]
+    },
+    "collections/invert": {
+      "upstream": [
+        "@std/collections/invert"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/invert.ts"
+      ]
+    },
+    "collections/join-to-string": {
+      "upstream": [
+        "@std/collections/join-to-string"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/join_to_string.ts"
+      ]
+    },
+    "collections/map-entries": {
+      "upstream": [
+        "@std/collections/map-entries"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/map_entries.ts"
+      ]
+    },
+    "collections/map-keys": {
+      "upstream": [
+        "@std/collections/map-keys"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/map_keys.ts"
+      ]
+    },
+    "collections/map-not-nullish": {
+      "upstream": [
+        "@std/collections/map-not-nullish"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/map_not_nullish.ts"
+      ]
+    },
+    "collections/map-values": {
+      "upstream": [
+        "@std/collections/map-values"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/map_values.ts"
+      ]
+    },
+    "collections/max-by": {
+      "upstream": [
+        "@std/collections/max-by"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/max_by.ts"
+      ]
+    },
+    "collections/max-of": {
+      "upstream": [
+        "@std/collections/max-of"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/max_of.ts"
+      ]
+    },
+    "collections/max-with": {
+      "upstream": [
+        "@std/collections/max-with"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/max_with.ts"
+      ]
+    },
+    "collections/min-by": {
+      "upstream": [
+        "@std/collections/min-by"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/min_by.ts"
+      ]
+    },
+    "collections/min-of": {
+      "upstream": [
+        "@std/collections/min-of"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/min_of.ts"
+      ]
+    },
+    "collections/min-with": {
+      "upstream": [
+        "@std/collections/min-with"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/min_with.ts"
+      ]
+    },
+    "collections/omit": {
+      "upstream": [
+        "@std/collections/omit"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/omit.ts"
+      ]
+    },
+    "collections/partition": {
+      "upstream": [
+        "@std/collections/partition"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/partition.ts"
+      ]
+    },
+    "collections/partition-entries": {
+      "upstream": [
+        "@std/collections/partition-entries"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/partition_entries.ts"
+      ]
+    },
+    "collections/permutations": {
+      "upstream": [
+        "@std/collections/permutations"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/permutations.ts"
+      ]
+    },
+    "collections/pick": {
+      "upstream": [
+        "@std/collections/pick"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/pick.ts"
+      ]
+    },
+    "collections/reduce-groups": {
+      "upstream": [
+        "@std/collections/reduce-groups"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/reduce_groups.ts"
+      ]
+    },
+    "collections/running-reduce": {
+      "upstream": [
+        "@std/collections/running-reduce"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/running_reduce.ts"
+      ]
+    },
+    "collections/sample": {
+      "upstream": [
+        "@std/collections/sample"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/sample.ts"
+      ]
+    },
+    "collections/sliding-windows": {
+      "upstream": [
+        "@std/collections/sliding-windows"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/sliding_windows.ts"
+      ]
+    },
+    "collections/sort-by": {
+      "upstream": [
+        "@std/collections/sort-by"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/sort_by.ts"
+      ]
+    },
+    "collections/sum-of": {
+      "upstream": [
+        "@std/collections/sum-of"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/sum_of.ts"
+      ]
+    },
+    "collections/take-last-while": {
+      "upstream": [
+        "@std/collections/take-last-while"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/take_last_while.ts"
+      ]
+    },
+    "collections/take-while": {
+      "upstream": [
+        "@std/collections/take-while"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/take_while.ts"
+      ]
+    },
+    "collections/union": {
+      "upstream": [
+        "@std/collections/union"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/union.ts"
+      ]
+    },
+    "collections/binary-search": {
+      "upstream": [
+        "@std/collections/unstable-binary-search"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/unstable_binary_search.ts"
+      ]
+    },
+    "collections/cycle": {
+      "upstream": [
+        "@std/collections/unstable-cycle"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/unstable_cycle.ts"
+      ]
+    },
+    "collections/unzip": {
+      "upstream": [
+        "@std/collections/unzip"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/unzip.ts"
+      ]
+    },
+    "collections/without-all": {
+      "upstream": [
+        "@std/collections/without-all"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/without_all.ts"
+      ]
+    },
+    "collections/zip": {
+      "upstream": [
+        "@std/collections/zip"
+      ],
+      "module": "collections",
+      "source": [
+        "collections/zip.ts"
+      ]
+    },
+    "crypto": {
+      "upstream": [
+        "@std/crypto"
+      ],
+      "module": "crypto",
+      "source": [
+        "crypto/mod.ts"
+      ]
+    },
+    "crypto/crypto": {
+      "upstream": [
+        "@std/crypto/crypto"
+      ],
+      "module": "crypto",
+      "source": [
+        "crypto/crypto.ts"
+      ]
+    },
+    "crypto/timing-safe-equal": {
+      "upstream": [
+        "@std/crypto/timing-safe-equal"
+      ],
+      "module": "crypto",
+      "source": [
+        "crypto/timing_safe_equal.ts"
+      ]
+    },
+    "crypto/aes-gcm": {
+      "upstream": [
+        "@std/crypto/aes-gcm"
+      ],
+      "module": "crypto",
+      "source": [
+        "crypto/aes_gcm.ts"
+      ]
+    },
+    "csv": {
+      "upstream": [
+        "@std/csv"
+      ],
+      "module": "csv",
+      "source": [
+        "csv/mod.ts"
+      ]
+    },
+    "csv/parse": {
+      "upstream": [
+        "@std/csv/parse"
+      ],
+      "module": "csv",
+      "source": [
+        "csv/parse.ts"
+      ]
+    },
+    "csv/parse-stream": {
+      "upstream": [
+        "@std/csv/parse-stream"
+      ],
+      "module": "csv",
+      "source": [
+        "csv/parse_stream.ts"
+      ]
+    },
+    "csv/stringify": {
+      "upstream": [
+        "@std/csv/stringify"
+      ],
+      "module": "csv",
+      "source": [
+        "csv/stringify.ts"
+      ]
+    },
+    "csv/stringify-stream": {
+      "upstream": [
+        "@std/csv/stringify-stream"
+      ],
+      "module": "csv",
+      "source": [
+        "csv/stringify_stream.ts"
+      ]
+    },
+    "data-structures": {
+      "upstream": [
+        "@std/data-structures",
+        "@std/data-structures/unstable-bidirectional-map",
+        "@std/data-structures/unstable-2d-array",
+        "@std/data-structures/unstable-rolling-counter",
+        "@std/data-structures/unstable-indexed-heap",
+        "@std/data-structures/unstable-multimap"
+      ],
+      "module": "data-structures",
+      "source": [
+        "data_structures/mod.ts",
+        "data_structures/unstable_bidirectional_map.ts",
+        "data_structures/unstable_2d_array.ts",
+        "data_structures/unstable_rolling_counter.ts",
+        "data_structures/unstable_indexed_heap.ts",
+        "data_structures/unstable_multimap.ts"
+      ]
+    },
+    "data-structures/bidirectional-map": {
+      "upstream": [
+        "@std/data-structures/unstable-bidirectional-map"
+      ],
+      "module": "data-structures",
+      "source": [
+        "data_structures/unstable_bidirectional_map.ts"
+      ]
+    },
+    "data-structures/binary-heap": {
+      "upstream": [
+        "@std/data-structures/binary-heap"
+      ],
+      "module": "data-structures",
+      "source": [
+        "data_structures/binary_heap.ts"
+      ]
+    },
+    "data-structures/binary-search-tree": {
+      "upstream": [
+        "@std/data-structures/binary-search-tree"
+      ],
+      "module": "data-structures",
+      "source": [
+        "data_structures/binary_search_tree.ts"
+      ]
+    },
+    "data-structures/comparators": {
+      "upstream": [
+        "@std/data-structures/comparators"
+      ],
+      "module": "data-structures",
+      "source": [
+        "data_structures/comparators.ts"
+      ]
+    },
+    "data-structures/deque": {
+      "upstream": [
+        "@std/data-structures/deque"
+      ],
+      "module": "data-structures",
+      "source": [
+        "data_structures/deque.ts"
+      ]
+    },
+    "data-structures/red-black-tree": {
+      "upstream": [
+        "@std/data-structures/red-black-tree"
+      ],
+      "module": "data-structures",
+      "source": [
+        "data_structures/red_black_tree.ts"
+      ]
+    },
+    "data-structures/2d-array": {
+      "upstream": [
+        "@std/data-structures/unstable-2d-array"
+      ],
+      "module": "data-structures",
+      "source": [
+        "data_structures/unstable_2d_array.ts"
+      ]
+    },
+    "data-structures/rolling-counter": {
+      "upstream": [
+        "@std/data-structures/unstable-rolling-counter"
+      ],
+      "module": "data-structures",
+      "source": [
+        "data_structures/unstable_rolling_counter.ts"
+      ]
+    },
+    "data-structures/indexed-heap": {
+      "upstream": [
+        "@std/data-structures/unstable-indexed-heap"
+      ],
+      "module": "data-structures",
+      "source": [
+        "data_structures/unstable_indexed_heap.ts"
+      ]
+    },
+    "data-structures/multimap": {
+      "upstream": [
+        "@std/data-structures/unstable-multimap"
+      ],
+      "module": "data-structures",
+      "source": [
+        "data_structures/unstable_multimap.ts"
+      ]
+    },
+    "datetime": {
+      "upstream": [
+        "@std/datetime"
+      ],
+      "module": "datetime",
+      "source": [
+        "datetime/mod.ts"
+      ]
+    },
+    "datetime/constants": {
+      "upstream": [
+        "@std/datetime/constants"
+      ],
+      "module": "datetime",
+      "source": [
+        "datetime/constants.ts"
+      ]
+    },
+    "datetime/day-of-year": {
+      "upstream": [
+        "@std/datetime/day-of-year"
+      ],
+      "module": "datetime",
+      "source": [
+        "datetime/day_of_year.ts"
+      ]
+    },
+    "datetime/difference": {
+      "upstream": [
+        "@std/datetime/difference"
+      ],
+      "module": "datetime",
+      "source": [
+        "datetime/difference.ts"
+      ]
+    },
+    "datetime/format": {
+      "upstream": [
+        "@std/datetime/format"
+      ],
+      "module": "datetime",
+      "source": [
+        "datetime/format.ts"
+      ]
+    },
+    "datetime/is-leap": {
+      "upstream": [
+        "@std/datetime/is-leap"
+      ],
+      "module": "datetime",
+      "source": [
+        "datetime/is_leap.ts"
+      ]
+    },
+    "datetime/parse": {
+      "upstream": [
+        "@std/datetime/parse"
+      ],
+      "module": "datetime",
+      "source": [
+        "datetime/parse.ts"
+      ]
+    },
+    "datetime/week-of-year": {
+      "upstream": [
+        "@std/datetime/week-of-year"
+      ],
+      "module": "datetime",
+      "source": [
+        "datetime/week_of_year.ts"
+      ]
+    },
+    "dotenv": {
+      "upstream": [
+        "@std/dotenv"
+      ],
+      "module": "dotenv",
+      "source": [
+        "dotenv/mod.ts"
+      ]
+    },
+    "dotenv/load": {
+      "upstream": [
+        "@std/dotenv/load"
+      ],
+      "module": "dotenv",
+      "source": [
+        "dotenv/load.ts"
+      ]
+    },
+    "dotenv/parse": {
+      "upstream": [
+        "@std/dotenv/parse"
+      ],
+      "module": "dotenv",
+      "source": [
+        "dotenv/parse.ts"
+      ]
+    },
+    "dotenv/stringify": {
+      "upstream": [
+        "@std/dotenv/stringify"
+      ],
+      "module": "dotenv",
+      "source": [
+        "dotenv/stringify.ts"
+      ]
+    },
+    "encoding": {
+      "upstream": [
+        "@std/encoding",
+        "@std/encoding/unstable-base32-stream",
+        "@std/encoding/unstable-base64-stream",
+        "@std/encoding/unstable-hex-stream"
+      ],
+      "module": "encoding",
+      "source": [
+        "encoding/mod.ts",
+        "encoding/unstable_base32_stream.ts",
+        "encoding/unstable_base64_stream.ts",
+        "encoding/unstable_hex_stream.ts"
+      ]
+    },
+    "encoding/ascii85": {
+      "upstream": [
+        "@std/encoding/ascii85"
+      ],
+      "module": "encoding",
+      "source": [
+        "encoding/ascii85.ts"
+      ]
+    },
+    "encoding/base32": {
+      "upstream": [
+        "@std/encoding/base32"
+      ],
+      "module": "encoding",
+      "source": [
+        "encoding/base32.ts"
+      ]
+    },
+    "encoding/base32-stream": {
+      "upstream": [
+        "@std/encoding/unstable-base32-stream"
+      ],
+      "module": "encoding",
+      "source": [
+        "encoding/unstable_base32_stream.ts"
+      ]
+    },
+    "encoding/base58": {
+      "upstream": [
+        "@std/encoding/base58"
+      ],
+      "module": "encoding",
+      "source": [
+        "encoding/base58.ts"
+      ]
+    },
+    "encoding/base64": {
+      "upstream": [
+        "@std/encoding/base64"
+      ],
+      "module": "encoding",
+      "source": [
+        "encoding/base64.ts"
+      ]
+    },
+    "encoding/base64-stream": {
+      "upstream": [
+        "@std/encoding/unstable-base64-stream"
+      ],
+      "module": "encoding",
+      "source": [
+        "encoding/unstable_base64_stream.ts"
+      ]
+    },
+    "encoding/base64url": {
+      "upstream": [
+        "@std/encoding/base64url"
+      ],
+      "module": "encoding",
+      "source": [
+        "encoding/base64url.ts"
+      ]
+    },
+    "encoding/hex": {
+      "upstream": [
+        "@std/encoding/hex"
+      ],
+      "module": "encoding",
+      "source": [
+        "encoding/hex.ts"
+      ]
+    },
+    "encoding/hex-stream": {
+      "upstream": [
+        "@std/encoding/unstable-hex-stream"
+      ],
+      "module": "encoding",
+      "source": [
+        "encoding/unstable_hex_stream.ts"
+      ]
+    },
+    "encoding/varint": {
+      "upstream": [
+        "@std/encoding/varint"
+      ],
+      "module": "encoding",
+      "source": [
+        "encoding/varint.ts"
+      ]
+    },
+    "expect": {
+      "upstream": [
+        "@std/expect"
+      ],
+      "module": "expect",
+      "source": [
+        "expect/mod.ts"
+      ]
+    },
+    "expect/expect": {
+      "upstream": [
+        "@std/expect/expect"
+      ],
+      "module": "expect",
+      "source": [
+        "expect/expect.ts"
+      ]
+    },
+    "expect/fn": {
+      "upstream": [
+        "@std/expect/fn"
+      ],
+      "module": "expect",
+      "source": [
+        "expect/fn.ts"
+      ]
+    },
+    "fmt/bytes": {
+      "upstream": [
+        "@std/fmt/bytes"
+      ],
+      "module": "fmt",
+      "source": [
+        "fmt/bytes.ts"
+      ]
+    },
+    "fmt/colors": {
+      "upstream": [
+        "@std/fmt/colors"
+      ],
+      "module": "fmt",
+      "source": [
+        "fmt/colors.ts"
+      ]
+    },
+    "fmt/duration": {
+      "upstream": [
+        "@std/fmt/duration"
+      ],
+      "module": "fmt",
+      "source": [
+        "fmt/duration.ts"
+      ]
+    },
+    "fmt/printf": {
+      "upstream": [
+        "@std/fmt/printf"
+      ],
+      "module": "fmt",
+      "source": [
+        "fmt/printf.ts"
+      ]
+    },
+    "front-matter": {
+      "upstream": [
+        "@std/front-matter"
+      ],
+      "module": "front-matter",
+      "source": [
+        "front_matter/mod.ts"
+      ]
+    },
+    "front-matter/any": {
+      "upstream": [
+        "@std/front-matter/any"
+      ],
+      "module": "front-matter",
+      "source": [
+        "front_matter/any.ts"
+      ]
+    },
+    "front-matter/json": {
+      "upstream": [
+        "@std/front-matter/json"
+      ],
+      "module": "front-matter",
+      "source": [
+        "front_matter/json.ts"
+      ]
+    },
+    "front-matter/test": {
+      "upstream": [
+        "@std/front-matter/test"
+      ],
+      "module": "front-matter",
+      "source": [
+        "front_matter/test.ts"
+      ]
+    },
+    "front-matter/toml": {
+      "upstream": [
+        "@std/front-matter/toml"
+      ],
+      "module": "front-matter",
+      "source": [
+        "front_matter/toml.ts"
+      ]
+    },
+    "front-matter/yaml": {
+      "upstream": [
+        "@std/front-matter/yaml"
+      ],
+      "module": "front-matter",
+      "source": [
+        "front_matter/yaml.ts"
+      ]
+    },
+    "front-matter/types": {
+      "upstream": [
+        "@std/front-matter/types"
+      ],
+      "module": "front-matter",
+      "source": [
+        "front_matter/types.ts"
+      ]
+    },
+    "fs": {
+      "upstream": [
+        "@std/fs",
+        "@std/fs/unstable-chmod",
+        "@std/fs/unstable-chown",
+        "@std/fs/unstable-copy-file",
+        "@std/fs/unstable-create",
+        "@std/fs/unstable-link",
+        "@std/fs/unstable-lstat",
+        "@std/fs/unstable-make-temp-dir",
+        "@std/fs/unstable-make-temp-file",
+        "@std/fs/unstable-mkdir",
+        "@std/fs/unstable-open",
+        "@std/fs/unstable-read-dir",
+        "@std/fs/unstable-read-file",
+        "@std/fs/unstable-read-link",
+        "@std/fs/unstable-read-text-file",
+        "@std/fs/unstable-real-path",
+        "@std/fs/unstable-remove",
+        "@std/fs/unstable-rename",
+        "@std/fs/unstable-stat",
+        "@std/fs/unstable-utime",
+        "@std/fs/unstable-symlink",
+        "@std/fs/unstable-truncate",
+        "@std/fs/unstable-types",
+        "@std/fs/unstable-umask",
+        "@std/fs/unstable-write-file",
+        "@std/fs/unstable-write-text-file"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/mod.ts",
+        "fs/unstable_chmod.ts",
+        "fs/unstable_chown.ts",
+        "fs/unstable_copy_file.ts",
+        "fs/unstable_create.ts",
+        "fs/unstable_link.ts",
+        "fs/unstable_lstat.ts",
+        "fs/unstable_make_temp_dir.ts",
+        "fs/unstable_make_temp_file.ts",
+        "fs/unstable_mkdir.ts",
+        "fs/unstable_open.ts",
+        "fs/unstable_read_dir.ts",
+        "fs/unstable_read_file.ts",
+        "fs/unstable_read_link.ts",
+        "fs/unstable_read_text_file.ts",
+        "fs/unstable_real_path.ts",
+        "fs/unstable_remove.ts",
+        "fs/unstable_rename.ts",
+        "fs/unstable_stat.ts",
+        "fs/unstable_utime.ts",
+        "fs/unstable_symlink.ts",
+        "fs/unstable_truncate.ts",
+        "fs/unstable_types.ts",
+        "fs/unstable_umask.ts",
+        "fs/unstable_write_file.ts",
+        "fs/unstable_write_text_file.ts"
+      ]
+    },
+    "fs/copy": {
+      "upstream": [
+        "@std/fs/copy"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/copy.ts"
+      ]
+    },
+    "fs/empty-dir": {
+      "upstream": [
+        "@std/fs/empty-dir"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/empty_dir.ts"
+      ]
+    },
+    "fs/ensure-dir": {
+      "upstream": [
+        "@std/fs/ensure-dir"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/ensure_dir.ts"
+      ]
+    },
+    "fs/ensure-file": {
+      "upstream": [
+        "@std/fs/ensure-file"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/ensure_file.ts"
+      ]
+    },
+    "fs/ensure-link": {
+      "upstream": [
+        "@std/fs/ensure-link"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/ensure_link.ts"
+      ]
+    },
+    "fs/ensure-symlink": {
+      "upstream": [
+        "@std/fs/ensure-symlink"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/ensure_symlink.ts"
+      ]
+    },
+    "fs/eol": {
+      "upstream": [
+        "@std/fs/eol"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/eol.ts"
+      ]
+    },
+    "fs/exists": {
+      "upstream": [
+        "@std/fs/exists"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/exists.ts"
+      ]
+    },
+    "fs/expand-glob": {
+      "upstream": [
+        "@std/fs/expand-glob"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/expand_glob.ts"
+      ]
+    },
+    "fs/move": {
+      "upstream": [
+        "@std/fs/move"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/move.ts"
+      ]
+    },
+    "fs/chmod": {
+      "upstream": [
+        "@std/fs/unstable-chmod"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_chmod.ts"
+      ]
+    },
+    "fs/chown": {
+      "upstream": [
+        "@std/fs/unstable-chown"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_chown.ts"
+      ]
+    },
+    "fs/copy-file": {
+      "upstream": [
+        "@std/fs/unstable-copy-file"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_copy_file.ts"
+      ]
+    },
+    "fs/create": {
+      "upstream": [
+        "@std/fs/unstable-create"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_create.ts"
+      ]
+    },
+    "fs/link": {
+      "upstream": [
+        "@std/fs/unstable-link"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_link.ts"
+      ]
+    },
+    "fs/lstat": {
+      "upstream": [
+        "@std/fs/unstable-lstat"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_lstat.ts"
+      ]
+    },
+    "fs/make-temp-dir": {
+      "upstream": [
+        "@std/fs/unstable-make-temp-dir"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_make_temp_dir.ts"
+      ]
+    },
+    "fs/make-temp-file": {
+      "upstream": [
+        "@std/fs/unstable-make-temp-file"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_make_temp_file.ts"
+      ]
+    },
+    "fs/mkdir": {
+      "upstream": [
+        "@std/fs/unstable-mkdir"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_mkdir.ts"
+      ]
+    },
+    "fs/open": {
+      "upstream": [
+        "@std/fs/unstable-open"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_open.ts"
+      ]
+    },
+    "fs/read-dir": {
+      "upstream": [
+        "@std/fs/unstable-read-dir"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_read_dir.ts"
+      ]
+    },
+    "fs/read-file": {
+      "upstream": [
+        "@std/fs/unstable-read-file"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_read_file.ts"
+      ]
+    },
+    "fs/read-link": {
+      "upstream": [
+        "@std/fs/unstable-read-link"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_read_link.ts"
+      ]
+    },
+    "fs/read-text-file": {
+      "upstream": [
+        "@std/fs/unstable-read-text-file"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_read_text_file.ts"
+      ]
+    },
+    "fs/real-path": {
+      "upstream": [
+        "@std/fs/unstable-real-path"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_real_path.ts"
+      ]
+    },
+    "fs/remove": {
+      "upstream": [
+        "@std/fs/unstable-remove"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_remove.ts"
+      ]
+    },
+    "fs/rename": {
+      "upstream": [
+        "@std/fs/unstable-rename"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_rename.ts"
+      ]
+    },
+    "fs/stat": {
+      "upstream": [
+        "@std/fs/unstable-stat"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_stat.ts"
+      ]
+    },
+    "fs/utime": {
+      "upstream": [
+        "@std/fs/unstable-utime"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_utime.ts"
+      ]
+    },
+    "fs/symlink": {
+      "upstream": [
+        "@std/fs/unstable-symlink"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_symlink.ts"
+      ]
+    },
+    "fs/truncate": {
+      "upstream": [
+        "@std/fs/unstable-truncate"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_truncate.ts"
+      ]
+    },
+    "fs/types": {
+      "upstream": [
+        "@std/fs/unstable-types"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_types.ts"
+      ]
+    },
+    "fs/umask": {
+      "upstream": [
+        "@std/fs/unstable-umask"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_umask.ts"
+      ]
+    },
+    "fs/write-file": {
+      "upstream": [
+        "@std/fs/unstable-write-file"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_write_file.ts"
+      ]
+    },
+    "fs/write-text-file": {
+      "upstream": [
+        "@std/fs/unstable-write-text-file"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/unstable_write_text_file.ts"
+      ]
+    },
+    "fs/walk": {
+      "upstream": [
+        "@std/fs/walk"
+      ],
+      "module": "fs",
+      "source": [
+        "fs/walk.ts"
+      ]
+    },
+    "html": {
+      "upstream": [
+        "@std/html",
+        "@std/html/unstable-escape-css",
+        "@std/html/unstable-escape-js",
+        "@std/html/unstable-is-valid-custom-element-name",
+        "@std/html/unstable-html"
+      ],
+      "module": "html",
+      "source": [
+        "html/mod.ts",
+        "html/unstable_escape_css.ts",
+        "html/unstable_escape_js.ts",
+        "html/unstable_is_valid_custom_element_name.ts",
+        "html/unstable_html.ts"
+      ]
+    },
+    "html/entities": {
+      "upstream": [
+        "@std/html/entities"
+      ],
+      "module": "html",
+      "source": [
+        "html/entities.ts"
+      ]
+    },
+    "html/escape-css": {
+      "upstream": [
+        "@std/html/unstable-escape-css"
+      ],
+      "module": "html",
+      "source": [
+        "html/unstable_escape_css.ts"
+      ]
+    },
+    "html/escape-js": {
+      "upstream": [
+        "@std/html/unstable-escape-js"
+      ],
+      "module": "html",
+      "source": [
+        "html/unstable_escape_js.ts"
+      ]
+    },
+    "html/is-valid-custom-element-name": {
+      "upstream": [
+        "@std/html/unstable-is-valid-custom-element-name"
+      ],
+      "module": "html",
+      "source": [
+        "html/unstable_is_valid_custom_element_name.ts"
+      ]
+    },
+    "html/html": {
+      "upstream": [
+        "@std/html/unstable-html"
+      ],
+      "module": "html",
+      "source": [
+        "html/unstable_html.ts"
+      ]
+    },
+    "http": {
+      "upstream": [
+        "@std/http",
+        "@std/http/unstable-formdata-decoder-stream",
+        "@std/http/unstable-formdata-encoder-stream",
+        "@std/http/unstable-header",
+        "@std/http/unstable-method",
+        "@std/http/unstable-problem-details",
+        "@std/http/unstable-signed-cookie",
+        "@std/http/unstable-structured-fields",
+        "@std/http/unstable-route",
+        "@std/http/unstable-cache-control",
+        "@std/http/unstable-message-signatures",
+        "@std/http/unstable-error"
+      ],
+      "module": "http",
+      "source": [
+        "http/mod.ts",
+        "http/unstable_formdata_decoder_stream.ts",
+        "http/unstable_formdata_encoder_stream.ts",
+        "http/unstable_header.ts",
+        "http/unstable_method.ts",
+        "http/unstable_problem_details.ts",
+        "http/unstable_signed_cookie.ts",
+        "http/unstable_structured_fields.ts",
+        "http/unstable_route.ts",
+        "http/unstable_cache_control.ts",
+        "http/unstable_message_signatures.ts",
+        "http/unstable_error.ts"
+      ]
+    },
+    "http/cookie": {
+      "upstream": [
+        "@std/http/cookie"
+      ],
+      "module": "http",
+      "source": [
+        "http/cookie.ts"
+      ]
+    },
+    "http/etag": {
+      "upstream": [
+        "@std/http/etag"
+      ],
+      "module": "http",
+      "source": [
+        "http/etag.ts"
+      ]
+    },
+    "http/file-server": {
+      "upstream": [
+        "@std/http/file-server"
+      ],
+      "module": "http",
+      "source": [
+        "http/file_server.ts"
+      ]
+    },
+    "http/formdata-decoder-stream": {
+      "upstream": [
+        "@std/http/unstable-formdata-decoder-stream"
+      ],
+      "module": "http",
+      "source": [
+        "http/unstable_formdata_decoder_stream.ts"
+      ]
+    },
+    "http/formdata-encoder-stream": {
+      "upstream": [
+        "@std/http/unstable-formdata-encoder-stream"
+      ],
+      "module": "http",
+      "source": [
+        "http/unstable_formdata_encoder_stream.ts"
+      ]
+    },
+    "http/header": {
+      "upstream": [
+        "@std/http/unstable-header"
+      ],
+      "module": "http",
+      "source": [
+        "http/unstable_header.ts"
+      ]
+    },
+    "http/method": {
+      "upstream": [
+        "@std/http/unstable-method"
+      ],
+      "module": "http",
+      "source": [
+        "http/unstable_method.ts"
+      ]
+    },
+    "http/problem-details": {
+      "upstream": [
+        "@std/http/unstable-problem-details"
+      ],
+      "module": "http",
+      "source": [
+        "http/unstable_problem_details.ts"
+      ]
+    },
+    "http/negotiation": {
+      "upstream": [
+        "@std/http/negotiation"
+      ],
+      "module": "http",
+      "source": [
+        "http/negotiation.ts"
+      ]
+    },
+    "http/server-sent-event-stream": {
+      "upstream": [
+        "@std/http/server-sent-event-stream"
+      ],
+      "module": "http",
+      "source": [
+        "http/server_sent_event_stream.ts"
+      ]
+    },
+    "http/server-sent-event-parse-stream": {
+      "upstream": [
+        "@std/http/server-sent-event-parse-stream"
+      ],
+      "module": "http",
+      "source": [
+        "http/server_sent_event_parse_stream.ts"
+      ]
+    },
+    "http/status": {
+      "upstream": [
+        "@std/http/status"
+      ],
+      "module": "http",
+      "source": [
+        "http/status.ts"
+      ]
+    },
+    "http/signed-cookie": {
+      "upstream": [
+        "@std/http/unstable-signed-cookie"
+      ],
+      "module": "http",
+      "source": [
+        "http/unstable_signed_cookie.ts"
+      ]
+    },
+    "http/structured-fields": {
+      "upstream": [
+        "@std/http/unstable-structured-fields"
+      ],
+      "module": "http",
+      "source": [
+        "http/unstable_structured_fields.ts"
+      ]
+    },
+    "http/user-agent": {
+      "upstream": [
+        "@std/http/user-agent"
+      ],
+      "module": "http",
+      "source": [
+        "http/user_agent.ts"
+      ]
+    },
+    "http/route": {
+      "upstream": [
+        "@std/http/unstable-route"
+      ],
+      "module": "http",
+      "source": [
+        "http/unstable_route.ts"
+      ]
+    },
+    "http/cache-control": {
+      "upstream": [
+        "@std/http/unstable-cache-control"
+      ],
+      "module": "http",
+      "source": [
+        "http/unstable_cache_control.ts"
+      ]
+    },
+    "http/message-signatures": {
+      "upstream": [
+        "@std/http/unstable-message-signatures"
+      ],
+      "module": "http",
+      "source": [
+        "http/unstable_message_signatures.ts"
+      ]
+    },
+    "http/error": {
+      "upstream": [
+        "@std/http/unstable-error"
+      ],
+      "module": "http",
+      "source": [
+        "http/unstable_error.ts"
+      ]
+    },
+    "ini": {
+      "upstream": [
+        "@std/ini"
+      ],
+      "module": "ini",
+      "source": [
+        "ini/mod.ts"
+      ]
+    },
+    "ini/parse": {
+      "upstream": [
+        "@std/ini/parse"
+      ],
+      "module": "ini",
+      "source": [
+        "ini/parse.ts"
+      ]
+    },
+    "ini/stringify": {
+      "upstream": [
+        "@std/ini/stringify"
+      ],
+      "module": "ini",
+      "source": [
+        "ini/stringify.ts"
+      ]
+    },
+    "internal": {
+      "upstream": [
+        "@std/internal"
+      ],
+      "module": "internal",
+      "source": [
+        "internal/mod.ts"
+      ]
+    },
+    "internal/assertion-state": {
+      "upstream": [
+        "@std/internal/assertion-state"
+      ],
+      "module": "internal",
+      "source": [
+        "internal/assertion_state.ts"
+      ]
+    },
+    "internal/build-message": {
+      "upstream": [
+        "@std/internal/build-message"
+      ],
+      "module": "internal",
+      "source": [
+        "internal/build_message.ts"
+      ]
+    },
+    "internal/diff-str": {
+      "upstream": [
+        "@std/internal/diff-str"
+      ],
+      "module": "internal",
+      "source": [
+        "internal/diff_str.ts"
+      ]
+    },
+    "internal/diff": {
+      "upstream": [
+        "@std/internal/diff"
+      ],
+      "module": "internal",
+      "source": [
+        "internal/diff.ts"
+      ]
+    },
+    "internal/format": {
+      "upstream": [
+        "@std/internal/format"
+      ],
+      "module": "internal",
+      "source": [
+        "internal/format.ts"
+      ]
+    },
+    "internal/os": {
+      "upstream": [
+        "@std/internal/os"
+      ],
+      "module": "internal",
+      "source": [
+        "internal/os.ts"
+      ]
+    },
+    "internal/styles": {
+      "upstream": [
+        "@std/internal/styles"
+      ],
+      "module": "internal",
+      "source": [
+        "internal/styles.ts"
+      ]
+    },
+    "internal/truncate-build-message": {
+      "upstream": [
+        "@std/internal/truncate-build-message"
+      ],
+      "module": "internal",
+      "source": [
+        "internal/truncate_build_message.ts"
+      ]
+    },
+    "internal/types": {
+      "upstream": [
+        "@std/internal/types"
+      ],
+      "module": "internal",
+      "source": [
+        "internal/types.ts"
+      ]
+    },
+    "io": {
+      "upstream": [
+        "@std/io"
+      ],
+      "module": "io",
+      "source": [
+        "io/mod.ts"
+      ]
+    },
+    "io/buffer": {
+      "upstream": [
+        "@std/io/buffer"
+      ],
+      "module": "io",
+      "source": [
+        "io/buffer.ts"
+      ]
+    },
+    "io/copy": {
+      "upstream": [
+        "@std/io/copy"
+      ],
+      "module": "io",
+      "source": [
+        "io/copy.ts"
+      ]
+    },
+    "io/iterate-reader": {
+      "upstream": [
+        "@std/io/iterate-reader"
+      ],
+      "module": "io",
+      "source": [
+        "io/iterate_reader.ts"
+      ]
+    },
+    "io/read-all": {
+      "upstream": [
+        "@std/io/read-all"
+      ],
+      "module": "io",
+      "source": [
+        "io/read_all.ts"
+      ]
+    },
+    "io/reader-from-stream-reader": {
+      "upstream": [
+        "@std/io/reader-from-stream-reader"
+      ],
+      "module": "io",
+      "source": [
+        "io/reader_from_stream_reader.ts"
+      ]
+    },
+    "io/to-readable-stream": {
+      "upstream": [
+        "@std/io/to-readable-stream"
+      ],
+      "module": "io",
+      "source": [
+        "io/to_readable_stream.ts"
+      ]
+    },
+    "io/to-writable-stream": {
+      "upstream": [
+        "@std/io/to-writable-stream"
+      ],
+      "module": "io",
+      "source": [
+        "io/to_writable_stream.ts"
+      ]
+    },
+    "io/types": {
+      "upstream": [
+        "@std/io/types"
+      ],
+      "module": "io",
+      "source": [
+        "io/types.ts"
+      ]
+    },
+    "io/write-all": {
+      "upstream": [
+        "@std/io/write-all"
+      ],
+      "module": "io",
+      "source": [
+        "io/write_all.ts"
+      ]
+    },
+    "json": {
+      "upstream": [
+        "@std/json"
+      ],
+      "module": "json",
+      "source": [
+        "json/mod.ts"
+      ]
+    },
+    "json/types": {
+      "upstream": [
+        "@std/json/types"
+      ],
+      "module": "json",
+      "source": [
+        "json/types.ts"
+      ]
+    },
+    "json/concatenated-json-parse-stream": {
+      "upstream": [
+        "@std/json/concatenated-json-parse-stream"
+      ],
+      "module": "json",
+      "source": [
+        "json/concatenated_json_parse_stream.ts"
+      ]
+    },
+    "json/parse-stream": {
+      "upstream": [
+        "@std/json/parse-stream"
+      ],
+      "module": "json",
+      "source": [
+        "json/parse_stream.ts"
+      ]
+    },
+    "json/stringify-stream": {
+      "upstream": [
+        "@std/json/stringify-stream"
+      ],
+      "module": "json",
+      "source": [
+        "json/stringify_stream.ts"
+      ]
+    },
+    "json/canonicalize": {
+      "upstream": [
+        "@std/json/canonicalize"
+      ],
+      "module": "json",
+      "source": [
+        "json/canonicalize.ts"
+      ]
+    },
+    "jsonc": {
+      "upstream": [
+        "@std/jsonc"
+      ],
+      "module": "jsonc",
+      "source": [
+        "jsonc/mod.ts"
+      ]
+    },
+    "jsonc/parse": {
+      "upstream": [
+        "@std/jsonc/parse"
+      ],
+      "module": "jsonc",
+      "source": [
+        "jsonc/parse.ts"
+      ]
+    },
+    "math": {
+      "upstream": [
+        "@std/math"
+      ],
+      "module": "math",
+      "source": [
+        "math/mod.ts"
+      ]
+    },
+    "math/clamp": {
+      "upstream": [
+        "@std/math/clamp"
+      ],
+      "module": "math",
+      "source": [
+        "math/clamp.ts"
+      ]
+    },
+    "math/modulo": {
+      "upstream": [
+        "@std/math/modulo"
+      ],
+      "module": "math",
+      "source": [
+        "math/modulo.ts"
+      ]
+    },
+    "math/round-to": {
+      "upstream": [
+        "@std/math/round-to"
+      ],
+      "module": "math",
+      "source": [
+        "math/round_to.ts"
+      ]
+    },
+    "media-types": {
+      "upstream": [
+        "@std/media-types"
+      ],
+      "module": "media-types",
+      "source": [
+        "media_types/mod.ts"
+      ]
+    },
+    "media-types/content-type": {
+      "upstream": [
+        "@std/media-types/content-type"
+      ],
+      "module": "media-types",
+      "source": [
+        "media_types/content_type.ts"
+      ]
+    },
+    "media-types/extension": {
+      "upstream": [
+        "@std/media-types/extension"
+      ],
+      "module": "media-types",
+      "source": [
+        "media_types/extension.ts"
+      ]
+    },
+    "media-types/all-extensions": {
+      "upstream": [
+        "@std/media-types/all-extensions"
+      ],
+      "module": "media-types",
+      "source": [
+        "media_types/all_extensions.ts"
+      ]
+    },
+    "media-types/format-media-type": {
+      "upstream": [
+        "@std/media-types/format-media-type"
+      ],
+      "module": "media-types",
+      "source": [
+        "media_types/format_media_type.ts"
+      ]
+    },
+    "media-types/get-charset": {
+      "upstream": [
+        "@std/media-types/get-charset"
+      ],
+      "module": "media-types",
+      "source": [
+        "media_types/get_charset.ts"
+      ]
+    },
+    "media-types/parse-media-type": {
+      "upstream": [
+        "@std/media-types/parse-media-type"
+      ],
+      "module": "media-types",
+      "source": [
+        "media_types/parse_media_type.ts"
+      ]
+    },
+    "media-types/type-by-extension": {
+      "upstream": [
+        "@std/media-types/type-by-extension"
+      ],
+      "module": "media-types",
+      "source": [
+        "media_types/type_by_extension.ts"
+      ]
+    },
+    "msgpack": {
+      "upstream": [
+        "@std/msgpack"
+      ],
+      "module": "msgpack",
+      "source": [
+        "msgpack/mod.ts"
+      ]
+    },
+    "msgpack/decode": {
+      "upstream": [
+        "@std/msgpack/decode"
+      ],
+      "module": "msgpack",
+      "source": [
+        "msgpack/decode.ts"
+      ]
+    },
+    "msgpack/encode": {
+      "upstream": [
+        "@std/msgpack/encode"
+      ],
+      "module": "msgpack",
+      "source": [
+        "msgpack/encode.ts"
+      ]
+    },
+    "net": {
+      "upstream": [
+        "@std/net",
+        "@std/net/unstable-ip"
+      ],
+      "module": "net",
+      "source": [
+        "net/mod.ts",
+        "net/unstable_ip.ts"
+      ]
+    },
+    "net/get-available-port": {
+      "upstream": [
+        "@std/net/get-available-port"
+      ],
+      "module": "net",
+      "source": [
+        "net/get_available_port.ts"
+      ]
+    },
+    "net/ip": {
+      "upstream": [
+        "@std/net/unstable-ip"
+      ],
+      "module": "net",
+      "source": [
+        "net/unstable_ip.ts"
+      ]
+    },
+    "net/get-network-address": {
+      "upstream": [
+        "@std/net/get-network-address"
+      ],
+      "module": "net",
+      "source": [
+        "net/unstable_get_network_address.ts"
+      ]
+    },
+    "path": {
+      "upstream": [
+        "@std/path"
+      ],
+      "module": "path",
+      "source": [
+        "path/mod.ts"
+      ]
+    },
+    "path/basename": {
+      "upstream": [
+        "@std/path/basename"
+      ],
+      "module": "path",
+      "source": [
+        "path/basename.ts"
+      ]
+    },
+    "path/common": {
+      "upstream": [
+        "@std/path/common"
+      ],
+      "module": "path",
+      "source": [
+        "path/common.ts"
+      ]
+    },
+    "path/constants": {
+      "upstream": [
+        "@std/path/constants"
+      ],
+      "module": "path",
+      "source": [
+        "path/constants.ts"
+      ]
+    },
+    "path/dirname": {
+      "upstream": [
+        "@std/path/dirname"
+      ],
+      "module": "path",
+      "source": [
+        "path/dirname.ts"
+      ]
+    },
+    "path/extname": {
+      "upstream": [
+        "@std/path/extname"
+      ],
+      "module": "path",
+      "source": [
+        "path/extname.ts"
+      ]
+    },
+    "path/format": {
+      "upstream": [
+        "@std/path/format"
+      ],
+      "module": "path",
+      "source": [
+        "path/format.ts"
+      ]
+    },
+    "path/from-file-url": {
+      "upstream": [
+        "@std/path/from-file-url"
+      ],
+      "module": "path",
+      "source": [
+        "path/from_file_url.ts"
+      ]
+    },
+    "path/glob-to-regexp": {
+      "upstream": [
+        "@std/path/glob-to-regexp"
+      ],
+      "module": "path",
+      "source": [
+        "path/glob_to_regexp.ts"
+      ]
+    },
+    "path/is-absolute": {
+      "upstream": [
+        "@std/path/is-absolute"
+      ],
+      "module": "path",
+      "source": [
+        "path/is_absolute.ts"
+      ]
+    },
+    "path/is-glob": {
+      "upstream": [
+        "@std/path/is-glob"
+      ],
+      "module": "path",
+      "source": [
+        "path/is_glob.ts"
+      ]
+    },
+    "path/join": {
+      "upstream": [
+        "@std/path/join"
+      ],
+      "module": "path",
+      "source": [
+        "path/join.ts"
+      ]
+    },
+    "path/join-globs": {
+      "upstream": [
+        "@std/path/join-globs"
+      ],
+      "module": "path",
+      "source": [
+        "path/join_globs.ts"
+      ]
+    },
+    "path/normalize": {
+      "upstream": [
+        "@std/path/normalize"
+      ],
+      "module": "path",
+      "source": [
+        "path/normalize.ts"
+      ]
+    },
+    "path/normalize-glob": {
+      "upstream": [
+        "@std/path/normalize-glob"
+      ],
+      "module": "path",
+      "source": [
+        "path/normalize_glob.ts"
+      ]
+    },
+    "path/parse": {
+      "upstream": [
+        "@std/path/parse"
+      ],
+      "module": "path",
+      "source": [
+        "path/parse.ts"
+      ]
+    },
+    "path/posix": {
+      "upstream": [
+        "@std/path/posix"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/mod.ts"
+      ]
+    },
+    "path/posix/basename": {
+      "upstream": [
+        "@std/path/posix/basename"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/basename.ts"
+      ]
+    },
+    "path/posix/common": {
+      "upstream": [
+        "@std/path/posix/common"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/common.ts"
+      ]
+    },
+    "path/posix/constants": {
+      "upstream": [
+        "@std/path/posix/constants"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/constants.ts"
+      ]
+    },
+    "path/posix/dirname": {
+      "upstream": [
+        "@std/path/posix/dirname"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/dirname.ts"
+      ]
+    },
+    "path/posix/extname": {
+      "upstream": [
+        "@std/path/posix/extname"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/extname.ts"
+      ]
+    },
+    "path/posix/format": {
+      "upstream": [
+        "@std/path/posix/format"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/format.ts"
+      ]
+    },
+    "path/posix/from-file-url": {
+      "upstream": [
+        "@std/path/posix/from-file-url"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/from_file_url.ts"
+      ]
+    },
+    "path/posix/glob-to-regexp": {
+      "upstream": [
+        "@std/path/posix/glob-to-regexp"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/glob_to_regexp.ts"
+      ]
+    },
+    "path/posix/is-absolute": {
+      "upstream": [
+        "@std/path/posix/is-absolute"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/is_absolute.ts"
+      ]
+    },
+    "path/posix/is-glob": {
+      "upstream": [
+        "@std/path/posix/is-glob"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/is_glob.ts"
+      ]
+    },
+    "path/posix/join": {
+      "upstream": [
+        "@std/path/posix/join"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/join.ts"
+      ]
+    },
+    "path/posix/join-globs": {
+      "upstream": [
+        "@std/path/posix/join-globs"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/join_globs.ts"
+      ]
+    },
+    "path/posix/normalize": {
+      "upstream": [
+        "@std/path/posix/normalize"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/normalize.ts"
+      ]
+    },
+    "path/posix/normalize-glob": {
+      "upstream": [
+        "@std/path/posix/normalize-glob"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/normalize_glob.ts"
+      ]
+    },
+    "path/posix/parse": {
+      "upstream": [
+        "@std/path/posix/parse"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/parse.ts"
+      ]
+    },
+    "path/posix/relative": {
+      "upstream": [
+        "@std/path/posix/relative"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/relative.ts"
+      ]
+    },
+    "path/posix/resolve": {
+      "upstream": [
+        "@std/path/posix/resolve"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/resolve.ts"
+      ]
+    },
+    "path/posix/to-file-url": {
+      "upstream": [
+        "@std/path/posix/to-file-url"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/to_file_url.ts"
+      ]
+    },
+    "path/posix/to-namespaced-path": {
+      "upstream": [
+        "@std/path/posix/to-namespaced-path"
+      ],
+      "module": "path",
+      "source": [
+        "path/posix/to_namespaced_path.ts"
+      ]
+    },
+    "path/relative": {
+      "upstream": [
+        "@std/path/relative"
+      ],
+      "module": "path",
+      "source": [
+        "path/relative.ts"
+      ]
+    },
+    "path/resolve": {
+      "upstream": [
+        "@std/path/resolve"
+      ],
+      "module": "path",
+      "source": [
+        "path/resolve.ts"
+      ]
+    },
+    "path/to-file-url": {
+      "upstream": [
+        "@std/path/to-file-url"
+      ],
+      "module": "path",
+      "source": [
+        "path/to_file_url.ts"
+      ]
+    },
+    "path/to-namespaced-path": {
+      "upstream": [
+        "@std/path/to-namespaced-path"
+      ],
+      "module": "path",
+      "source": [
+        "path/to_namespaced_path.ts"
+      ]
+    },
+    "path/types": {
+      "upstream": [
+        "@std/path/types"
+      ],
+      "module": "path",
+      "source": [
+        "path/types.ts"
+      ]
+    },
+    "path/windows": {
+      "upstream": [
+        "@std/path/windows"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/mod.ts"
+      ]
+    },
+    "path/windows/basename": {
+      "upstream": [
+        "@std/path/windows/basename"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/basename.ts"
+      ]
+    },
+    "path/windows/common": {
+      "upstream": [
+        "@std/path/windows/common"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/common.ts"
+      ]
+    },
+    "path/windows/constants": {
+      "upstream": [
+        "@std/path/windows/constants"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/constants.ts"
+      ]
+    },
+    "path/windows/dirname": {
+      "upstream": [
+        "@std/path/windows/dirname"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/dirname.ts"
+      ]
+    },
+    "path/windows/extname": {
+      "upstream": [
+        "@std/path/windows/extname"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/extname.ts"
+      ]
+    },
+    "path/windows/format": {
+      "upstream": [
+        "@std/path/windows/format"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/format.ts"
+      ]
+    },
+    "path/windows/from-file-url": {
+      "upstream": [
+        "@std/path/windows/from-file-url"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/from_file_url.ts"
+      ]
+    },
+    "path/windows/glob-to-regexp": {
+      "upstream": [
+        "@std/path/windows/glob-to-regexp"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/glob_to_regexp.ts"
+      ]
+    },
+    "path/windows/is-absolute": {
+      "upstream": [
+        "@std/path/windows/is-absolute"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/is_absolute.ts"
+      ]
+    },
+    "path/windows/is-glob": {
+      "upstream": [
+        "@std/path/windows/is-glob"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/is_glob.ts"
+      ]
+    },
+    "path/windows/join": {
+      "upstream": [
+        "@std/path/windows/join"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/join.ts"
+      ]
+    },
+    "path/windows/join-globs": {
+      "upstream": [
+        "@std/path/windows/join-globs"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/join_globs.ts"
+      ]
+    },
+    "path/windows/normalize": {
+      "upstream": [
+        "@std/path/windows/normalize"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/normalize.ts"
+      ]
+    },
+    "path/windows/normalize-glob": {
+      "upstream": [
+        "@std/path/windows/normalize-glob"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/normalize_glob.ts"
+      ]
+    },
+    "path/windows/parse": {
+      "upstream": [
+        "@std/path/windows/parse"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/parse.ts"
+      ]
+    },
+    "path/windows/relative": {
+      "upstream": [
+        "@std/path/windows/relative"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/relative.ts"
+      ]
+    },
+    "path/windows/resolve": {
+      "upstream": [
+        "@std/path/windows/resolve"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/resolve.ts"
+      ]
+    },
+    "path/windows/to-file-url": {
+      "upstream": [
+        "@std/path/windows/to-file-url"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/to_file_url.ts"
+      ]
+    },
+    "path/windows/to-namespaced-path": {
+      "upstream": [
+        "@std/path/windows/to-namespaced-path"
+      ],
+      "module": "path",
+      "source": [
+        "path/windows/to_namespaced_path.ts"
+      ]
+    },
+    "random": {
+      "upstream": [
+        "@std/random"
+      ],
+      "module": "random",
+      "source": [
+        "random/mod.ts"
+      ]
+    },
+    "random/between": {
+      "upstream": [
+        "@std/random/between"
+      ],
+      "module": "random",
+      "source": [
+        "random/between.ts"
+      ]
+    },
+    "random/get-random-values-seeded": {
+      "upstream": [
+        "@std/random/get-random-values-seeded"
+      ],
+      "module": "random",
+      "source": [
+        "random/get_random_values_seeded.ts"
+      ]
+    },
+    "random/integer-between": {
+      "upstream": [
+        "@std/random/integer-between"
+      ],
+      "module": "random",
+      "source": [
+        "random/integer_between.ts"
+      ]
+    },
+    "random/next-float-64": {
+      "upstream": [
+        "@std/random/next-float-64"
+      ],
+      "module": "random",
+      "source": [
+        "random/next_float_64.ts"
+      ]
+    },
+    "random/sample": {
+      "upstream": [
+        "@std/random/sample"
+      ],
+      "module": "random",
+      "source": [
+        "random/sample.ts"
+      ]
+    },
+    "random/seeded": {
+      "upstream": [
+        "@std/random/seeded"
+      ],
+      "module": "random",
+      "source": [
+        "random/seeded.ts"
+      ]
+    },
+    "random/shuffle": {
+      "upstream": [
+        "@std/random/shuffle"
+      ],
+      "module": "random",
+      "source": [
+        "random/shuffle.ts"
+      ]
+    },
+    "regexp": {
+      "upstream": [
+        "@std/regexp",
+        "@std/regexp/unstable-replace-all-async"
+      ],
+      "module": "regexp",
+      "source": [
+        "regexp/mod.ts",
+        "regexp/unstable_replace_all_async.ts"
+      ]
+    },
+    "regexp/escape": {
+      "upstream": [
+        "@std/regexp/escape"
+      ],
+      "module": "regexp",
+      "source": [
+        "regexp/escape.ts"
+      ]
+    },
+    "regexp/replace-all-async": {
+      "upstream": [
+        "@std/regexp/unstable-replace-all-async"
+      ],
+      "module": "regexp",
+      "source": [
+        "regexp/unstable_replace_all_async.ts"
+      ]
+    },
+    "semver": {
+      "upstream": [
+        "@std/semver"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/mod.ts"
+      ]
+    },
+    "semver/can-parse": {
+      "upstream": [
+        "@std/semver/can-parse"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/can_parse.ts"
+      ]
+    },
+    "semver/compare": {
+      "upstream": [
+        "@std/semver/compare"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/compare.ts"
+      ]
+    },
+    "semver/difference": {
+      "upstream": [
+        "@std/semver/difference"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/difference.ts"
+      ]
+    },
+    "semver/equals": {
+      "upstream": [
+        "@std/semver/equals"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/equals.ts"
+      ]
+    },
+    "semver/format": {
+      "upstream": [
+        "@std/semver/format"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/format.ts"
+      ]
+    },
+    "semver/format-range": {
+      "upstream": [
+        "@std/semver/format-range"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/format_range.ts"
+      ]
+    },
+    "semver/greater-or-equal": {
+      "upstream": [
+        "@std/semver/greater-or-equal"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/greater_or_equal.ts"
+      ]
+    },
+    "semver/greater-than": {
+      "upstream": [
+        "@std/semver/greater-than"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/greater_than.ts"
+      ]
+    },
+    "semver/greater-than-range": {
+      "upstream": [
+        "@std/semver/greater-than-range"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/greater_than_range.ts"
+      ]
+    },
+    "semver/increment": {
+      "upstream": [
+        "@std/semver/increment"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/increment.ts"
+      ]
+    },
+    "semver/is-range": {
+      "upstream": [
+        "@std/semver/is-range"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/is_range.ts"
+      ]
+    },
+    "semver/is-semver": {
+      "upstream": [
+        "@std/semver/is-semver"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/is_semver.ts"
+      ]
+    },
+    "semver/less-or-equal": {
+      "upstream": [
+        "@std/semver/less-or-equal"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/less_or_equal.ts"
+      ]
+    },
+    "semver/less-than": {
+      "upstream": [
+        "@std/semver/less-than"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/less_than.ts"
+      ]
+    },
+    "semver/less-than-range": {
+      "upstream": [
+        "@std/semver/less-than-range"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/less_than_range.ts"
+      ]
+    },
+    "semver/max-satisfying": {
+      "upstream": [
+        "@std/semver/max-satisfying"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/max_satisfying.ts"
+      ]
+    },
+    "semver/min-satisfying": {
+      "upstream": [
+        "@std/semver/min-satisfying"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/min_satisfying.ts"
+      ]
+    },
+    "semver/not-equals": {
+      "upstream": [
+        "@std/semver/not-equals"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/not_equals.ts"
+      ]
+    },
+    "semver/parse": {
+      "upstream": [
+        "@std/semver/parse"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/parse.ts"
+      ]
+    },
+    "semver/parse-range": {
+      "upstream": [
+        "@std/semver/parse-range"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/parse_range.ts"
+      ]
+    },
+    "semver/range-intersects": {
+      "upstream": [
+        "@std/semver/range-intersects"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/range_intersects.ts"
+      ]
+    },
+    "semver/satisfies": {
+      "upstream": [
+        "@std/semver/satisfies"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/satisfies.ts"
+      ]
+    },
+    "semver/try-parse": {
+      "upstream": [
+        "@std/semver/try-parse"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/try_parse.ts"
+      ]
+    },
+    "semver/try-parse-range": {
+      "upstream": [
+        "@std/semver/try-parse-range"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/try_parse_range.ts"
+      ]
+    },
+    "semver/types": {
+      "upstream": [
+        "@std/semver/types"
+      ],
+      "module": "semver",
+      "source": [
+        "semver/types.ts"
+      ]
+    },
+    "streams": {
+      "upstream": [
+        "@std/streams",
+        "@std/streams/unstable-abort-stream",
+        "@std/streams/unstable-capped-delimiter-stream",
+        "@std/streams/unstable-fixed-chunk-stream",
+        "@std/streams/unstable-to-byte-stream",
+        "@std/streams/unstable-to-lines"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/mod.ts",
+        "streams/unstable_abort_stream.ts",
+        "streams/unstable_capped_delimiter_stream.ts",
+        "streams/unstable_fixed_chunk_stream.ts",
+        "streams/unstable_to_byte_stream.ts",
+        "streams/unstable_to_lines.ts"
+      ]
+    },
+    "streams/abort-stream": {
+      "upstream": [
+        "@std/streams/unstable-abort-stream"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/unstable_abort_stream.ts"
+      ]
+    },
+    "streams/batch-stream": {
+      "upstream": [
+        "@std/streams/batch-stream"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/batch_stream.ts"
+      ]
+    },
+    "streams/buffer": {
+      "upstream": [
+        "@std/streams/buffer"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/buffer.ts"
+      ]
+    },
+    "streams/byte-slice-stream": {
+      "upstream": [
+        "@std/streams/byte-slice-stream"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/byte_slice_stream.ts"
+      ]
+    },
+    "streams/capped-delimiter-stream": {
+      "upstream": [
+        "@std/streams/unstable-capped-delimiter-stream"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/unstable_capped_delimiter_stream.ts"
+      ]
+    },
+    "streams/concat-readable-streams": {
+      "upstream": [
+        "@std/streams/concat-readable-streams"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/concat_readable_streams.ts"
+      ]
+    },
+    "streams/delimiter-stream": {
+      "upstream": [
+        "@std/streams/delimiter-stream"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/delimiter_stream.ts"
+      ]
+    },
+    "streams/early-zip-readable-streams": {
+      "upstream": [
+        "@std/streams/early-zip-readable-streams"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/early_zip_readable_streams.ts"
+      ]
+    },
+    "streams/limited-bytes-transform-stream": {
+      "upstream": [
+        "@std/streams/limited-bytes-transform-stream"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/limited_bytes_transform_stream.ts"
+      ]
+    },
+    "streams/limited-transform-stream": {
+      "upstream": [
+        "@std/streams/limited-transform-stream"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/limited_transform_stream.ts"
+      ]
+    },
+    "streams/merge-readable-streams": {
+      "upstream": [
+        "@std/streams/merge-readable-streams"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/merge_readable_streams.ts"
+      ]
+    },
+    "streams/fixed-chunk-stream": {
+      "upstream": [
+        "@std/streams/unstable-fixed-chunk-stream"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/unstable_fixed_chunk_stream.ts"
+      ]
+    },
+    "streams/text-delimiter-stream": {
+      "upstream": [
+        "@std/streams/text-delimiter-stream"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/text_delimiter_stream.ts"
+      ]
+    },
+    "streams/text-line-stream": {
+      "upstream": [
+        "@std/streams/text-line-stream"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/text_line_stream.ts"
+      ]
+    },
+    "streams/to-array-buffer": {
+      "upstream": [
+        "@std/streams/to-array-buffer"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/to_array_buffer.ts"
+      ]
+    },
+    "streams/to-blob": {
+      "upstream": [
+        "@std/streams/to-blob"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/to_blob.ts"
+      ]
+    },
+    "streams/to-byte-stream": {
+      "upstream": [
+        "@std/streams/unstable-to-byte-stream"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/unstable_to_byte_stream.ts"
+      ]
+    },
+    "streams/to-bytes": {
+      "upstream": [
+        "@std/streams/to-bytes"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/to_bytes.ts"
+      ]
+    },
+    "streams/to-json": {
+      "upstream": [
+        "@std/streams/to-json"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/to_json.ts"
+      ]
+    },
+    "streams/to-lines": {
+      "upstream": [
+        "@std/streams/unstable-to-lines"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/unstable_to_lines.ts"
+      ]
+    },
+    "streams/to-text": {
+      "upstream": [
+        "@std/streams/to-text"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/to_text.ts"
+      ]
+    },
+    "streams/to-transform-stream": {
+      "upstream": [
+        "@std/streams/to-transform-stream"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/to_transform_stream.ts"
+      ]
+    },
+    "streams/zip-readable-streams": {
+      "upstream": [
+        "@std/streams/zip-readable-streams"
+      ],
+      "module": "streams",
+      "source": [
+        "streams/zip_readable_streams.ts"
+      ]
+    },
+    "tar": {
+      "upstream": [
+        "@std/tar"
+      ],
+      "module": "tar",
+      "source": [
+        "tar/mod.ts"
+      ]
+    },
+    "tar/tar-stream": {
+      "upstream": [
+        "@std/tar/tar-stream"
+      ],
+      "module": "tar",
+      "source": [
+        "tar/tar_stream.ts"
+      ]
+    },
+    "tar/untar-stream": {
+      "upstream": [
+        "@std/tar/untar-stream"
+      ],
+      "module": "tar",
+      "source": [
+        "tar/untar_stream.ts"
+      ]
+    },
+    "testing/bdd": {
+      "upstream": [
+        "@std/testing/bdd"
+      ],
+      "module": "testing",
+      "source": [
+        "testing/bdd.ts"
+      ]
+    },
+    "testing/mock": {
+      "upstream": [
+        "@std/testing/mock"
+      ],
+      "module": "testing",
+      "source": [
+        "testing/mock.ts"
+      ]
+    },
+    "testing/snapshot": {
+      "upstream": [
+        "@std/testing/snapshot"
+      ],
+      "module": "testing",
+      "source": [
+        "testing/snapshot.ts"
+      ]
+    },
+    "testing/time": {
+      "upstream": [
+        "@std/testing/time"
+      ],
+      "module": "testing",
+      "source": [
+        "testing/time.ts"
+      ]
+    },
+    "testing/types": {
+      "upstream": [
+        "@std/testing/types"
+      ],
+      "module": "testing",
+      "source": [
+        "testing/types.ts"
+      ]
+    },
+    "testing/stub": {
+      "upstream": [
+        "@std/testing/unstable-stub"
+      ],
+      "module": "testing",
+      "source": [
+        "testing/unstable_stub.ts"
+      ]
+    },
+    "testing/stub-property": {
+      "upstream": [
+        "@std/testing/unstable-stub-property"
+      ],
+      "module": "testing",
+      "source": [
+        "testing/unstable_stub_property.ts"
+      ]
+    },
+    "text": {
+      "upstream": [
+        "@std/text",
+        "@std/text/unstable-dedent",
+        "@std/text/unstable-longest-common-prefix",
+        "@std/text/unstable-reverse",
+        "@std/text/unstable-slugify",
+        "@std/text/unstable-trim-by",
+        "@std/text/unstable-to-constant-case",
+        "@std/text/unstable-to-sentence-case",
+        "@std/text/unstable-to-title-case"
+      ],
+      "module": "text",
+      "source": [
+        "text/mod.ts",
+        "text/unstable_dedent.ts",
+        "text/unstable_longest_common_prefix.ts",
+        "text/unstable_reverse.ts",
+        "text/unstable_slugify.ts",
+        "text/unstable_trim_by.ts",
+        "text/unstable_to_constant_case.ts",
+        "text/unstable_to_sentence_case.ts",
+        "text/unstable_to_title_case.ts"
+      ]
+    },
+    "text/closest-string": {
+      "upstream": [
+        "@std/text/closest-string"
+      ],
+      "module": "text",
+      "source": [
+        "text/closest_string.ts"
+      ]
+    },
+    "text/compare-similarity": {
+      "upstream": [
+        "@std/text/compare-similarity"
+      ],
+      "module": "text",
+      "source": [
+        "text/compare_similarity.ts"
+      ]
+    },
+    "text/dedent": {
+      "upstream": [
+        "@std/text/unstable-dedent"
+      ],
+      "module": "text",
+      "source": [
+        "text/unstable_dedent.ts"
+      ]
+    },
+    "text/levenshtein-distance": {
+      "upstream": [
+        "@std/text/levenshtein-distance"
+      ],
+      "module": "text",
+      "source": [
+        "text/levenshtein_distance.ts"
+      ]
+    },
+    "text/longest-common-prefix": {
+      "upstream": [
+        "@std/text/unstable-longest-common-prefix"
+      ],
+      "module": "text",
+      "source": [
+        "text/unstable_longest_common_prefix.ts"
+      ]
+    },
+    "text/reverse": {
+      "upstream": [
+        "@std/text/unstable-reverse"
+      ],
+      "module": "text",
+      "source": [
+        "text/unstable_reverse.ts"
+      ]
+    },
+    "text/slugify": {
+      "upstream": [
+        "@std/text/unstable-slugify"
+      ],
+      "module": "text",
+      "source": [
+        "text/unstable_slugify.ts"
+      ]
+    },
+    "text/trim-by": {
+      "upstream": [
+        "@std/text/unstable-trim-by"
+      ],
+      "module": "text",
+      "source": [
+        "text/unstable_trim_by.ts"
+      ]
+    },
+    "text/to-camel-case": {
+      "upstream": [
+        "@std/text/to-camel-case"
+      ],
+      "module": "text",
+      "source": [
+        "text/to_camel_case.ts"
+      ]
+    },
+    "text/to-constant-case": {
+      "upstream": [
+        "@std/text/unstable-to-constant-case"
+      ],
+      "module": "text",
+      "source": [
+        "text/unstable_to_constant_case.ts"
+      ]
+    },
+    "text/to-kebab-case": {
+      "upstream": [
+        "@std/text/to-kebab-case"
+      ],
+      "module": "text",
+      "source": [
+        "text/to_kebab_case.ts"
+      ]
+    },
+    "text/to-pascal-case": {
+      "upstream": [
+        "@std/text/to-pascal-case"
+      ],
+      "module": "text",
+      "source": [
+        "text/to_pascal_case.ts"
+      ]
+    },
+    "text/to-sentence-case": {
+      "upstream": [
+        "@std/text/unstable-to-sentence-case"
+      ],
+      "module": "text",
+      "source": [
+        "text/unstable_to_sentence_case.ts"
+      ]
+    },
+    "text/to-snake-case": {
+      "upstream": [
+        "@std/text/to-snake-case"
+      ],
+      "module": "text",
+      "source": [
+        "text/to_snake_case.ts"
+      ]
+    },
+    "text/to-title-case": {
+      "upstream": [
+        "@std/text/unstable-to-title-case"
+      ],
+      "module": "text",
+      "source": [
+        "text/unstable_to_title_case.ts"
+      ]
+    },
+    "text/truncate": {
+      "upstream": [
+        "@std/text/truncate"
+      ],
+      "module": "text",
+      "source": [
+        "text/truncate.ts"
+      ]
+    },
+    "text/word-similarity-sort": {
+      "upstream": [
+        "@std/text/word-similarity-sort"
+      ],
+      "module": "text",
+      "source": [
+        "text/word_similarity_sort.ts"
+      ]
+    },
+    "toml": {
+      "upstream": [
+        "@std/toml"
+      ],
+      "module": "toml",
+      "source": [
+        "toml/mod.ts"
+      ]
+    },
+    "toml/parse": {
+      "upstream": [
+        "@std/toml/parse"
+      ],
+      "module": "toml",
+      "source": [
+        "toml/parse.ts"
+      ]
+    },
+    "toml/stringify": {
+      "upstream": [
+        "@std/toml/stringify"
+      ],
+      "module": "toml",
+      "source": [
+        "toml/stringify.ts"
+      ]
+    },
+    "ulid": {
+      "upstream": [
+        "@std/ulid"
+      ],
+      "module": "ulid",
+      "source": [
+        "ulid/mod.ts"
+      ]
+    },
+    "ulid/decode-time": {
+      "upstream": [
+        "@std/ulid/decode-time"
+      ],
+      "module": "ulid",
+      "source": [
+        "ulid/decode_time.ts"
+      ]
+    },
+    "ulid/monotonic-ulid": {
+      "upstream": [
+        "@std/ulid/monotonic-ulid"
+      ],
+      "module": "ulid",
+      "source": [
+        "ulid/monotonic_ulid.ts"
+      ]
+    },
+    "ulid/ulid": {
+      "upstream": [
+        "@std/ulid/ulid"
+      ],
+      "module": "ulid",
+      "source": [
+        "ulid/ulid.ts"
+      ]
+    },
+    "uuid": {
+      "upstream": [
+        "@std/uuid"
+      ],
+      "module": "uuid",
+      "source": [
+        "uuid/mod.ts"
+      ]
+    },
+    "uuid/common": {
+      "upstream": [
+        "@std/uuid/common"
+      ],
+      "module": "uuid",
+      "source": [
+        "uuid/common.ts"
+      ]
+    },
+    "uuid/constants": {
+      "upstream": [
+        "@std/uuid/constants"
+      ],
+      "module": "uuid",
+      "source": [
+        "uuid/constants.ts"
+      ]
+    },
+    "uuid/v1": {
+      "upstream": [
+        "@std/uuid/v1"
+      ],
+      "module": "uuid",
+      "source": [
+        "uuid/v1.ts"
+      ]
+    },
+    "uuid/v3": {
+      "upstream": [
+        "@std/uuid/v3"
+      ],
+      "module": "uuid",
+      "source": [
+        "uuid/v3.ts"
+      ]
+    },
+    "uuid/v4": {
+      "upstream": [
+        "@std/uuid/v4"
+      ],
+      "module": "uuid",
+      "source": [
+        "uuid/v4.ts"
+      ]
+    },
+    "uuid/v5": {
+      "upstream": [
+        "@std/uuid/v5"
+      ],
+      "module": "uuid",
+      "source": [
+        "uuid/v5.ts"
+      ]
+    },
+    "uuid/v7": {
+      "upstream": [
+        "@std/uuid/v7"
+      ],
+      "module": "uuid",
+      "source": [
+        "uuid/v7.ts"
+      ]
+    },
+    "uuid/v6": {
+      "upstream": [
+        "@std/uuid/unstable-v6"
+      ],
+      "module": "uuid",
+      "source": [
+        "uuid/unstable_v6.ts"
+      ]
+    },
+    "webgpu": {
+      "upstream": [
+        "@std/webgpu"
+      ],
+      "module": "webgpu",
+      "source": [
+        "webgpu/mod.ts"
+      ]
+    },
+    "webgpu/create-capture": {
+      "upstream": [
+        "@std/webgpu/create-capture"
+      ],
+      "module": "webgpu",
+      "source": [
+        "webgpu/create_capture.ts"
+      ]
+    },
+    "webgpu/describe-texture-format": {
+      "upstream": [
+        "@std/webgpu/describe-texture-format"
+      ],
+      "module": "webgpu",
+      "source": [
+        "webgpu/describe_texture_format.ts"
+      ]
+    },
+    "webgpu/row-padding": {
+      "upstream": [
+        "@std/webgpu/row-padding"
+      ],
+      "module": "webgpu",
+      "source": [
+        "webgpu/row_padding.ts"
+      ]
+    },
+    "webgpu/texture-with-data": {
+      "upstream": [
+        "@std/webgpu/texture-with-data"
+      ],
+      "module": "webgpu",
+      "source": [
+        "webgpu/texture_with_data.ts"
+      ]
+    },
+    "xml": {
+      "upstream": [
+        "@std/xml"
+      ],
+      "module": "xml",
+      "source": [
+        "xml/mod.ts"
+      ]
+    },
+    "xml/parse": {
+      "upstream": [
+        "@std/xml/parse"
+      ],
+      "module": "xml",
+      "source": [
+        "xml/parse.ts"
+      ]
+    },
+    "xml/parse-records": {
+      "upstream": [
+        "@std/xml/parse-records"
+      ],
+      "module": "xml",
+      "source": [
+        "xml/parse_records.ts"
+      ]
+    },
+    "xml/parse-stream": {
+      "upstream": [
+        "@std/xml/parse-stream"
+      ],
+      "module": "xml",
+      "source": [
+        "xml/parse_stream.ts"
+      ]
+    },
+    "xml/stringify": {
+      "upstream": [
+        "@std/xml/stringify"
+      ],
+      "module": "xml",
+      "source": [
+        "xml/stringify.ts"
+      ]
+    },
+    "xml/types": {
+      "upstream": [
+        "@std/xml/types"
+      ],
+      "module": "xml",
+      "source": [
+        "xml/types.ts"
+      ]
+    },
+    "yaml": {
+      "upstream": [
+        "@std/yaml"
+      ],
+      "module": "yaml",
+      "source": [
+        "yaml/mod.ts"
+      ]
+    },
+    "yaml/parse": {
+      "upstream": [
+        "@std/yaml/parse"
+      ],
+      "module": "yaml",
+      "source": [
+        "yaml/parse.ts"
+      ]
+    },
+    "yaml/stringify": {
+      "upstream": [
+        "@std/yaml/stringify"
+      ],
+      "module": "yaml",
+      "source": [
+        "yaml/stringify.ts"
+      ]
+    },
+    "yaml/types": {
+      "upstream": [
+        "@std/yaml/types"
+      ],
+      "module": "yaml",
+      "source": [
+        "yaml/types.ts"
+      ]
+    }
+  }
+}

@@ -21,6 +21,8 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       SKIP: ${{ steps.check-version.outputs.SKIP }}
+      # publish 作业必须检出「刚 bump 完的提交」，所以把新版本 tag 传下去
+      VER: ${{ steps.bump.outputs.my_ver }}
     permissions:
       contents: write
 
@@ -129,11 +131,12 @@ jobs:
 
   publish:
     name: Publish to JSR/Deno
-    # 触发逻辑微调：
-    # 1. 如果是手动 push tag 'v*' 触发的，直接执行发布。
-    # 2. 如果是每日任务，必须等 check-and-build 运行成功后才执行发布。
+    # 触发逻辑：
+    # 1. 手动 push tag 'v*' → 直接发布该 tag
+    # 2. 手动 workflow_dispatch → 发布当前分支 deno.json 里的版本（用于补发失败/漏发的版本）
+    # 3. 每日任务 → 必须等 check-and-build 成功且确实构建了新版本（SKIP=false）才发布
     needs: check-and-build
-    if: always() && (github.event_name == 'push' || (needs.check-and-build.result == 'success' && needs.check-and-build.outputs.SKIP == 'false'))
+    if: always() && (github.event_name == 'push' || github.event_name == 'workflow_dispatch' || (needs.check-and-build.result == 'success' && needs.check-and-build.outputs.SKIP == 'false'))
     runs-on: ubuntu-latest
 
     permissions:
@@ -144,7 +147,11 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v7
         with:
-          # 如果是被上面 check-and-build 的推流唤醒的，我们需要拉取最新带有新 tag 的代码
+          # 定时 / workflow_dispatch 触发的 run，github.sha 固定在 run 创建那一刻，
+          # 此时 check-and-build 还没有 push bump 提交；不写 ref 就会检出旧提交（旧版本号），
+          # deno publish 只会打印 "Skipping, already published" 并成功退出 —— 什么都没发出去。
+          # 所以优先检出 build 作业刚打的新版本 tag，没有（tag 触发 / 手动补发）时用当前 ref。
+          ref: ${{ needs.check-and-build.outputs.VER || github.ref_name }}
           fetch-depth: 0
 
       - name: Install Deno
@@ -154,3 +161,19 @@ jobs:
 
       - name: Publish
         run: deno publish
+
+      # deno publish 对「已发布过的版本」只警告不报错，静默跳过会让 CI 全绿却什么都没发。
+      # 这里回查 JSR，确认本次检出的版本真的在 registry 上。
+      - name: Verify version is on JSR
+        run: |
+          VERSION=$(jq -r .version deno.json)
+          echo "本次检出提交的版本：$VERSION"
+          for i in 1 2 3 4 5 6; do
+            if curl -fsS https://jsr.io/@g9wp/std/meta.json | jq -e --arg v "$VERSION" '.versions[$v]' > /dev/null; then
+              echo "✅ @g9wp/std@$VERSION 已发布到 JSR"
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "::error::@g9wp/std@$VERSION 不在 JSR 上：publish 被静默跳过，通常是检出了旧提交（检查 checkout 的 ref）"
+          exit 1

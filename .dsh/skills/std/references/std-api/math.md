@@ -5,51 +5,27 @@
      上游源码：https://github.com/denoland/std/tree/release-2026.09.24/math
      需要精确签名时以 `deno doc` 或源码为准。 -->
 
-> Math functions such as modulo and clamp.
-
 导入：`import {...} from "$std/math";`　别名：`jsr:@g9wp/std@^0.1.5/math`
 
 | 子路径 | 上游来源 | 源码 | 导出数 |
 | --- | --- | --- | --- |
-| `$std/math` | `@std/math` | `math/mod.ts` | 4 |
-| `$std/math/clamp` | `@std/math/clamp` | `math/clamp.ts` | 1 |
-| `$std/math/modulo` | `@std/math/modulo` | `math/modulo.ts` | 1 |
-| `$std/math/round-to` | `@std/math/round-to` | `math/round_to.ts` | 2 |
+| `$std/math` | `@std/math` | `ath/mod.ts` | 0 |
+| `$std/math/clamp` | `@std/math/clamp` | `ath/clamp.ts` | 0 |
+| `$std/math/modulo` | `@std/math/modulo` | `ath/modulo.ts` | 0 |
+| `$std/math/round-to` | `@std/math/round-to` | `ath/round_to.ts` | 0 |
 
 ## `$std/math`
 
-4 个导出符号：
-
-- **`clamp`** (function)
-  - `export function clamp(num: number, min: number, max: number): number`
-  - Clamp a number within the inclusive [min, max] range.
-- **`modulo`** (function)
-  - `export function modulo(num: number, modulus: number): number`
-  - Computes the floored modulo of a number.
-- **`RoundingOptions`** (type)
-  - `export type RoundingOptions = … }`
-  - Options for roundTo.
-- **`roundTo`** (function)
-  - `export function roundTo( num: number, digits: number, options?: RoundingOptions, ): number`
-  - Round a number to a specified number of digits.
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_
 
 ## `$std/math/clamp`
 
-- **`clamp`** (function)
-  - `export function clamp(num: number, min: number, max: number): number`
-  - Clamp a number within the inclusive [min, max] range.
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_
 
 ## `$std/math/modulo`
 
-- **`modulo`** (function)
-  - `export function modulo(num: number, modulus: number): number`
-  - Computes the floored modulo of a number.
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_
 
 ## `$std/math/round-to`
 
-- **`RoundingOptions`** (type)
-  - `export type RoundingOptions = … }`
-  - Options for roundTo.
-- **`roundTo`** (function)
-  - `export function roundTo( num: number, digits: number, options?: RoundingOptions, ): number`
-  - Round a number to a specified number of digits.
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_

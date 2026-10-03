@@ -5,72 +5,42 @@
      上游源码：https://github.com/denoland/std/tree/release-2026.09.24/front_matter
      需要精确签名时以 `deno doc` 或源码为准。 -->
 
-> Extracts front matter from strings. Adapted from jxson/front-matter.
-
 导入：`import {...} from "$std/front-matter";`　别名：`jsr:@g9wp/std@^0.1.5/front-matter`
 
 | 子路径 | 上游来源 | 源码 | 导出数 |
 | --- | --- | --- | --- |
-| `$std/front-matter` | `@std/front-matter` | `front_matter/mod.ts` | 6 |
-| `$std/front-matter/any` | `@std/front-matter/any` | `front_matter/any.ts` | 2 |
-| `$std/front-matter/json` | `@std/front-matter/json` | `front_matter/json.ts` | 2 |
-| `$std/front-matter/test` | `@std/front-matter/test` | `front_matter/test.ts` | 2 |
-| `$std/front-matter/toml` | `@std/front-matter/toml` | `front_matter/toml.ts` | 2 |
-| `$std/front-matter/types` | `@std/front-matter/types` | `front_matter/types.ts` | 1 |
-| `$std/front-matter/yaml` | `@std/front-matter/yaml` | `front_matter/yaml.ts` | 2 |
+| `$std/front-matter` | `@std/front-matter` | `ront_matter/mod.ts` | 0 |
+| `$std/front-matter/any` | `@std/front-matter/any` | `ront_matter/any.ts` | 0 |
+| `$std/front-matter/json` | `@std/front-matter/json` | `ront_matter/json.ts` | 0 |
+| `$std/front-matter/test` | `@std/front-matter/test` | `ront_matter/test.ts` | 0 |
+| `$std/front-matter/toml` | `@std/front-matter/toml` | `ront_matter/toml.ts` | 0 |
+| `$std/front-matter/types` | `@std/front-matter/types` | `ront_matter/types.ts` | 0 |
+| `$std/front-matter/yaml` | `@std/front-matter/yaml` | `ront_matter/yaml.ts` | 0 |
 
 ## `$std/front-matter`
 
-6 个导出符号：
-
-- **`Extract`** (type)
-  - `export type Extract<T> = … }`
-  - Return type for extract function.
-- **`extractJson`** (re-export)
-- **`extractToml`** (re-export)
-- **`extractYaml`** (re-export)
-- **`Format`** (re-export)
-- **`test`** (function)
-  - `export function test(str: string, formats?: Format[]): boolean`
-  - Tests if a string has valid front matter. Supports YAML, TOML and JSON.
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_
 
 ## `$std/front-matter/any`
 
-- **`extract`** (function)
-  - `export function extract<T>(text: string): Extract<T>`
-  - Extracts and parses YAML, TOML, or JSON from the metadata of front matter content, depending on the format.
-- **`Extract`** (re-export)
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_
 
 ## `$std/front-matter/json`
 
-- **`extract`** (function)
-  - `export function extract<T>(text: string): Extract<T>`
-  - Extracts and parses JSON from the metadata of front matter content.
-- **`Extract`** (re-export)
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_
 
 ## `$std/front-matter/test`
 
-- **`Format`** (re-export)
-- **`test`** (function)
-  - `export function test(str: string, formats?: Format[]): boolean`
-  - Tests if a string has valid front matter. Supports YAML, TOML and JSON.
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_
 
 ## `$std/front-matter/toml`
 
-- **`extract`** (function)
-  - `export function extract<T>(text: string): Extract<T>`
-  - Extracts and parses TOML from the metadata of front matter content.
-- **`Extract`** (re-export)
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_
 
 ## `$std/front-matter/types`
 
-- **`Extract`** (type)
-  - `export type Extract<T> = … }`
-  - Return type for extract function.
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_
 
 ## `$std/front-matter/yaml`
 
-- **`extract`** (function)
-  - `export function extract<T>(text: string): Extract<T>`
-  - Extracts and parses YAML from the metadata of front matter content.
-- **`Extract`** (re-export)
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_

@@ -5,45 +5,27 @@
      上游源码：https://github.com/denoland/std/tree/release-2026.09.24/ulid
      需要精确签名时以 `deno doc` 或源码为准。 -->
 
-> Utilities for generating and working with Universally Unique Lexicographically Sortable Identifiers (ULIDs).
-
 导入：`import {...} from "$std/ulid";`　别名：`jsr:@g9wp/std@^0.1.5/ulid`
 
 | 子路径 | 上游来源 | 源码 | 导出数 |
 | --- | --- | --- | --- |
-| `$std/ulid` | `@std/ulid` | `ulid/mod.ts` | 3 |
-| `$std/ulid/decode-time` | `@std/ulid/decode-time` | `ulid/decode_time.ts` | 1 |
-| `$std/ulid/monotonic-ulid` | `@std/ulid/monotonic-ulid` | `ulid/monotonic_ulid.ts` | 1 |
-| `$std/ulid/ulid` | `@std/ulid/ulid` | `ulid/ulid.ts` | 1 |
+| `$std/ulid` | `@std/ulid` | `lid/mod.ts` | 0 |
+| `$std/ulid/decode-time` | `@std/ulid/decode-time` | `lid/decode_time.ts` | 0 |
+| `$std/ulid/monotonic-ulid` | `@std/ulid/monotonic-ulid` | `lid/monotonic_ulid.ts` | 0 |
+| `$std/ulid/ulid` | `@std/ulid/ulid` | `lid/ulid.ts` | 0 |
 
 ## `$std/ulid`
 
-3 个导出符号：
-
-- **`decodeTime`** (function)
-  - `export function decodeTime(ulid: string): number`
-  - Extracts the number of milliseconds since the Unix epoch that had passed when the ULID was generated. If the ULID is malformed, an error will be thrown.
-- **`monotonicUlid`** (function)
-  - `export function monotonicUlid(seedTime: number = Date.now()): string`
-  - Generate a ULID that monotonically increases even for the same millisecond, optionally passing the current time. If the current time is not passed, it will default to Date.now().
-- **`ulid`** (function)
-  - `export function ulid(seedTime: number = Date.now()): string`
-  - Generate a ULID, optionally based on a given timestamp. If the timestamp is not passed, it will default to Date.now().
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_
 
 ## `$std/ulid/decode-time`
 
-- **`decodeTime`** (function)
-  - `export function decodeTime(ulid: string): number`
-  - Extracts the number of milliseconds since the Unix epoch that had passed when the ULID was generated. If the ULID is malformed, an error will be thrown.
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_
 
 ## `$std/ulid/monotonic-ulid`
 
-- **`monotonicUlid`** (function)
-  - `export function monotonicUlid(seedTime: number = Date.now()): string`
-  - Generate a ULID that monotonically increases even for the same millisecond, optionally passing the current time. If the current time is not passed, it will default to Date.now().
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_
 
 ## `$std/ulid/ulid`
 
-- **`ulid`** (function)
-  - `export function ulid(seedTime: number = Date.now()): string`
-  - Generate a ULID, optionally based on a given timestamp. If the timestamp is not passed, it will default to Date.now().
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_

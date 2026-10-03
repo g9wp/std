@@ -5,74 +5,27 @@
      上游源码：https://github.com/denoland/std/tree/release-2026.09.24/yaml
      需要精确签名时以 `deno doc` 或源码为准。 -->
 
-> parse and stringify for handling YAML encoded data.
-
 导入：`import {...} from "$std/yaml";`　别名：`jsr:@g9wp/std@^0.1.5/yaml`
 
 | 子路径 | 上游来源 | 源码 | 导出数 |
 | --- | --- | --- | --- |
-| `$std/yaml` | `@std/yaml` | `yaml/mod.ts` | 9 |
-| `$std/yaml/parse` | `@std/yaml/parse` | `yaml/parse.ts` | 4 |
-| `$std/yaml/stringify` | `@std/yaml/stringify` | `yaml/stringify.ts` | 4 |
-| `$std/yaml/types` | `@std/yaml/types` | `yaml/types.ts` | 2 |
+| `$std/yaml` | `@std/yaml` | `aml/mod.ts` | 0 |
+| `$std/yaml/parse` | `@std/yaml/parse` | `aml/parse.ts` | 0 |
+| `$std/yaml/stringify` | `@std/yaml/stringify` | `aml/stringify.ts` | 0 |
+| `$std/yaml/types` | `@std/yaml/types` | `aml/types.ts` | 0 |
 
 ## `$std/yaml`
 
-9 个导出符号：
-
-- **`parse`** (function)
-  - `export function parse( content: string, options: ParseOptions = {}, ): unknown`
-  - Parse and return a YAML string as a parsed YAML document object.
-- **`parseAll`** (function)
-  - `export function parseAll( content: string, options: ParseOptions = {}, ): unknown[]`
-  - Same as parse, but understands multi-document YAML sources, and returns multiple parsed YAML document objects.
-- **`ParseOptions`** (interface)
-  - `export interface ParseOptions`
-  - Options for parse.
-- **`SchemaType`** (re-export)
-- **`stringify`** (function)
-  - `export function stringify( data: unknown, options: StringifyOptions = {}, ): string`
-  - Converts a JavaScript object or value to a YAML document string.
-- **`StringifyOptions`** (type)
-  - `export type StringifyOptions = … }`
-  - Options for stringify.
-- **`StyleVariant`** (re-export)
-- **`YamlPosition`** (interface)
-  - `export interface YamlPosition`
-  - Position information for error reporting.
-- **`YamlSyntaxError`** (class)
-  - `export class YamlSyntaxError extends SyntaxError`
-  - Error thrown when YAML parsing fails.
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_
 
 ## `$std/yaml/parse`
 
-- **`parse`** (function)
-  - `export function parse( content: string, options: ParseOptions = {}, ): unknown`
-  - Parse and return a YAML string as a parsed YAML document object.
-- **`parseAll`** (function)
-  - `export function parseAll( content: string, options: ParseOptions = {}, ): unknown[]`
-  - Same as parse, but understands multi-document YAML sources, and returns multiple parsed YAML document objects.
-- **`ParseOptions`** (interface)
-  - `export interface ParseOptions`
-  - Options for parse.
-- **`SchemaType`** (re-export)
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_
 
 ## `$std/yaml/stringify`
 
-- **`SchemaType`** (re-export)
-- **`stringify`** (function)
-  - `export function stringify( data: unknown, options: StringifyOptions = {}, ): string`
-  - Converts a JavaScript object or value to a YAML document string.
-- **`StringifyOptions`** (type)
-  - `export type StringifyOptions = … }`
-  - Options for stringify.
-- **`StyleVariant`** (re-export)
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_
 
 ## `$std/yaml/types`
 
-- **`YamlPosition`** (interface)
-  - `export interface YamlPosition`
-  - Position information for error reporting.
-- **`YamlSyntaxError`** (class)
-  - `export class YamlSyntaxError extends SyntaxError`
-  - Error thrown when YAML parsing fails.
+_（未解析到导出符号：可能仅包含类型/副作用，请以上游源码或 `deno doc` 为准。）_

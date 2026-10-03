@@ -10,8 +10,8 @@
       ],
       "module": "assert",
       "source": [
-        "assert/mod.ts",
-        "assert/unstable_never.ts"
+        "ssert/mod.ts",
+        "ssert/unstable_never.ts"
       ]
     },
     "assert/assert": {
@@ -20,7 +20,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/assert.ts"
+        "ssert/assert.ts"
       ]
     },
     "assert/almost-equals": {
@@ -29,7 +29,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/almost_equals.ts"
+        "ssert/almost_equals.ts"
       ]
     },
     "assert/array-includes": {
@@ -38,7 +38,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/array_includes.ts"
+        "ssert/array_includes.ts"
       ]
     },
     "assert/equals": {
@@ -47,7 +47,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/equals.ts"
+        "ssert/equals.ts"
       ]
     },
     "assert/exists": {
@@ -56,7 +56,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/exists.ts"
+        "ssert/exists.ts"
       ]
     },
     "assert/false": {
@@ -65,7 +65,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/false.ts"
+        "ssert/false.ts"
       ]
     },
     "assert/greater": {
@@ -74,7 +74,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/greater.ts"
+        "ssert/greater.ts"
       ]
     },
     "assert/greater-or-equal": {
@@ -83,7 +83,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/greater_or_equal.ts"
+        "ssert/greater_or_equal.ts"
       ]
     },
     "assert/instance-of": {
@@ -92,7 +92,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/instance_of.ts"
+        "ssert/instance_of.ts"
       ]
     },
     "assert/is-error": {
@@ -101,7 +101,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/is_error.ts"
+        "ssert/is_error.ts"
       ]
     },
     "assert/less": {
@@ -110,7 +110,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/less.ts"
+        "ssert/less.ts"
       ]
     },
     "assert/less-or-equal": {
@@ -119,7 +119,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/less_or_equal.ts"
+        "ssert/less_or_equal.ts"
       ]
     },
     "assert/match": {
@@ -128,7 +128,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/match.ts"
+        "ssert/match.ts"
       ]
     },
     "assert/never": {
@@ -137,7 +137,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/unstable_never.ts"
+        "ssert/unstable_never.ts"
       ]
     },
     "assert/not-equals": {
@@ -146,7 +146,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/not_equals.ts"
+        "ssert/not_equals.ts"
       ]
     },
     "assert/not-instance-of": {
@@ -155,7 +155,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/not_instance_of.ts"
+        "ssert/not_instance_of.ts"
       ]
     },
     "assert/not-match": {
@@ -164,7 +164,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/not_match.ts"
+        "ssert/not_match.ts"
       ]
     },
     "assert/not-strict-equals": {
@@ -173,7 +173,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/not_strict_equals.ts"
+        "ssert/not_strict_equals.ts"
       ]
     },
     "assert/object-match": {
@@ -182,7 +182,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/object_match.ts"
+        "ssert/object_match.ts"
       ]
     },
     "assert/rejects": {
@@ -191,7 +191,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/rejects.ts"
+        "ssert/rejects.ts"
       ]
     },
     "assert/strict-equals": {
@@ -200,7 +200,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/strict_equals.ts"
+        "ssert/strict_equals.ts"
       ]
     },
     "assert/string-includes": {
@@ -209,7 +209,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/string_includes.ts"
+        "ssert/string_includes.ts"
       ]
     },
     "assert/throws": {
@@ -218,7 +218,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/throws.ts"
+        "ssert/throws.ts"
       ]
     },
     "assert/assertion-error": {
@@ -227,7 +227,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/assertion_error.ts"
+        "ssert/assertion_error.ts"
       ]
     },
     "assert/equal": {
@@ -236,7 +236,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/equal.ts"
+        "ssert/equal.ts"
       ]
     },
     "assert/fail": {
@@ -245,7 +245,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/fail.ts"
+        "ssert/fail.ts"
       ]
     },
     "assert/unimplemented": {
@@ -254,7 +254,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/unimplemented.ts"
+        "ssert/unimplemented.ts"
       ]
     },
     "assert/unreachable": {
@@ -263,7 +263,7 @@
       ],
       "module": "assert",
       "source": [
-        "assert/unreachable.ts"
+        "ssert/unreachable.ts"
       ]
     },
     "async": {
@@ -277,12 +277,12 @@
       ],
       "module": "async",
       "source": [
-        "async/mod.ts",
-        "async/unstable_throttle.ts",
-        "async/unstable_wait_for.ts",
-        "async/unstable_semaphore.ts",
-        "async/unstable_circuit_breaker.ts",
-        "async/unstable_pool_settled.ts"
+        "sync/mod.ts",
+        "sync/unstable_throttle.ts",
+        "sync/unstable_wait_for.ts",
+        "sync/unstable_semaphore.ts",
+        "sync/unstable_circuit_breaker.ts",
+        "sync/unstable_pool_settled.ts"
       ]
     },
     "async/abortable": {
@@ -291,7 +291,7 @@
       ],
       "module": "async",
       "source": [
-        "async/abortable.ts"
+        "sync/abortable.ts"
       ]
     },
     "async/channel": {
@@ -300,7 +300,7 @@
       ],
       "module": "async",
       "source": [
-        "async/channel.ts"
+        "sync/channel.ts"
       ]
     },
     "async/deadline": {
@@ -309,7 +309,7 @@
       ],
       "module": "async",
       "source": [
-        "async/deadline.ts"
+        "sync/deadline.ts"
       ]
     },
     "async/debounce": {
@@ -318,7 +318,7 @@
       ],
       "module": "async",
       "source": [
-        "async/debounce.ts"
+        "sync/debounce.ts"
       ]
     },
     "async/delay": {
@@ -327,7 +327,7 @@
       ],
       "module": "async",
       "source": [
-        "async/delay.ts"
+        "sync/delay.ts"
       ]
     },
     "async/mux-async-iterator": {
@@ -336,7 +336,7 @@
       ],
       "module": "async",
       "source": [
-        "async/mux_async_iterator.ts"
+        "sync/mux_async_iterator.ts"
       ]
     },
     "async/poll": {
@@ -345,7 +345,7 @@
       ],
       "module": "async",
       "source": [
-        "async/poll.ts"
+        "sync/poll.ts"
       ]
     },
     "async/pool": {
@@ -354,7 +354,7 @@
       ],
       "module": "async",
       "source": [
-        "async/pool.ts"
+        "sync/pool.ts"
       ]
     },
     "async/retry": {
@@ -363,7 +363,7 @@
       ],
       "module": "async",
       "source": [
-        "async/retry.ts"
+        "sync/retry.ts"
       ]
     },
     "async/tee": {
@@ -372,7 +372,7 @@
       ],
       "module": "async",
       "source": [
-        "async/tee.ts"
+        "sync/tee.ts"
       ]
     },
     "async/all-keyed": {
@@ -381,7 +381,7 @@
       ],
       "module": "async",
       "source": [
-        "async/all_keyed.ts"
+        "sync/all_keyed.ts"
       ]
     },
     "async/throttle": {
@@ -390,7 +390,7 @@
       ],
       "module": "async",
       "source": [
-        "async/unstable_throttle.ts"
+        "sync/unstable_throttle.ts"
       ]
     },
     "async/wait-for": {
@@ -399,7 +399,7 @@
       ],
       "module": "async",
       "source": [
-        "async/unstable_wait_for.ts"
+        "sync/unstable_wait_for.ts"
       ]
     },
     "async/semaphore": {
@@ -408,7 +408,7 @@
       ],
       "module": "async",
       "source": [
-        "async/unstable_semaphore.ts"
+        "sync/unstable_semaphore.ts"
       ]
     },
     "async/circuit-breaker": {
@@ -417,7 +417,7 @@
       ],
       "module": "async",
       "source": [
-        "async/unstable_circuit_breaker.ts"
+        "sync/unstable_circuit_breaker.ts"
       ]
     },
     "async/lazy": {
@@ -426,7 +426,7 @@
       ],
       "module": "async",
       "source": [
-        "async/lazy.ts"
+        "sync/lazy.ts"
       ]
     },
     "async/pool-settled": {
@@ -435,7 +435,7 @@
       ],
       "module": "async",
       "source": [
-        "async/unstable_pool_settled.ts"
+        "sync/unstable_pool_settled.ts"
       ]
     },
     "bytes": {
@@ -444,7 +444,7 @@
       ],
       "module": "bytes",
       "source": [
-        "bytes/mod.ts"
+        "ytes/mod.ts"
       ]
     },
     "bytes/concat": {
@@ -453,7 +453,7 @@
       ],
       "module": "bytes",
       "source": [
-        "bytes/concat.ts"
+        "ytes/concat.ts"
       ]
     },
     "bytes/copy": {
@@ -462,7 +462,7 @@
       ],
       "module": "bytes",
       "source": [
-        "bytes/copy.ts"
+        "ytes/copy.ts"
       ]
     },
     "bytes/ends-with": {
@@ -471,7 +471,7 @@
       ],
       "module": "bytes",
       "source": [
-        "bytes/ends_with.ts"
+        "ytes/ends_with.ts"
       ]
     },
     "bytes/equals": {
@@ -480,7 +480,7 @@
       ],
       "module": "bytes",
       "source": [
-        "bytes/equals.ts"
+        "ytes/equals.ts"
       ]
     },
     "bytes/includes-needle": {
@@ -489,7 +489,7 @@
       ],
       "module": "bytes",
       "source": [
-        "bytes/includes_needle.ts"
+        "ytes/includes_needle.ts"
       ]
     },
     "bytes/index-of-needle": {
@@ -498,7 +498,7 @@
       ],
       "module": "bytes",
       "source": [
-        "bytes/index_of_needle.ts"
+        "ytes/index_of_needle.ts"
       ]
     },
     "bytes/last-index-of-needle": {
@@ -507,7 +507,7 @@
       ],
       "module": "bytes",
       "source": [
-        "bytes/last_index_of_needle.ts"
+        "ytes/last_index_of_needle.ts"
       ]
     },
     "bytes/repeat": {
@@ -516,7 +516,7 @@
       ],
       "module": "bytes",
       "source": [
-        "bytes/repeat.ts"
+        "ytes/repeat.ts"
       ]
     },
     "bytes/starts-with": {
@@ -525,7 +525,7 @@
       ],
       "module": "bytes",
       "source": [
-        "bytes/starts_with.ts"
+        "ytes/starts_with.ts"
       ]
     },
     "cache": {
@@ -534,7 +534,7 @@
       ],
       "module": "cache",
       "source": [
-        "cache/mod.ts"
+        "ache/mod.ts"
       ]
     },
     "cache/lru-cache": {
@@ -543,7 +543,7 @@
       ],
       "module": "cache",
       "source": [
-        "cache/lru_cache.ts"
+        "ache/lru_cache.ts"
       ]
     },
     "cache/memoize": {
@@ -552,7 +552,7 @@
       ],
       "module": "cache",
       "source": [
-        "cache/memoize.ts"
+        "ache/memoize.ts"
       ]
     },
     "cache/ttl-cache": {
@@ -561,7 +561,7 @@
       ],
       "module": "cache",
       "source": [
-        "cache/ttl_cache.ts"
+        "ache/ttl_cache.ts"
       ]
     },
     "cbor": {
@@ -570,7 +570,7 @@
       ],
       "module": "cbor",
       "source": [
-        "cbor/mod.ts"
+        "bor/mod.ts"
       ]
     },
     "cbor/array-encoder-stream": {
@@ -579,7 +579,7 @@
       ],
       "module": "cbor",
       "source": [
-        "cbor/array_encoder_stream.ts"
+        "bor/array_encoder_stream.ts"
       ]
     },
     "cbor/byte-encoder-stream": {
@@ -588,7 +588,7 @@
       ],
       "module": "cbor",
       "source": [
-        "cbor/byte_encoder_stream.ts"
+        "bor/byte_encoder_stream.ts"
       ]
     },
     "cbor/decode-cbor-sequence": {
@@ -597,7 +597,7 @@
       ],
       "module": "cbor",
       "source": [
-        "cbor/decode_cbor_sequence.ts"
+        "bor/decode_cbor_sequence.ts"
       ]
     },
     "cbor/decode-cbor": {
@@ -606,7 +606,7 @@
       ],
       "module": "cbor",
       "source": [
-        "cbor/decode_cbor.ts"
+        "bor/decode_cbor.ts"
       ]
     },
     "cbor/encode-cbor-sequence": {
@@ -615,7 +615,7 @@
       ],
       "module": "cbor",
       "source": [
-        "cbor/encode_cbor_sequence.ts"
+        "bor/encode_cbor_sequence.ts"
       ]
     },
     "cbor/encode-cbor": {
@@ -624,7 +624,7 @@
       ],
       "module": "cbor",
       "source": [
-        "cbor/encode_cbor.ts"
+        "bor/encode_cbor.ts"
       ]
     },
     "cbor/map-encoder-stream": {
@@ -633,7 +633,7 @@
       ],
       "module": "cbor",
       "source": [
-        "cbor/map_encoder_stream.ts"
+        "bor/map_encoder_stream.ts"
       ]
     },
     "cbor/sequence-decoder-stream": {
@@ -642,7 +642,7 @@
       ],
       "module": "cbor",
       "source": [
-        "cbor/sequence_decoder_stream.ts"
+        "bor/sequence_decoder_stream.ts"
       ]
     },
     "cbor/sequence-encoder-stream": {
@@ -651,7 +651,7 @@
       ],
       "module": "cbor",
       "source": [
-        "cbor/sequence_encoder_stream.ts"
+        "bor/sequence_encoder_stream.ts"
       ]
     },
     "cbor/tag": {
@@ -660,7 +660,7 @@
       ],
       "module": "cbor",
       "source": [
-        "cbor/tag.ts"
+        "bor/tag.ts"
       ]
     },
     "cbor/text-encoder-stream": {
@@ -669,7 +669,7 @@
       ],
       "module": "cbor",
       "source": [
-        "cbor/text_encoder_stream.ts"
+        "bor/text_encoder_stream.ts"
       ]
     },
     "cbor/types": {
@@ -678,7 +678,7 @@
       ],
       "module": "cbor",
       "source": [
-        "cbor/types.ts"
+        "bor/types.ts"
       ]
     },
     "cli": {
@@ -695,15 +695,15 @@
       ],
       "module": "cli",
       "source": [
-        "cli/mod.ts",
-        "cli/unstable_ansi.ts",
-        "cli/unstable_get_cursor.ts",
-        "cli/unstable_progress_bar.ts",
-        "cli/unstable_progress_bar_stream.ts",
-        "cli/unstable_prompt_select.ts",
-        "cli/unstable_prompt_multiple_select.ts",
-        "cli/unstable_spinner.ts",
-        "cli/unstable_static_line.ts"
+        "li/mod.ts",
+        "li/unstable_ansi.ts",
+        "li/unstable_get_cursor.ts",
+        "li/unstable_progress_bar.ts",
+        "li/unstable_progress_bar_stream.ts",
+        "li/unstable_prompt_select.ts",
+        "li/unstable_prompt_multiple_select.ts",
+        "li/unstable_spinner.ts",
+        "li/unstable_static_line.ts"
       ]
     },
     "cli/parse-args": {
@@ -712,7 +712,7 @@
       ],
       "module": "cli",
       "source": [
-        "cli/parse_args.ts"
+        "li/parse_args.ts"
       ]
     },
     "cli/prompt-secret": {
@@ -721,7 +721,7 @@
       ],
       "module": "cli",
       "source": [
-        "cli/prompt_secret.ts"
+        "li/prompt_secret.ts"
       ]
     },
     "cli/ansi": {
@@ -730,7 +730,7 @@
       ],
       "module": "cli",
       "source": [
-        "cli/unstable_ansi.ts"
+        "li/unstable_ansi.ts"
       ]
     },
     "cli/get-cursor": {
@@ -739,7 +739,7 @@
       ],
       "module": "cli",
       "source": [
-        "cli/unstable_get_cursor.ts"
+        "li/unstable_get_cursor.ts"
       ]
     },
     "cli/progress-bar": {
@@ -748,7 +748,7 @@
       ],
       "module": "cli",
       "source": [
-        "cli/unstable_progress_bar.ts"
+        "li/unstable_progress_bar.ts"
       ]
     },
     "cli/progress-bar-stream": {
@@ -757,7 +757,7 @@
       ],
       "module": "cli",
       "source": [
-        "cli/unstable_progress_bar_stream.ts"
+        "li/unstable_progress_bar_stream.ts"
       ]
     },
     "cli/prompt-select": {
@@ -766,7 +766,7 @@
       ],
       "module": "cli",
       "source": [
-        "cli/unstable_prompt_select.ts"
+        "li/unstable_prompt_select.ts"
       ]
     },
     "cli/prompt-multiple-select": {
@@ -775,7 +775,7 @@
       ],
       "module": "cli",
       "source": [
-        "cli/unstable_prompt_multiple_select.ts"
+        "li/unstable_prompt_multiple_select.ts"
       ]
     },
     "cli/spinner": {
@@ -784,7 +784,7 @@
       ],
       "module": "cli",
       "source": [
-        "cli/unstable_spinner.ts"
+        "li/unstable_spinner.ts"
       ]
     },
     "cli/static-line": {
@@ -793,7 +793,7 @@
       ],
       "module": "cli",
       "source": [
-        "cli/unstable_static_line.ts"
+        "li/unstable_static_line.ts"
       ]
     },
     "cli/unicode-width": {
@@ -802,7 +802,7 @@
       ],
       "module": "cli",
       "source": [
-        "cli/unicode_width.ts"
+        "li/unicode_width.ts"
       ]
     },
     "collections": {
@@ -813,9 +813,9 @@
       ],
       "module": "collections",
       "source": [
-        "collections/mod.ts",
-        "collections/unstable_binary_search.ts",
-        "collections/unstable_cycle.ts"
+        "ollections/mod.ts",
+        "ollections/unstable_binary_search.ts",
+        "ollections/unstable_cycle.ts"
       ]
     },
     "collections/aggregate-groups": {
@@ -824,7 +824,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/aggregate_groups.ts"
+        "ollections/aggregate_groups.ts"
       ]
     },
     "collections/associate-by": {
@@ -833,7 +833,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/associate_by.ts"
+        "ollections/associate_by.ts"
       ]
     },
     "collections/associate-with": {
@@ -842,7 +842,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/associate_with.ts"
+        "ollections/associate_with.ts"
       ]
     },
     "collections/chunk": {
@@ -851,7 +851,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/chunk.ts"
+        "ollections/chunk.ts"
       ]
     },
     "collections/deep-merge": {
@@ -860,7 +860,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/deep_merge.ts"
+        "ollections/deep_merge.ts"
       ]
     },
     "collections/distinct": {
@@ -869,7 +869,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/distinct.ts"
+        "ollections/distinct.ts"
       ]
     },
     "collections/distinct-by": {
@@ -878,7 +878,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/distinct_by.ts"
+        "ollections/distinct_by.ts"
       ]
     },
     "collections/drop-last-while": {
@@ -887,7 +887,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/drop_last_while.ts"
+        "ollections/drop_last_while.ts"
       ]
     },
     "collections/drop-while": {
@@ -896,7 +896,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/drop_while.ts"
+        "ollections/drop_while.ts"
       ]
     },
     "collections/filter-entries": {
@@ -905,7 +905,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/filter_entries.ts"
+        "ollections/filter_entries.ts"
       ]
     },
     "collections/filter-keys": {
@@ -914,7 +914,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/filter_keys.ts"
+        "ollections/filter_keys.ts"
       ]
     },
     "collections/filter-values": {
@@ -923,7 +923,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/filter_values.ts"
+        "ollections/filter_values.ts"
       ]
     },
     "collections/find-single": {
@@ -932,7 +932,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/find_single.ts"
+        "ollections/find_single.ts"
       ]
     },
     "collections/first-not-nullish-of": {
@@ -941,7 +941,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/first_not_nullish_of.ts"
+        "ollections/first_not_nullish_of.ts"
       ]
     },
     "collections/includes-value": {
@@ -950,7 +950,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/includes_value.ts"
+        "ollections/includes_value.ts"
       ]
     },
     "collections/interleave": {
@@ -959,7 +959,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/interleave.ts"
+        "ollections/interleave.ts"
       ]
     },
     "collections/intersect": {
@@ -968,7 +968,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/intersect.ts"
+        "ollections/intersect.ts"
       ]
     },
     "collections/invert-by": {
@@ -977,7 +977,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/invert_by.ts"
+        "ollections/invert_by.ts"
       ]
     },
     "collections/invert": {
@@ -986,7 +986,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/invert.ts"
+        "ollections/invert.ts"
       ]
     },
     "collections/join-to-string": {
@@ -995,7 +995,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/join_to_string.ts"
+        "ollections/join_to_string.ts"
       ]
     },
     "collections/map-entries": {
@@ -1004,7 +1004,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/map_entries.ts"
+        "ollections/map_entries.ts"
       ]
     },
     "collections/map-keys": {
@@ -1013,7 +1013,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/map_keys.ts"
+        "ollections/map_keys.ts"
       ]
     },
     "collections/map-not-nullish": {
@@ -1022,7 +1022,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/map_not_nullish.ts"
+        "ollections/map_not_nullish.ts"
       ]
     },
     "collections/map-values": {
@@ -1031,7 +1031,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/map_values.ts"
+        "ollections/map_values.ts"
       ]
     },
     "collections/max-by": {
@@ -1040,7 +1040,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/max_by.ts"
+        "ollections/max_by.ts"
       ]
     },
     "collections/max-of": {
@@ -1049,7 +1049,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/max_of.ts"
+        "ollections/max_of.ts"
       ]
     },
     "collections/max-with": {
@@ -1058,7 +1058,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/max_with.ts"
+        "ollections/max_with.ts"
       ]
     },
     "collections/min-by": {
@@ -1067,7 +1067,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/min_by.ts"
+        "ollections/min_by.ts"
       ]
     },
     "collections/min-of": {
@@ -1076,7 +1076,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/min_of.ts"
+        "ollections/min_of.ts"
       ]
     },
     "collections/min-with": {
@@ -1085,7 +1085,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/min_with.ts"
+        "ollections/min_with.ts"
       ]
     },
     "collections/omit": {
@@ -1094,7 +1094,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/omit.ts"
+        "ollections/omit.ts"
       ]
     },
     "collections/partition": {
@@ -1103,7 +1103,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/partition.ts"
+        "ollections/partition.ts"
       ]
     },
     "collections/partition-entries": {
@@ -1112,7 +1112,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/partition_entries.ts"
+        "ollections/partition_entries.ts"
       ]
     },
     "collections/permutations": {
@@ -1121,7 +1121,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/permutations.ts"
+        "ollections/permutations.ts"
       ]
     },
     "collections/pick": {
@@ -1130,7 +1130,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/pick.ts"
+        "ollections/pick.ts"
       ]
     },
     "collections/reduce-groups": {
@@ -1139,7 +1139,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/reduce_groups.ts"
+        "ollections/reduce_groups.ts"
       ]
     },
     "collections/running-reduce": {
@@ -1148,7 +1148,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/running_reduce.ts"
+        "ollections/running_reduce.ts"
       ]
     },
     "collections/sample": {
@@ -1157,7 +1157,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/sample.ts"
+        "ollections/sample.ts"
       ]
     },
     "collections/sliding-windows": {
@@ -1166,7 +1166,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/sliding_windows.ts"
+        "ollections/sliding_windows.ts"
       ]
     },
     "collections/sort-by": {
@@ -1175,7 +1175,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/sort_by.ts"
+        "ollections/sort_by.ts"
       ]
     },
     "collections/sum-of": {
@@ -1184,7 +1184,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/sum_of.ts"
+        "ollections/sum_of.ts"
       ]
     },
     "collections/take-last-while": {
@@ -1193,7 +1193,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/take_last_while.ts"
+        "ollections/take_last_while.ts"
       ]
     },
     "collections/take-while": {
@@ -1202,7 +1202,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/take_while.ts"
+        "ollections/take_while.ts"
       ]
     },
     "collections/union": {
@@ -1211,7 +1211,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/union.ts"
+        "ollections/union.ts"
       ]
     },
     "collections/binary-search": {
@@ -1220,7 +1220,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/unstable_binary_search.ts"
+        "ollections/unstable_binary_search.ts"
       ]
     },
     "collections/cycle": {
@@ -1229,7 +1229,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/unstable_cycle.ts"
+        "ollections/unstable_cycle.ts"
       ]
     },
     "collections/unzip": {
@@ -1238,7 +1238,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/unzip.ts"
+        "ollections/unzip.ts"
       ]
     },
     "collections/without-all": {
@@ -1247,7 +1247,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/without_all.ts"
+        "ollections/without_all.ts"
       ]
     },
     "collections/zip": {
@@ -1256,7 +1256,7 @@
       ],
       "module": "collections",
       "source": [
-        "collections/zip.ts"
+        "ollections/zip.ts"
       ]
     },
     "crypto": {
@@ -1265,7 +1265,7 @@
       ],
       "module": "crypto",
       "source": [
-        "crypto/mod.ts"
+        "rypto/mod.ts"
       ]
     },
     "crypto/crypto": {
@@ -1274,7 +1274,7 @@
       ],
       "module": "crypto",
       "source": [
-        "crypto/crypto.ts"
+        "rypto/crypto.ts"
       ]
     },
     "crypto/timing-safe-equal": {
@@ -1283,7 +1283,7 @@
       ],
       "module": "crypto",
       "source": [
-        "crypto/timing_safe_equal.ts"
+        "rypto/timing_safe_equal.ts"
       ]
     },
     "crypto/aes-gcm": {
@@ -1292,7 +1292,7 @@
       ],
       "module": "crypto",
       "source": [
-        "crypto/aes_gcm.ts"
+        "rypto/aes_gcm.ts"
       ]
     },
     "csv": {
@@ -1301,7 +1301,7 @@
       ],
       "module": "csv",
       "source": [
-        "csv/mod.ts"
+        "sv/mod.ts"
       ]
     },
     "csv/parse": {
@@ -1310,7 +1310,7 @@
       ],
       "module": "csv",
       "source": [
-        "csv/parse.ts"
+        "sv/parse.ts"
       ]
     },
     "csv/parse-stream": {
@@ -1319,7 +1319,7 @@
       ],
       "module": "csv",
       "source": [
-        "csv/parse_stream.ts"
+        "sv/parse_stream.ts"
       ]
     },
     "csv/stringify": {
@@ -1328,7 +1328,7 @@
       ],
       "module": "csv",
       "source": [
-        "csv/stringify.ts"
+        "sv/stringify.ts"
       ]
     },
     "csv/stringify-stream": {
@@ -1337,7 +1337,7 @@
       ],
       "module": "csv",
       "source": [
-        "csv/stringify_stream.ts"
+        "sv/stringify_stream.ts"
       ]
     },
     "data-structures": {
@@ -1351,12 +1351,12 @@
       ],
       "module": "data-structures",
       "source": [
-        "data_structures/mod.ts",
-        "data_structures/unstable_bidirectional_map.ts",
-        "data_structures/unstable_2d_array.ts",
-        "data_structures/unstable_rolling_counter.ts",
-        "data_structures/unstable_indexed_heap.ts",
-        "data_structures/unstable_multimap.ts"
+        "ata_structures/mod.ts",
+        "ata_structures/unstable_bidirectional_map.ts",
+        "ata_structures/unstable_2d_array.ts",
+        "ata_structures/unstable_rolling_counter.ts",
+        "ata_structures/unstable_indexed_heap.ts",
+        "ata_structures/unstable_multimap.ts"
       ]
     },
     "data-structures/bidirectional-map": {
@@ -1365,7 +1365,7 @@
       ],
       "module": "data-structures",
       "source": [
-        "data_structures/unstable_bidirectional_map.ts"
+        "ata_structures/unstable_bidirectional_map.ts"
       ]
     },
     "data-structures/binary-heap": {
@@ -1374,7 +1374,7 @@
       ],
       "module": "data-structures",
       "source": [
-        "data_structures/binary_heap.ts"
+        "ata_structures/binary_heap.ts"
       ]
     },
     "data-structures/binary-search-tree": {
@@ -1383,7 +1383,7 @@
       ],
       "module": "data-structures",
       "source": [
-        "data_structures/binary_search_tree.ts"
+        "ata_structures/binary_search_tree.ts"
       ]
     },
     "data-structures/comparators": {
@@ -1392,7 +1392,7 @@
       ],
       "module": "data-structures",
       "source": [
-        "data_structures/comparators.ts"
+        "ata_structures/comparators.ts"
       ]
     },
     "data-structures/deque": {
@@ -1401,7 +1401,7 @@
       ],
       "module": "data-structures",
       "source": [
-        "data_structures/deque.ts"
+        "ata_structures/deque.ts"
       ]
     },
     "data-structures/red-black-tree": {
@@ -1410,7 +1410,7 @@
       ],
       "module": "data-structures",
       "source": [
-        "data_structures/red_black_tree.ts"
+        "ata_structures/red_black_tree.ts"
       ]
     },
     "data-structures/2d-array": {
@@ -1419,7 +1419,7 @@
       ],
       "module": "data-structures",
       "source": [
-        "data_structures/unstable_2d_array.ts"
+        "ata_structures/unstable_2d_array.ts"
       ]
     },
     "data-structures/rolling-counter": {
@@ -1428,7 +1428,7 @@
       ],
       "module": "data-structures",
       "source": [
-        "data_structures/unstable_rolling_counter.ts"
+        "ata_structures/unstable_rolling_counter.ts"
       ]
     },
     "data-structures/indexed-heap": {
@@ -1437,7 +1437,7 @@
       ],
       "module": "data-structures",
       "source": [
-        "data_structures/unstable_indexed_heap.ts"
+        "ata_structures/unstable_indexed_heap.ts"
       ]
     },
     "data-structures/multimap": {
@@ -1446,7 +1446,7 @@
       ],
       "module": "data-structures",
       "source": [
-        "data_structures/unstable_multimap.ts"
+        "ata_structures/unstable_multimap.ts"
       ]
     },
     "datetime": {
@@ -1455,7 +1455,7 @@
       ],
       "module": "datetime",
       "source": [
-        "datetime/mod.ts"
+        "atetime/mod.ts"
       ]
     },
     "datetime/constants": {
@@ -1464,7 +1464,7 @@
       ],
       "module": "datetime",
       "source": [
-        "datetime/constants.ts"
+        "atetime/constants.ts"
       ]
     },
     "datetime/day-of-year": {
@@ -1473,7 +1473,7 @@
       ],
       "module": "datetime",
       "source": [
-        "datetime/day_of_year.ts"
+        "atetime/day_of_year.ts"
       ]
     },
     "datetime/difference": {
@@ -1482,7 +1482,7 @@
       ],
       "module": "datetime",
       "source": [
-        "datetime/difference.ts"
+        "atetime/difference.ts"
       ]
     },
     "datetime/format": {
@@ -1491,7 +1491,7 @@
       ],
       "module": "datetime",
       "source": [
-        "datetime/format.ts"
+        "atetime/format.ts"
       ]
     },
     "datetime/is-leap": {
@@ -1500,7 +1500,7 @@
       ],
       "module": "datetime",
       "source": [
-        "datetime/is_leap.ts"
+        "atetime/is_leap.ts"
       ]
     },
     "datetime/parse": {
@@ -1509,7 +1509,7 @@
       ],
       "module": "datetime",
       "source": [
-        "datetime/parse.ts"
+        "atetime/parse.ts"
       ]
     },
     "datetime/week-of-year": {
@@ -1518,7 +1518,7 @@
       ],
       "module": "datetime",
       "source": [
-        "datetime/week_of_year.ts"
+        "atetime/week_of_year.ts"
       ]
     },
     "dotenv": {
@@ -1527,7 +1527,7 @@
       ],
       "module": "dotenv",
       "source": [
-        "dotenv/mod.ts"
+        "otenv/mod.ts"
       ]
     },
     "dotenv/load": {
@@ -1536,7 +1536,7 @@
       ],
       "module": "dotenv",
       "source": [
-        "dotenv/load.ts"
+        "otenv/load.ts"
       ]
     },
     "dotenv/parse": {
@@ -1545,7 +1545,7 @@
       ],
       "module": "dotenv",
       "source": [
-        "dotenv/parse.ts"
+        "otenv/parse.ts"
       ]
     },
     "dotenv/stringify": {
@@ -1554,7 +1554,7 @@
       ],
       "module": "dotenv",
       "source": [
-        "dotenv/stringify.ts"
+        "otenv/stringify.ts"
       ]
     },
     "encoding": {
@@ -1566,10 +1566,10 @@
       ],
       "module": "encoding",
       "source": [
-        "encoding/mod.ts",
-        "encoding/unstable_base32_stream.ts",
-        "encoding/unstable_base64_stream.ts",
-        "encoding/unstable_hex_stream.ts"
+        "ncoding/mod.ts",
+        "ncoding/unstable_base32_stream.ts",
+        "ncoding/unstable_base64_stream.ts",
+        "ncoding/unstable_hex_stream.ts"
       ]
     },
     "encoding/ascii85": {
@@ -1578,7 +1578,7 @@
       ],
       "module": "encoding",
       "source": [
-        "encoding/ascii85.ts"
+        "ncoding/ascii85.ts"
       ]
     },
     "encoding/base32": {
@@ -1587,7 +1587,7 @@
       ],
       "module": "encoding",
       "source": [
-        "encoding/base32.ts"
+        "ncoding/base32.ts"
       ]
     },
     "encoding/base32-stream": {
@@ -1596,7 +1596,7 @@
       ],
       "module": "encoding",
       "source": [
-        "encoding/unstable_base32_stream.ts"
+        "ncoding/unstable_base32_stream.ts"
       ]
     },
     "encoding/base58": {
@@ -1605,7 +1605,7 @@
       ],
       "module": "encoding",
       "source": [
-        "encoding/base58.ts"
+        "ncoding/base58.ts"
       ]
     },
     "encoding/base64": {
@@ -1614,7 +1614,7 @@
       ],
       "module": "encoding",
       "source": [
-        "encoding/base64.ts"
+        "ncoding/base64.ts"
       ]
     },
     "encoding/base64-stream": {
@@ -1623,7 +1623,7 @@
       ],
       "module": "encoding",
       "source": [
-        "encoding/unstable_base64_stream.ts"
+        "ncoding/unstable_base64_stream.ts"
       ]
     },
     "encoding/base64url": {
@@ -1632,7 +1632,7 @@
       ],
       "module": "encoding",
       "source": [
-        "encoding/base64url.ts"
+        "ncoding/base64url.ts"
       ]
     },
     "encoding/hex": {
@@ -1641,7 +1641,7 @@
       ],
       "module": "encoding",
       "source": [
-        "encoding/hex.ts"
+        "ncoding/hex.ts"
       ]
     },
     "encoding/hex-stream": {
@@ -1650,7 +1650,7 @@
       ],
       "module": "encoding",
       "source": [
-        "encoding/unstable_hex_stream.ts"
+        "ncoding/unstable_hex_stream.ts"
       ]
     },
     "encoding/varint": {
@@ -1659,7 +1659,7 @@
       ],
       "module": "encoding",
       "source": [
-        "encoding/varint.ts"
+        "ncoding/varint.ts"
       ]
     },
     "expect": {
@@ -1668,7 +1668,7 @@
       ],
       "module": "expect",
       "source": [
-        "expect/mod.ts"
+        "xpect/mod.ts"
       ]
     },
     "expect/expect": {
@@ -1677,7 +1677,7 @@
       ],
       "module": "expect",
       "source": [
-        "expect/expect.ts"
+        "xpect/expect.ts"
       ]
     },
     "expect/fn": {
@@ -1686,7 +1686,7 @@
       ],
       "module": "expect",
       "source": [
-        "expect/fn.ts"
+        "xpect/fn.ts"
       ]
     },
     "fmt/bytes": {
@@ -1695,7 +1695,7 @@
       ],
       "module": "fmt",
       "source": [
-        "fmt/bytes.ts"
+        "mt/bytes.ts"
       ]
     },
     "fmt/colors": {
@@ -1704,7 +1704,7 @@
       ],
       "module": "fmt",
       "source": [
-        "fmt/colors.ts"
+        "mt/colors.ts"
       ]
     },
     "fmt/duration": {
@@ -1713,7 +1713,7 @@
       ],
       "module": "fmt",
       "source": [
-        "fmt/duration.ts"
+        "mt/duration.ts"
       ]
     },
     "fmt/printf": {
@@ -1722,7 +1722,7 @@
       ],
       "module": "fmt",
       "source": [
-        "fmt/printf.ts"
+        "mt/printf.ts"
       ]
     },
     "front-matter": {
@@ -1731,7 +1731,7 @@
       ],
       "module": "front-matter",
       "source": [
-        "front_matter/mod.ts"
+        "ront_matter/mod.ts"
       ]
     },
     "front-matter/any": {
@@ -1740,7 +1740,7 @@
       ],
       "module": "front-matter",
       "source": [
-        "front_matter/any.ts"
+        "ront_matter/any.ts"
       ]
     },
     "front-matter/json": {
@@ -1749,7 +1749,7 @@
       ],
       "module": "front-matter",
       "source": [
-        "front_matter/json.ts"
+        "ront_matter/json.ts"
       ]
     },
     "front-matter/test": {
@@ -1758,7 +1758,7 @@
       ],
       "module": "front-matter",
       "source": [
-        "front_matter/test.ts"
+        "ront_matter/test.ts"
       ]
     },
     "front-matter/toml": {
@@ -1767,7 +1767,7 @@
       ],
       "module": "front-matter",
       "source": [
-        "front_matter/toml.ts"
+        "ront_matter/toml.ts"
       ]
     },
     "front-matter/yaml": {
@@ -1776,7 +1776,7 @@
       ],
       "module": "front-matter",
       "source": [
-        "front_matter/yaml.ts"
+        "ront_matter/yaml.ts"
       ]
     },
     "front-matter/types": {
@@ -1785,7 +1785,7 @@
       ],
       "module": "front-matter",
       "source": [
-        "front_matter/types.ts"
+        "ront_matter/types.ts"
       ]
     },
     "fs": {
@@ -1819,32 +1819,32 @@
       ],
       "module": "fs",
       "source": [
-        "fs/mod.ts",
-        "fs/unstable_chmod.ts",
-        "fs/unstable_chown.ts",
-        "fs/unstable_copy_file.ts",
-        "fs/unstable_create.ts",
-        "fs/unstable_link.ts",
-        "fs/unstable_lstat.ts",
-        "fs/unstable_make_temp_dir.ts",
-        "fs/unstable_make_temp_file.ts",
-        "fs/unstable_mkdir.ts",
-        "fs/unstable_open.ts",
-        "fs/unstable_read_dir.ts",
-        "fs/unstable_read_file.ts",
-        "fs/unstable_read_link.ts",
-        "fs/unstable_read_text_file.ts",
-        "fs/unstable_real_path.ts",
-        "fs/unstable_remove.ts",
-        "fs/unstable_rename.ts",
-        "fs/unstable_stat.ts",
-        "fs/unstable_utime.ts",
-        "fs/unstable_symlink.ts",
-        "fs/unstable_truncate.ts",
-        "fs/unstable_types.ts",
-        "fs/unstable_umask.ts",
-        "fs/unstable_write_file.ts",
-        "fs/unstable_write_text_file.ts"
+        "s/mod.ts",
+        "s/unstable_chmod.ts",
+        "s/unstable_chown.ts",
+        "s/unstable_copy_file.ts",
+        "s/unstable_create.ts",
+        "s/unstable_link.ts",
+        "s/unstable_lstat.ts",
+        "s/unstable_make_temp_dir.ts",
+        "s/unstable_make_temp_file.ts",
+        "s/unstable_mkdir.ts",
+        "s/unstable_open.ts",
+        "s/unstable_read_dir.ts",
+        "s/unstable_read_file.ts",
+        "s/unstable_read_link.ts",
+        "s/unstable_read_text_file.ts",
+        "s/unstable_real_path.ts",
+        "s/unstable_remove.ts",
+        "s/unstable_rename.ts",
+        "s/unstable_stat.ts",
+        "s/unstable_utime.ts",
+        "s/unstable_symlink.ts",
+        "s/unstable_truncate.ts",
+        "s/unstable_types.ts",
+        "s/unstable_umask.ts",
+        "s/unstable_write_file.ts",
+        "s/unstable_write_text_file.ts"
       ]
     },
     "fs/copy": {
@@ -1853,7 +1853,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/copy.ts"
+        "s/copy.ts"
       ]
     },
     "fs/empty-dir": {
@@ -1862,7 +1862,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/empty_dir.ts"
+        "s/empty_dir.ts"
       ]
     },
     "fs/ensure-dir": {
@@ -1871,7 +1871,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/ensure_dir.ts"
+        "s/ensure_dir.ts"
       ]
     },
     "fs/ensure-file": {
@@ -1880,7 +1880,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/ensure_file.ts"
+        "s/ensure_file.ts"
       ]
     },
     "fs/ensure-link": {
@@ -1889,7 +1889,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/ensure_link.ts"
+        "s/ensure_link.ts"
       ]
     },
     "fs/ensure-symlink": {
@@ -1898,7 +1898,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/ensure_symlink.ts"
+        "s/ensure_symlink.ts"
       ]
     },
     "fs/eol": {
@@ -1907,7 +1907,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/eol.ts"
+        "s/eol.ts"
       ]
     },
     "fs/exists": {
@@ -1916,7 +1916,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/exists.ts"
+        "s/exists.ts"
       ]
     },
     "fs/expand-glob": {
@@ -1925,7 +1925,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/expand_glob.ts"
+        "s/expand_glob.ts"
       ]
     },
     "fs/move": {
@@ -1934,7 +1934,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/move.ts"
+        "s/move.ts"
       ]
     },
     "fs/chmod": {
@@ -1943,7 +1943,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_chmod.ts"
+        "s/unstable_chmod.ts"
       ]
     },
     "fs/chown": {
@@ -1952,7 +1952,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_chown.ts"
+        "s/unstable_chown.ts"
       ]
     },
     "fs/copy-file": {
@@ -1961,7 +1961,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_copy_file.ts"
+        "s/unstable_copy_file.ts"
       ]
     },
     "fs/create": {
@@ -1970,7 +1970,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_create.ts"
+        "s/unstable_create.ts"
       ]
     },
     "fs/link": {
@@ -1979,7 +1979,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_link.ts"
+        "s/unstable_link.ts"
       ]
     },
     "fs/lstat": {
@@ -1988,7 +1988,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_lstat.ts"
+        "s/unstable_lstat.ts"
       ]
     },
     "fs/make-temp-dir": {
@@ -1997,7 +1997,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_make_temp_dir.ts"
+        "s/unstable_make_temp_dir.ts"
       ]
     },
     "fs/make-temp-file": {
@@ -2006,7 +2006,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_make_temp_file.ts"
+        "s/unstable_make_temp_file.ts"
       ]
     },
     "fs/mkdir": {
@@ -2015,7 +2015,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_mkdir.ts"
+        "s/unstable_mkdir.ts"
       ]
     },
     "fs/open": {
@@ -2024,7 +2024,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_open.ts"
+        "s/unstable_open.ts"
       ]
     },
     "fs/read-dir": {
@@ -2033,7 +2033,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_read_dir.ts"
+        "s/unstable_read_dir.ts"
       ]
     },
     "fs/read-file": {
@@ -2042,7 +2042,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_read_file.ts"
+        "s/unstable_read_file.ts"
       ]
     },
     "fs/read-link": {
@@ -2051,7 +2051,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_read_link.ts"
+        "s/unstable_read_link.ts"
       ]
     },
     "fs/read-text-file": {
@@ -2060,7 +2060,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_read_text_file.ts"
+        "s/unstable_read_text_file.ts"
       ]
     },
     "fs/real-path": {
@@ -2069,7 +2069,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_real_path.ts"
+        "s/unstable_real_path.ts"
       ]
     },
     "fs/remove": {
@@ -2078,7 +2078,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_remove.ts"
+        "s/unstable_remove.ts"
       ]
     },
     "fs/rename": {
@@ -2087,7 +2087,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_rename.ts"
+        "s/unstable_rename.ts"
       ]
     },
     "fs/stat": {
@@ -2096,7 +2096,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_stat.ts"
+        "s/unstable_stat.ts"
       ]
     },
     "fs/utime": {
@@ -2105,7 +2105,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_utime.ts"
+        "s/unstable_utime.ts"
       ]
     },
     "fs/symlink": {
@@ -2114,7 +2114,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_symlink.ts"
+        "s/unstable_symlink.ts"
       ]
     },
     "fs/truncate": {
@@ -2123,7 +2123,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_truncate.ts"
+        "s/unstable_truncate.ts"
       ]
     },
     "fs/types": {
@@ -2132,7 +2132,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_types.ts"
+        "s/unstable_types.ts"
       ]
     },
     "fs/umask": {
@@ -2141,7 +2141,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_umask.ts"
+        "s/unstable_umask.ts"
       ]
     },
     "fs/write-file": {
@@ -2150,7 +2150,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_write_file.ts"
+        "s/unstable_write_file.ts"
       ]
     },
     "fs/write-text-file": {
@@ -2159,7 +2159,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/unstable_write_text_file.ts"
+        "s/unstable_write_text_file.ts"
       ]
     },
     "fs/walk": {
@@ -2168,7 +2168,7 @@
       ],
       "module": "fs",
       "source": [
-        "fs/walk.ts"
+        "s/walk.ts"
       ]
     },
     "html": {
@@ -2181,11 +2181,11 @@
       ],
       "module": "html",
       "source": [
-        "html/mod.ts",
-        "html/unstable_escape_css.ts",
-        "html/unstable_escape_js.ts",
-        "html/unstable_is_valid_custom_element_name.ts",
-        "html/unstable_html.ts"
+        "tml/mod.ts",
+        "tml/unstable_escape_css.ts",
+        "tml/unstable_escape_js.ts",
+        "tml/unstable_is_valid_custom_element_name.ts",
+        "tml/unstable_html.ts"
       ]
     },
     "html/entities": {
@@ -2194,7 +2194,7 @@
       ],
       "module": "html",
       "source": [
-        "html/entities.ts"
+        "tml/entities.ts"
       ]
     },
     "html/escape-css": {
@@ -2203,7 +2203,7 @@
       ],
       "module": "html",
       "source": [
-        "html/unstable_escape_css.ts"
+        "tml/unstable_escape_css.ts"
       ]
     },
     "html/escape-js": {
@@ -2212,7 +2212,7 @@
       ],
       "module": "html",
       "source": [
-        "html/unstable_escape_js.ts"
+        "tml/unstable_escape_js.ts"
       ]
     },
     "html/is-valid-custom-element-name": {
@@ -2221,7 +2221,7 @@
       ],
       "module": "html",
       "source": [
-        "html/unstable_is_valid_custom_element_name.ts"
+        "tml/unstable_is_valid_custom_element_name.ts"
       ]
     },
     "html/html": {
@@ -2230,7 +2230,7 @@
       ],
       "module": "html",
       "source": [
-        "html/unstable_html.ts"
+        "tml/unstable_html.ts"
       ]
     },
     "http": {
@@ -2250,18 +2250,18 @@
       ],
       "module": "http",
       "source": [
-        "http/mod.ts",
-        "http/unstable_formdata_decoder_stream.ts",
-        "http/unstable_formdata_encoder_stream.ts",
-        "http/unstable_header.ts",
-        "http/unstable_method.ts",
-        "http/unstable_problem_details.ts",
-        "http/unstable_signed_cookie.ts",
-        "http/unstable_structured_fields.ts",
-        "http/unstable_route.ts",
-        "http/unstable_cache_control.ts",
-        "http/unstable_message_signatures.ts",
-        "http/unstable_error.ts"
+        "ttp/mod.ts",
+        "ttp/unstable_formdata_decoder_stream.ts",
+        "ttp/unstable_formdata_encoder_stream.ts",
+        "ttp/unstable_header.ts",
+        "ttp/unstable_method.ts",
+        "ttp/unstable_problem_details.ts",
+        "ttp/unstable_signed_cookie.ts",
+        "ttp/unstable_structured_fields.ts",
+        "ttp/unstable_route.ts",
+        "ttp/unstable_cache_control.ts",
+        "ttp/unstable_message_signatures.ts",
+        "ttp/unstable_error.ts"
       ]
     },
     "http/cookie": {
@@ -2270,7 +2270,7 @@
       ],
       "module": "http",
       "source": [
-        "http/cookie.ts"
+        "ttp/cookie.ts"
       ]
     },
     "http/etag": {
@@ -2279,7 +2279,7 @@
       ],
       "module": "http",
       "source": [
-        "http/etag.ts"
+        "ttp/etag.ts"
       ]
     },
     "http/file-server": {
@@ -2288,7 +2288,7 @@
       ],
       "module": "http",
       "source": [
-        "http/file_server.ts"
+        "ttp/file_server.ts"
       ]
     },
     "http/formdata-decoder-stream": {
@@ -2297,7 +2297,7 @@
       ],
       "module": "http",
       "source": [
-        "http/unstable_formdata_decoder_stream.ts"
+        "ttp/unstable_formdata_decoder_stream.ts"
       ]
     },
     "http/formdata-encoder-stream": {
@@ -2306,7 +2306,7 @@
       ],
       "module": "http",
       "source": [
-        "http/unstable_formdata_encoder_stream.ts"
+        "ttp/unstable_formdata_encoder_stream.ts"
       ]
     },
     "http/header": {
@@ -2315,7 +2315,7 @@
       ],
       "module": "http",
       "source": [
-        "http/unstable_header.ts"
+        "ttp/unstable_header.ts"
       ]
     },
     "http/method": {
@@ -2324,7 +2324,7 @@
       ],
       "module": "http",
       "source": [
-        "http/unstable_method.ts"
+        "ttp/unstable_method.ts"
       ]
     },
     "http/problem-details": {
@@ -2333,7 +2333,7 @@
       ],
       "module": "http",
       "source": [
-        "http/unstable_problem_details.ts"
+        "ttp/unstable_problem_details.ts"
       ]
     },
     "http/negotiation": {
@@ -2342,7 +2342,7 @@
       ],
       "module": "http",
       "source": [
-        "http/negotiation.ts"
+        "ttp/negotiation.ts"
       ]
     },
     "http/server-sent-event-stream": {
@@ -2351,7 +2351,7 @@
       ],
       "module": "http",
       "source": [
-        "http/server_sent_event_stream.ts"
+        "ttp/server_sent_event_stream.ts"
       ]
     },
     "http/server-sent-event-parse-stream": {
@@ -2360,7 +2360,7 @@
       ],
       "module": "http",
       "source": [
-        "http/server_sent_event_parse_stream.ts"
+        "ttp/server_sent_event_parse_stream.ts"
       ]
     },
     "http/status": {
@@ -2369,7 +2369,7 @@
       ],
       "module": "http",
       "source": [
-        "http/status.ts"
+        "ttp/status.ts"
       ]
     },
     "http/signed-cookie": {
@@ -2378,7 +2378,7 @@
       ],
       "module": "http",
       "source": [
-        "http/unstable_signed_cookie.ts"
+        "ttp/unstable_signed_cookie.ts"
       ]
     },
     "http/structured-fields": {
@@ -2387,7 +2387,7 @@
       ],
       "module": "http",
       "source": [
-        "http/unstable_structured_fields.ts"
+        "ttp/unstable_structured_fields.ts"
       ]
     },
     "http/user-agent": {
@@ -2396,7 +2396,7 @@
       ],
       "module": "http",
       "source": [
-        "http/user_agent.ts"
+        "ttp/user_agent.ts"
       ]
     },
     "http/route": {
@@ -2405,7 +2405,7 @@
       ],
       "module": "http",
       "source": [
-        "http/unstable_route.ts"
+        "ttp/unstable_route.ts"
       ]
     },
     "http/cache-control": {
@@ -2414,7 +2414,7 @@
       ],
       "module": "http",
       "source": [
-        "http/unstable_cache_control.ts"
+        "ttp/unstable_cache_control.ts"
       ]
     },
     "http/message-signatures": {
@@ -2423,7 +2423,7 @@
       ],
       "module": "http",
       "source": [
-        "http/unstable_message_signatures.ts"
+        "ttp/unstable_message_signatures.ts"
       ]
     },
     "http/error": {
@@ -2432,7 +2432,7 @@
       ],
       "module": "http",
       "source": [
-        "http/unstable_error.ts"
+        "ttp/unstable_error.ts"
       ]
     },
     "ini": {
@@ -2441,7 +2441,7 @@
       ],
       "module": "ini",
       "source": [
-        "ini/mod.ts"
+        "ni/mod.ts"
       ]
     },
     "ini/parse": {
@@ -2450,7 +2450,7 @@
       ],
       "module": "ini",
       "source": [
-        "ini/parse.ts"
+        "ni/parse.ts"
       ]
     },
     "ini/stringify": {
@@ -2459,7 +2459,7 @@
       ],
       "module": "ini",
       "source": [
-        "ini/stringify.ts"
+        "ni/stringify.ts"
       ]
     },
     "internal": {
@@ -2468,7 +2468,7 @@
       ],
       "module": "internal",
       "source": [
-        "internal/mod.ts"
+        "nternal/mod.ts"
       ]
     },
     "internal/assertion-state": {
@@ -2477,7 +2477,7 @@
       ],
       "module": "internal",
       "source": [
-        "internal/assertion_state.ts"
+        "nternal/assertion_state.ts"
       ]
     },
     "internal/build-message": {
@@ -2486,7 +2486,7 @@
       ],
       "module": "internal",
       "source": [
-        "internal/build_message.ts"
+        "nternal/build_message.ts"
       ]
     },
     "internal/diff-str": {
@@ -2495,7 +2495,7 @@
       ],
       "module": "internal",
       "source": [
-        "internal/diff_str.ts"
+        "nternal/diff_str.ts"
       ]
     },
     "internal/diff": {
@@ -2504,7 +2504,7 @@
       ],
       "module": "internal",
       "source": [
-        "internal/diff.ts"
+        "nternal/diff.ts"
       ]
     },
     "internal/format": {
@@ -2513,7 +2513,7 @@
       ],
       "module": "internal",
       "source": [
-        "internal/format.ts"
+        "nternal/format.ts"
       ]
     },
     "internal/os": {
@@ -2522,7 +2522,7 @@
       ],
       "module": "internal",
       "source": [
-        "internal/os.ts"
+        "nternal/os.ts"
       ]
     },
     "internal/styles": {
@@ -2531,7 +2531,7 @@
       ],
       "module": "internal",
       "source": [
-        "internal/styles.ts"
+        "nternal/styles.ts"
       ]
     },
     "internal/truncate-build-message": {
@@ -2540,7 +2540,7 @@
       ],
       "module": "internal",
       "source": [
-        "internal/truncate_build_message.ts"
+        "nternal/truncate_build_message.ts"
       ]
     },
     "internal/types": {
@@ -2549,7 +2549,7 @@
       ],
       "module": "internal",
       "source": [
-        "internal/types.ts"
+        "nternal/types.ts"
       ]
     },
     "io": {
@@ -2558,7 +2558,7 @@
       ],
       "module": "io",
       "source": [
-        "io/mod.ts"
+        "o/mod.ts"
       ]
     },
     "io/buffer": {
@@ -2567,7 +2567,7 @@
       ],
       "module": "io",
       "source": [
-        "io/buffer.ts"
+        "o/buffer.ts"
       ]
     },
     "io/copy": {
@@ -2576,7 +2576,7 @@
       ],
       "module": "io",
       "source": [
-        "io/copy.ts"
+        "o/copy.ts"
       ]
     },
     "io/iterate-reader": {
@@ -2585,7 +2585,7 @@
       ],
       "module": "io",
       "source": [
-        "io/iterate_reader.ts"
+        "o/iterate_reader.ts"
       ]
     },
     "io/read-all": {
@@ -2594,7 +2594,7 @@
       ],
       "module": "io",
       "source": [
-        "io/read_all.ts"
+        "o/read_all.ts"
       ]
     },
     "io/reader-from-stream-reader": {
@@ -2603,7 +2603,7 @@
       ],
       "module": "io",
       "source": [
-        "io/reader_from_stream_reader.ts"
+        "o/reader_from_stream_reader.ts"
       ]
     },
     "io/to-readable-stream": {
@@ -2612,7 +2612,7 @@
       ],
       "module": "io",
       "source": [
-        "io/to_readable_stream.ts"
+        "o/to_readable_stream.ts"
       ]
     },
     "io/to-writable-stream": {
@@ -2621,7 +2621,7 @@
       ],
       "module": "io",
       "source": [
-        "io/to_writable_stream.ts"
+        "o/to_writable_stream.ts"
       ]
     },
     "io/types": {
@@ -2630,7 +2630,7 @@
       ],
       "module": "io",
       "source": [
-        "io/types.ts"
+        "o/types.ts"
       ]
     },
     "io/write-all": {
@@ -2639,7 +2639,7 @@
       ],
       "module": "io",
       "source": [
-        "io/write_all.ts"
+        "o/write_all.ts"
       ]
     },
     "json": {
@@ -2648,7 +2648,7 @@
       ],
       "module": "json",
       "source": [
-        "json/mod.ts"
+        "son/mod.ts"
       ]
     },
     "json/types": {
@@ -2657,7 +2657,7 @@
       ],
       "module": "json",
       "source": [
-        "json/types.ts"
+        "son/types.ts"
       ]
     },
     "json/concatenated-json-parse-stream": {
@@ -2666,7 +2666,7 @@
       ],
       "module": "json",
       "source": [
-        "json/concatenated_json_parse_stream.ts"
+        "son/concatenated_json_parse_stream.ts"
       ]
     },
     "json/parse-stream": {
@@ -2675,7 +2675,7 @@
       ],
       "module": "json",
       "source": [
-        "json/parse_stream.ts"
+        "son/parse_stream.ts"
       ]
     },
     "json/stringify-stream": {
@@ -2684,7 +2684,7 @@
       ],
       "module": "json",
       "source": [
-        "json/stringify_stream.ts"
+        "son/stringify_stream.ts"
       ]
     },
     "json/canonicalize": {
@@ -2693,7 +2693,7 @@
       ],
       "module": "json",
       "source": [
-        "json/canonicalize.ts"
+        "son/canonicalize.ts"
       ]
     },
     "jsonc": {
@@ -2702,7 +2702,7 @@
       ],
       "module": "jsonc",
       "source": [
-        "jsonc/mod.ts"
+        "sonc/mod.ts"
       ]
     },
     "jsonc/parse": {
@@ -2711,7 +2711,7 @@
       ],
       "module": "jsonc",
       "source": [
-        "jsonc/parse.ts"
+        "sonc/parse.ts"
       ]
     },
     "math": {
@@ -2720,7 +2720,7 @@
       ],
       "module": "math",
       "source": [
-        "math/mod.ts"
+        "ath/mod.ts"
       ]
     },
     "math/clamp": {
@@ -2729,7 +2729,7 @@
       ],
       "module": "math",
       "source": [
-        "math/clamp.ts"
+        "ath/clamp.ts"
       ]
     },
     "math/modulo": {
@@ -2738,7 +2738,7 @@
       ],
       "module": "math",
       "source": [
-        "math/modulo.ts"
+        "ath/modulo.ts"
       ]
     },
     "math/round-to": {
@@ -2747,7 +2747,7 @@
       ],
       "module": "math",
       "source": [
-        "math/round_to.ts"
+        "ath/round_to.ts"
       ]
     },
     "media-types": {
@@ -2756,7 +2756,7 @@
       ],
       "module": "media-types",
       "source": [
-        "media_types/mod.ts"
+        "edia_types/mod.ts"
       ]
     },
     "media-types/content-type": {
@@ -2765,7 +2765,7 @@
       ],
       "module": "media-types",
       "source": [
-        "media_types/content_type.ts"
+        "edia_types/content_type.ts"
       ]
     },
     "media-types/extension": {
@@ -2774,7 +2774,7 @@
       ],
       "module": "media-types",
       "source": [
-        "media_types/extension.ts"
+        "edia_types/extension.ts"
       ]
     },
     "media-types/all-extensions": {
@@ -2783,7 +2783,7 @@
       ],
       "module": "media-types",
       "source": [
-        "media_types/all_extensions.ts"
+        "edia_types/all_extensions.ts"
       ]
     },
     "media-types/format-media-type": {
@@ -2792,7 +2792,7 @@
       ],
       "module": "media-types",
       "source": [
-        "media_types/format_media_type.ts"
+        "edia_types/format_media_type.ts"
       ]
     },
     "media-types/get-charset": {
@@ -2801,7 +2801,7 @@
       ],
       "module": "media-types",
       "source": [
-        "media_types/get_charset.ts"
+        "edia_types/get_charset.ts"
       ]
     },
     "media-types/parse-media-type": {
@@ -2810,7 +2810,7 @@
       ],
       "module": "media-types",
       "source": [
-        "media_types/parse_media_type.ts"
+        "edia_types/parse_media_type.ts"
       ]
     },
     "media-types/type-by-extension": {
@@ -2819,7 +2819,7 @@
       ],
       "module": "media-types",
       "source": [
-        "media_types/type_by_extension.ts"
+        "edia_types/type_by_extension.ts"
       ]
     },
     "msgpack": {
@@ -2828,7 +2828,7 @@
       ],
       "module": "msgpack",
       "source": [
-        "msgpack/mod.ts"
+        "sgpack/mod.ts"
       ]
     },
     "msgpack/decode": {
@@ -2837,7 +2837,7 @@
       ],
       "module": "msgpack",
       "source": [
-        "msgpack/decode.ts"
+        "sgpack/decode.ts"
       ]
     },
     "msgpack/encode": {
@@ -2846,7 +2846,7 @@
       ],
       "module": "msgpack",
       "source": [
-        "msgpack/encode.ts"
+        "sgpack/encode.ts"
       ]
     },
     "net": {
@@ -2856,8 +2856,8 @@
       ],
       "module": "net",
       "source": [
-        "net/mod.ts",
-        "net/unstable_ip.ts"
+        "et/mod.ts",
+        "et/unstable_ip.ts"
       ]
     },
     "net/get-available-port": {
@@ -2866,7 +2866,7 @@
       ],
       "module": "net",
       "source": [
-        "net/get_available_port.ts"
+        "et/get_available_port.ts"
       ]
     },
     "net/ip": {
@@ -2875,7 +2875,7 @@
       ],
       "module": "net",
       "source": [
-        "net/unstable_ip.ts"
+        "et/unstable_ip.ts"
       ]
     },
     "net/get-network-address": {
@@ -2884,7 +2884,7 @@
       ],
       "module": "net",
       "source": [
-        "net/unstable_get_network_address.ts"
+        "et/unstable_get_network_address.ts"
       ]
     },
     "path": {
@@ -2893,7 +2893,7 @@
       ],
       "module": "path",
       "source": [
-        "path/mod.ts"
+        "ath/mod.ts"
       ]
     },
     "path/basename": {
@@ -2902,7 +2902,7 @@
       ],
       "module": "path",
       "source": [
-        "path/basename.ts"
+        "ath/basename.ts"
       ]
     },
     "path/common": {
@@ -2911,7 +2911,7 @@
       ],
       "module": "path",
       "source": [
-        "path/common.ts"
+        "ath/common.ts"
       ]
     },
     "path/constants": {
@@ -2920,7 +2920,7 @@
       ],
       "module": "path",
       "source": [
-        "path/constants.ts"
+        "ath/constants.ts"
       ]
     },
     "path/dirname": {
@@ -2929,7 +2929,7 @@
       ],
       "module": "path",
       "source": [
-        "path/dirname.ts"
+        "ath/dirname.ts"
       ]
     },
     "path/extname": {
@@ -2938,7 +2938,7 @@
       ],
       "module": "path",
       "source": [
-        "path/extname.ts"
+        "ath/extname.ts"
       ]
     },
     "path/format": {
@@ -2947,7 +2947,7 @@
       ],
       "module": "path",
       "source": [
-        "path/format.ts"
+        "ath/format.ts"
       ]
     },
     "path/from-file-url": {
@@ -2956,7 +2956,7 @@
       ],
       "module": "path",
       "source": [
-        "path/from_file_url.ts"
+        "ath/from_file_url.ts"
       ]
     },
     "path/glob-to-regexp": {
@@ -2965,7 +2965,7 @@
       ],
       "module": "path",
       "source": [
-        "path/glob_to_regexp.ts"
+        "ath/glob_to_regexp.ts"
       ]
     },
     "path/is-absolute": {
@@ -2974,7 +2974,7 @@
       ],
       "module": "path",
       "source": [
-        "path/is_absolute.ts"
+        "ath/is_absolute.ts"
       ]
     },
     "path/is-glob": {
@@ -2983,7 +2983,7 @@
       ],
       "module": "path",
       "source": [
-        "path/is_glob.ts"
+        "ath/is_glob.ts"
       ]
     },
     "path/join": {
@@ -2992,7 +2992,7 @@
       ],
       "module": "path",
       "source": [
-        "path/join.ts"
+        "ath/join.ts"
       ]
     },
     "path/join-globs": {
@@ -3001,7 +3001,7 @@
       ],
       "module": "path",
       "source": [
-        "path/join_globs.ts"
+        "ath/join_globs.ts"
       ]
     },
     "path/normalize": {
@@ -3010,7 +3010,7 @@
       ],
       "module": "path",
       "source": [
-        "path/normalize.ts"
+        "ath/normalize.ts"
       ]
     },
     "path/normalize-glob": {
@@ -3019,7 +3019,7 @@
       ],
       "module": "path",
       "source": [
-        "path/normalize_glob.ts"
+        "ath/normalize_glob.ts"
       ]
     },
     "path/parse": {
@@ -3028,7 +3028,7 @@
       ],
       "module": "path",
       "source": [
-        "path/parse.ts"
+        "ath/parse.ts"
       ]
     },
     "path/posix": {
@@ -3037,7 +3037,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/mod.ts"
+        "ath/posix/mod.ts"
       ]
     },
     "path/posix/basename": {
@@ -3046,7 +3046,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/basename.ts"
+        "ath/posix/basename.ts"
       ]
     },
     "path/posix/common": {
@@ -3055,7 +3055,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/common.ts"
+        "ath/posix/common.ts"
       ]
     },
     "path/posix/constants": {
@@ -3064,7 +3064,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/constants.ts"
+        "ath/posix/constants.ts"
       ]
     },
     "path/posix/dirname": {
@@ -3073,7 +3073,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/dirname.ts"
+        "ath/posix/dirname.ts"
       ]
     },
     "path/posix/extname": {
@@ -3082,7 +3082,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/extname.ts"
+        "ath/posix/extname.ts"
       ]
     },
     "path/posix/format": {
@@ -3091,7 +3091,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/format.ts"
+        "ath/posix/format.ts"
       ]
     },
     "path/posix/from-file-url": {
@@ -3100,7 +3100,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/from_file_url.ts"
+        "ath/posix/from_file_url.ts"
       ]
     },
     "path/posix/glob-to-regexp": {
@@ -3109,7 +3109,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/glob_to_regexp.ts"
+        "ath/posix/glob_to_regexp.ts"
       ]
     },
     "path/posix/is-absolute": {
@@ -3118,7 +3118,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/is_absolute.ts"
+        "ath/posix/is_absolute.ts"
       ]
     },
     "path/posix/is-glob": {
@@ -3127,7 +3127,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/is_glob.ts"
+        "ath/posix/is_glob.ts"
       ]
     },
     "path/posix/join": {
@@ -3136,7 +3136,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/join.ts"
+        "ath/posix/join.ts"
       ]
     },
     "path/posix/join-globs": {
@@ -3145,7 +3145,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/join_globs.ts"
+        "ath/posix/join_globs.ts"
       ]
     },
     "path/posix/normalize": {
@@ -3154,7 +3154,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/normalize.ts"
+        "ath/posix/normalize.ts"
       ]
     },
     "path/posix/normalize-glob": {
@@ -3163,7 +3163,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/normalize_glob.ts"
+        "ath/posix/normalize_glob.ts"
       ]
     },
     "path/posix/parse": {
@@ -3172,7 +3172,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/parse.ts"
+        "ath/posix/parse.ts"
       ]
     },
     "path/posix/relative": {
@@ -3181,7 +3181,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/relative.ts"
+        "ath/posix/relative.ts"
       ]
     },
     "path/posix/resolve": {
@@ -3190,7 +3190,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/resolve.ts"
+        "ath/posix/resolve.ts"
       ]
     },
     "path/posix/to-file-url": {
@@ -3199,7 +3199,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/to_file_url.ts"
+        "ath/posix/to_file_url.ts"
       ]
     },
     "path/posix/to-namespaced-path": {
@@ -3208,7 +3208,7 @@
       ],
       "module": "path",
       "source": [
-        "path/posix/to_namespaced_path.ts"
+        "ath/posix/to_namespaced_path.ts"
       ]
     },
     "path/relative": {
@@ -3217,7 +3217,7 @@
       ],
       "module": "path",
       "source": [
-        "path/relative.ts"
+        "ath/relative.ts"
       ]
     },
     "path/resolve": {
@@ -3226,7 +3226,7 @@
       ],
       "module": "path",
       "source": [
-        "path/resolve.ts"
+        "ath/resolve.ts"
       ]
     },
     "path/to-file-url": {
@@ -3235,7 +3235,7 @@
       ],
       "module": "path",
       "source": [
-        "path/to_file_url.ts"
+        "ath/to_file_url.ts"
       ]
     },
     "path/to-namespaced-path": {
@@ -3244,7 +3244,7 @@
       ],
       "module": "path",
       "source": [
-        "path/to_namespaced_path.ts"
+        "ath/to_namespaced_path.ts"
       ]
     },
     "path/types": {
@@ -3253,7 +3253,7 @@
       ],
       "module": "path",
       "source": [
-        "path/types.ts"
+        "ath/types.ts"
       ]
     },
     "path/windows": {
@@ -3262,7 +3262,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/mod.ts"
+        "ath/windows/mod.ts"
       ]
     },
     "path/windows/basename": {
@@ -3271,7 +3271,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/basename.ts"
+        "ath/windows/basename.ts"
       ]
     },
     "path/windows/common": {
@@ -3280,7 +3280,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/common.ts"
+        "ath/windows/common.ts"
       ]
     },
     "path/windows/constants": {
@@ -3289,7 +3289,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/constants.ts"
+        "ath/windows/constants.ts"
       ]
     },
     "path/windows/dirname": {
@@ -3298,7 +3298,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/dirname.ts"
+        "ath/windows/dirname.ts"
       ]
     },
     "path/windows/extname": {
@@ -3307,7 +3307,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/extname.ts"
+        "ath/windows/extname.ts"
       ]
     },
     "path/windows/format": {
@@ -3316,7 +3316,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/format.ts"
+        "ath/windows/format.ts"
       ]
     },
     "path/windows/from-file-url": {
@@ -3325,7 +3325,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/from_file_url.ts"
+        "ath/windows/from_file_url.ts"
       ]
     },
     "path/windows/glob-to-regexp": {
@@ -3334,7 +3334,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/glob_to_regexp.ts"
+        "ath/windows/glob_to_regexp.ts"
       ]
     },
     "path/windows/is-absolute": {
@@ -3343,7 +3343,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/is_absolute.ts"
+        "ath/windows/is_absolute.ts"
       ]
     },
     "path/windows/is-glob": {
@@ -3352,7 +3352,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/is_glob.ts"
+        "ath/windows/is_glob.ts"
       ]
     },
     "path/windows/join": {
@@ -3361,7 +3361,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/join.ts"
+        "ath/windows/join.ts"
       ]
     },
     "path/windows/join-globs": {
@@ -3370,7 +3370,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/join_globs.ts"
+        "ath/windows/join_globs.ts"
       ]
     },
     "path/windows/normalize": {
@@ -3379,7 +3379,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/normalize.ts"
+        "ath/windows/normalize.ts"
       ]
     },
     "path/windows/normalize-glob": {
@@ -3388,7 +3388,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/normalize_glob.ts"
+        "ath/windows/normalize_glob.ts"
       ]
     },
     "path/windows/parse": {
@@ -3397,7 +3397,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/parse.ts"
+        "ath/windows/parse.ts"
       ]
     },
     "path/windows/relative": {
@@ -3406,7 +3406,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/relative.ts"
+        "ath/windows/relative.ts"
       ]
     },
     "path/windows/resolve": {
@@ -3415,7 +3415,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/resolve.ts"
+        "ath/windows/resolve.ts"
       ]
     },
     "path/windows/to-file-url": {
@@ -3424,7 +3424,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/to_file_url.ts"
+        "ath/windows/to_file_url.ts"
       ]
     },
     "path/windows/to-namespaced-path": {
@@ -3433,7 +3433,7 @@
       ],
       "module": "path",
       "source": [
-        "path/windows/to_namespaced_path.ts"
+        "ath/windows/to_namespaced_path.ts"
       ]
     },
     "random": {
@@ -3442,7 +3442,7 @@
       ],
       "module": "random",
       "source": [
-        "random/mod.ts"
+        "andom/mod.ts"
       ]
     },
     "random/between": {
@@ -3451,7 +3451,7 @@
       ],
       "module": "random",
       "source": [
-        "random/between.ts"
+        "andom/between.ts"
       ]
     },
     "random/get-random-values-seeded": {
@@ -3460,7 +3460,7 @@
       ],
       "module": "random",
       "source": [
-        "random/get_random_values_seeded.ts"
+        "andom/get_random_values_seeded.ts"
       ]
     },
     "random/integer-between": {
@@ -3469,7 +3469,7 @@
       ],
       "module": "random",
       "source": [
-        "random/integer_between.ts"
+        "andom/integer_between.ts"
       ]
     },
     "random/next-float-64": {
@@ -3478,7 +3478,7 @@
       ],
       "module": "random",
       "source": [
-        "random/next_float_64.ts"
+        "andom/next_float_64.ts"
       ]
     },
     "random/sample": {
@@ -3487,7 +3487,7 @@
       ],
       "module": "random",
       "source": [
-        "random/sample.ts"
+        "andom/sample.ts"
       ]
     },
     "random/seeded": {
@@ -3496,7 +3496,7 @@
       ],
       "module": "random",
       "source": [
-        "random/seeded.ts"
+        "andom/seeded.ts"
       ]
     },
     "random/shuffle": {
@@ -3505,7 +3505,7 @@
       ],
       "module": "random",
       "source": [
-        "random/shuffle.ts"
+        "andom/shuffle.ts"
       ]
     },
     "regexp": {
@@ -3515,8 +3515,8 @@
       ],
       "module": "regexp",
       "source": [
-        "regexp/mod.ts",
-        "regexp/unstable_replace_all_async.ts"
+        "egexp/mod.ts",
+        "egexp/unstable_replace_all_async.ts"
       ]
     },
     "regexp/escape": {
@@ -3525,7 +3525,7 @@
       ],
       "module": "regexp",
       "source": [
-        "regexp/escape.ts"
+        "egexp/escape.ts"
       ]
     },
     "regexp/replace-all-async": {
@@ -3534,7 +3534,7 @@
       ],
       "module": "regexp",
       "source": [
-        "regexp/unstable_replace_all_async.ts"
+        "egexp/unstable_replace_all_async.ts"
       ]
     },
     "semver": {
@@ -3543,7 +3543,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/mod.ts"
+        "emver/mod.ts"
       ]
     },
     "semver/can-parse": {
@@ -3552,7 +3552,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/can_parse.ts"
+        "emver/can_parse.ts"
       ]
     },
     "semver/compare": {
@@ -3561,7 +3561,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/compare.ts"
+        "emver/compare.ts"
       ]
     },
     "semver/difference": {
@@ -3570,7 +3570,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/difference.ts"
+        "emver/difference.ts"
       ]
     },
     "semver/equals": {
@@ -3579,7 +3579,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/equals.ts"
+        "emver/equals.ts"
       ]
     },
     "semver/format": {
@@ -3588,7 +3588,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/format.ts"
+        "emver/format.ts"
       ]
     },
     "semver/format-range": {
@@ -3597,7 +3597,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/format_range.ts"
+        "emver/format_range.ts"
       ]
     },
     "semver/greater-or-equal": {
@@ -3606,7 +3606,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/greater_or_equal.ts"
+        "emver/greater_or_equal.ts"
       ]
     },
     "semver/greater-than": {
@@ -3615,7 +3615,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/greater_than.ts"
+        "emver/greater_than.ts"
       ]
     },
     "semver/greater-than-range": {
@@ -3624,7 +3624,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/greater_than_range.ts"
+        "emver/greater_than_range.ts"
       ]
     },
     "semver/increment": {
@@ -3633,7 +3633,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/increment.ts"
+        "emver/increment.ts"
       ]
     },
     "semver/is-range": {
@@ -3642,7 +3642,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/is_range.ts"
+        "emver/is_range.ts"
       ]
     },
     "semver/is-semver": {
@@ -3651,7 +3651,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/is_semver.ts"
+        "emver/is_semver.ts"
       ]
     },
     "semver/less-or-equal": {
@@ -3660,7 +3660,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/less_or_equal.ts"
+        "emver/less_or_equal.ts"
       ]
     },
     "semver/less-than": {
@@ -3669,7 +3669,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/less_than.ts"
+        "emver/less_than.ts"
       ]
     },
     "semver/less-than-range": {
@@ -3678,7 +3678,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/less_than_range.ts"
+        "emver/less_than_range.ts"
       ]
     },
     "semver/max-satisfying": {
@@ -3687,7 +3687,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/max_satisfying.ts"
+        "emver/max_satisfying.ts"
       ]
     },
     "semver/min-satisfying": {
@@ -3696,7 +3696,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/min_satisfying.ts"
+        "emver/min_satisfying.ts"
       ]
     },
     "semver/not-equals": {
@@ -3705,7 +3705,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/not_equals.ts"
+        "emver/not_equals.ts"
       ]
     },
     "semver/parse": {
@@ -3714,7 +3714,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/parse.ts"
+        "emver/parse.ts"
       ]
     },
     "semver/parse-range": {
@@ -3723,7 +3723,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/parse_range.ts"
+        "emver/parse_range.ts"
       ]
     },
     "semver/range-intersects": {
@@ -3732,7 +3732,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/range_intersects.ts"
+        "emver/range_intersects.ts"
       ]
     },
     "semver/satisfies": {
@@ -3741,7 +3741,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/satisfies.ts"
+        "emver/satisfies.ts"
       ]
     },
     "semver/try-parse": {
@@ -3750,7 +3750,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/try_parse.ts"
+        "emver/try_parse.ts"
       ]
     },
     "semver/try-parse-range": {
@@ -3759,7 +3759,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/try_parse_range.ts"
+        "emver/try_parse_range.ts"
       ]
     },
     "semver/types": {
@@ -3768,7 +3768,7 @@
       ],
       "module": "semver",
       "source": [
-        "semver/types.ts"
+        "emver/types.ts"
       ]
     },
     "streams": {
@@ -3782,12 +3782,12 @@
       ],
       "module": "streams",
       "source": [
-        "streams/mod.ts",
-        "streams/unstable_abort_stream.ts",
-        "streams/unstable_capped_delimiter_stream.ts",
-        "streams/unstable_fixed_chunk_stream.ts",
-        "streams/unstable_to_byte_stream.ts",
-        "streams/unstable_to_lines.ts"
+        "treams/mod.ts",
+        "treams/unstable_abort_stream.ts",
+        "treams/unstable_capped_delimiter_stream.ts",
+        "treams/unstable_fixed_chunk_stream.ts",
+        "treams/unstable_to_byte_stream.ts",
+        "treams/unstable_to_lines.ts"
       ]
     },
     "streams/abort-stream": {
@@ -3796,7 +3796,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/unstable_abort_stream.ts"
+        "treams/unstable_abort_stream.ts"
       ]
     },
     "streams/batch-stream": {
@@ -3805,7 +3805,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/batch_stream.ts"
+        "treams/batch_stream.ts"
       ]
     },
     "streams/buffer": {
@@ -3814,7 +3814,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/buffer.ts"
+        "treams/buffer.ts"
       ]
     },
     "streams/byte-slice-stream": {
@@ -3823,7 +3823,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/byte_slice_stream.ts"
+        "treams/byte_slice_stream.ts"
       ]
     },
     "streams/capped-delimiter-stream": {
@@ -3832,7 +3832,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/unstable_capped_delimiter_stream.ts"
+        "treams/unstable_capped_delimiter_stream.ts"
       ]
     },
     "streams/concat-readable-streams": {
@@ -3841,7 +3841,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/concat_readable_streams.ts"
+        "treams/concat_readable_streams.ts"
       ]
     },
     "streams/delimiter-stream": {
@@ -3850,7 +3850,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/delimiter_stream.ts"
+        "treams/delimiter_stream.ts"
       ]
     },
     "streams/early-zip-readable-streams": {
@@ -3859,7 +3859,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/early_zip_readable_streams.ts"
+        "treams/early_zip_readable_streams.ts"
       ]
     },
     "streams/limited-bytes-transform-stream": {
@@ -3868,7 +3868,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/limited_bytes_transform_stream.ts"
+        "treams/limited_bytes_transform_stream.ts"
       ]
     },
     "streams/limited-transform-stream": {
@@ -3877,7 +3877,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/limited_transform_stream.ts"
+        "treams/limited_transform_stream.ts"
       ]
     },
     "streams/merge-readable-streams": {
@@ -3886,7 +3886,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/merge_readable_streams.ts"
+        "treams/merge_readable_streams.ts"
       ]
     },
     "streams/fixed-chunk-stream": {
@@ -3895,7 +3895,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/unstable_fixed_chunk_stream.ts"
+        "treams/unstable_fixed_chunk_stream.ts"
       ]
     },
     "streams/text-delimiter-stream": {
@@ -3904,7 +3904,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/text_delimiter_stream.ts"
+        "treams/text_delimiter_stream.ts"
       ]
     },
     "streams/text-line-stream": {
@@ -3913,7 +3913,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/text_line_stream.ts"
+        "treams/text_line_stream.ts"
       ]
     },
     "streams/to-array-buffer": {
@@ -3922,7 +3922,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/to_array_buffer.ts"
+        "treams/to_array_buffer.ts"
       ]
     },
     "streams/to-blob": {
@@ -3931,7 +3931,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/to_blob.ts"
+        "treams/to_blob.ts"
       ]
     },
     "streams/to-byte-stream": {
@@ -3940,7 +3940,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/unstable_to_byte_stream.ts"
+        "treams/unstable_to_byte_stream.ts"
       ]
     },
     "streams/to-bytes": {
@@ -3949,7 +3949,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/to_bytes.ts"
+        "treams/to_bytes.ts"
       ]
     },
     "streams/to-json": {
@@ -3958,7 +3958,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/to_json.ts"
+        "treams/to_json.ts"
       ]
     },
     "streams/to-lines": {
@@ -3967,7 +3967,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/unstable_to_lines.ts"
+        "treams/unstable_to_lines.ts"
       ]
     },
     "streams/to-text": {
@@ -3976,7 +3976,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/to_text.ts"
+        "treams/to_text.ts"
       ]
     },
     "streams/to-transform-stream": {
@@ -3985,7 +3985,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/to_transform_stream.ts"
+        "treams/to_transform_stream.ts"
       ]
     },
     "streams/zip-readable-streams": {
@@ -3994,7 +3994,7 @@
       ],
       "module": "streams",
       "source": [
-        "streams/zip_readable_streams.ts"
+        "treams/zip_readable_streams.ts"
       ]
     },
     "tar": {
@@ -4003,7 +4003,7 @@
       ],
       "module": "tar",
       "source": [
-        "tar/mod.ts"
+        "ar/mod.ts"
       ]
     },
     "tar/tar-stream": {
@@ -4012,7 +4012,7 @@
       ],
       "module": "tar",
       "source": [
-        "tar/tar_stream.ts"
+        "ar/tar_stream.ts"
       ]
     },
     "tar/untar-stream": {
@@ -4021,7 +4021,7 @@
       ],
       "module": "tar",
       "source": [
-        "tar/untar_stream.ts"
+        "ar/untar_stream.ts"
       ]
     },
     "testing/bdd": {
@@ -4030,7 +4030,7 @@
       ],
       "module": "testing",
       "source": [
-        "testing/bdd.ts"
+        "esting/bdd.ts"
       ]
     },
     "testing/mock": {
@@ -4039,7 +4039,7 @@
       ],
       "module": "testing",
       "source": [
-        "testing/mock.ts"
+        "esting/mock.ts"
       ]
     },
     "testing/snapshot": {
@@ -4048,7 +4048,7 @@
       ],
       "module": "testing",
       "source": [
-        "testing/snapshot.ts"
+        "esting/snapshot.ts"
       ]
     },
     "testing/time": {
@@ -4057,7 +4057,7 @@
       ],
       "module": "testing",
       "source": [
-        "testing/time.ts"
+        "esting/time.ts"
       ]
     },
     "testing/types": {
@@ -4066,7 +4066,7 @@
       ],
       "module": "testing",
       "source": [
-        "testing/types.ts"
+        "esting/types.ts"
       ]
     },
     "testing/stub": {
@@ -4075,7 +4075,7 @@
       ],
       "module": "testing",
       "source": [
-        "testing/unstable_stub.ts"
+        "esting/unstable_stub.ts"
       ]
     },
     "testing/stub-property": {
@@ -4084,7 +4084,7 @@
       ],
       "module": "testing",
       "source": [
-        "testing/unstable_stub_property.ts"
+        "esting/unstable_stub_property.ts"
       ]
     },
     "text": {
@@ -4101,15 +4101,15 @@
       ],
       "module": "text",
       "source": [
-        "text/mod.ts",
-        "text/unstable_dedent.ts",
-        "text/unstable_longest_common_prefix.ts",
-        "text/unstable_reverse.ts",
-        "text/unstable_slugify.ts",
-        "text/unstable_trim_by.ts",
-        "text/unstable_to_constant_case.ts",
-        "text/unstable_to_sentence_case.ts",
-        "text/unstable_to_title_case.ts"
+        "ext/mod.ts",
+        "ext/unstable_dedent.ts",
+        "ext/unstable_longest_common_prefix.ts",
+        "ext/unstable_reverse.ts",
+        "ext/unstable_slugify.ts",
+        "ext/unstable_trim_by.ts",
+        "ext/unstable_to_constant_case.ts",
+        "ext/unstable_to_sentence_case.ts",
+        "ext/unstable_to_title_case.ts"
       ]
     },
     "text/closest-string": {
@@ -4118,7 +4118,7 @@
       ],
       "module": "text",
       "source": [
-        "text/closest_string.ts"
+        "ext/closest_string.ts"
       ]
     },
     "text/compare-similarity": {
@@ -4127,7 +4127,7 @@
       ],
       "module": "text",
       "source": [
-        "text/compare_similarity.ts"
+        "ext/compare_similarity.ts"
       ]
     },
     "text/dedent": {
@@ -4136,7 +4136,7 @@
       ],
       "module": "text",
       "source": [
-        "text/unstable_dedent.ts"
+        "ext/unstable_dedent.ts"
       ]
     },
     "text/levenshtein-distance": {
@@ -4145,7 +4145,7 @@
       ],
       "module": "text",
       "source": [
-        "text/levenshtein_distance.ts"
+        "ext/levenshtein_distance.ts"
       ]
     },
     "text/longest-common-prefix": {
@@ -4154,7 +4154,7 @@
       ],
       "module": "text",
       "source": [
-        "text/unstable_longest_common_prefix.ts"
+        "ext/unstable_longest_common_prefix.ts"
       ]
     },
     "text/reverse": {
@@ -4163,7 +4163,7 @@
       ],
       "module": "text",
       "source": [
-        "text/unstable_reverse.ts"
+        "ext/unstable_reverse.ts"
       ]
     },
     "text/slugify": {
@@ -4172,7 +4172,7 @@
       ],
       "module": "text",
       "source": [
-        "text/unstable_slugify.ts"
+        "ext/unstable_slugify.ts"
       ]
     },
     "text/trim-by": {
@@ -4181,7 +4181,7 @@
       ],
       "module": "text",
       "source": [
-        "text/unstable_trim_by.ts"
+        "ext/unstable_trim_by.ts"
       ]
     },
     "text/to-camel-case": {
@@ -4190,7 +4190,7 @@
       ],
       "module": "text",
       "source": [
-        "text/to_camel_case.ts"
+        "ext/to_camel_case.ts"
       ]
     },
     "text/to-constant-case": {
@@ -4199,7 +4199,7 @@
       ],
       "module": "text",
       "source": [
-        "text/unstable_to_constant_case.ts"
+        "ext/unstable_to_constant_case.ts"
       ]
     },
     "text/to-kebab-case": {
@@ -4208,7 +4208,7 @@
       ],
       "module": "text",
       "source": [
-        "text/to_kebab_case.ts"
+        "ext/to_kebab_case.ts"
       ]
     },
     "text/to-pascal-case": {
@@ -4217,7 +4217,7 @@
       ],
       "module": "text",
       "source": [
-        "text/to_pascal_case.ts"
+        "ext/to_pascal_case.ts"
       ]
     },
     "text/to-sentence-case": {
@@ -4226,7 +4226,7 @@
       ],
       "module": "text",
       "source": [
-        "text/unstable_to_sentence_case.ts"
+        "ext/unstable_to_sentence_case.ts"
       ]
     },
     "text/to-snake-case": {
@@ -4235,7 +4235,7 @@
       ],
       "module": "text",
       "source": [
-        "text/to_snake_case.ts"
+        "ext/to_snake_case.ts"
       ]
     },
     "text/to-title-case": {
@@ -4244,7 +4244,7 @@
       ],
       "module": "text",
       "source": [
-        "text/unstable_to_title_case.ts"
+        "ext/unstable_to_title_case.ts"
       ]
     },
     "text/truncate": {
@@ -4253,7 +4253,7 @@
       ],
       "module": "text",
       "source": [
-        "text/truncate.ts"
+        "ext/truncate.ts"
       ]
     },
     "text/word-similarity-sort": {
@@ -4262,7 +4262,7 @@
       ],
       "module": "text",
       "source": [
-        "text/word_similarity_sort.ts"
+        "ext/word_similarity_sort.ts"
       ]
     },
     "toml": {
@@ -4271,7 +4271,7 @@
       ],
       "module": "toml",
       "source": [
-        "toml/mod.ts"
+        "oml/mod.ts"
       ]
     },
     "toml/parse": {
@@ -4280,7 +4280,7 @@
       ],
       "module": "toml",
       "source": [
-        "toml/parse.ts"
+        "oml/parse.ts"
       ]
     },
     "toml/stringify": {
@@ -4289,7 +4289,7 @@
       ],
       "module": "toml",
       "source": [
-        "toml/stringify.ts"
+        "oml/stringify.ts"
       ]
     },
     "ulid": {
@@ -4298,7 +4298,7 @@
       ],
       "module": "ulid",
       "source": [
-        "ulid/mod.ts"
+        "lid/mod.ts"
       ]
     },
     "ulid/decode-time": {
@@ -4307,7 +4307,7 @@
       ],
       "module": "ulid",
       "source": [
-        "ulid/decode_time.ts"
+        "lid/decode_time.ts"
       ]
     },
     "ulid/monotonic-ulid": {
@@ -4316,7 +4316,7 @@
       ],
       "module": "ulid",
       "source": [
-        "ulid/monotonic_ulid.ts"
+        "lid/monotonic_ulid.ts"
       ]
     },
     "ulid/ulid": {
@@ -4325,7 +4325,7 @@
       ],
       "module": "ulid",
       "source": [
-        "ulid/ulid.ts"
+        "lid/ulid.ts"
       ]
     },
     "uuid": {
@@ -4334,7 +4334,7 @@
       ],
       "module": "uuid",
       "source": [
-        "uuid/mod.ts"
+        "uid/mod.ts"
       ]
     },
     "uuid/common": {
@@ -4343,7 +4343,7 @@
       ],
       "module": "uuid",
       "source": [
-        "uuid/common.ts"
+        "uid/common.ts"
       ]
     },
     "uuid/constants": {
@@ -4352,7 +4352,7 @@
       ],
       "module": "uuid",
       "source": [
-        "uuid/constants.ts"
+        "uid/constants.ts"
       ]
     },
     "uuid/v1": {
@@ -4361,7 +4361,7 @@
       ],
       "module": "uuid",
       "source": [
-        "uuid/v1.ts"
+        "uid/v1.ts"
       ]
     },
     "uuid/v3": {
@@ -4370,7 +4370,7 @@
       ],
       "module": "uuid",
       "source": [
-        "uuid/v3.ts"
+        "uid/v3.ts"
       ]
     },
     "uuid/v4": {
@@ -4379,7 +4379,7 @@
       ],
       "module": "uuid",
       "source": [
-        "uuid/v4.ts"
+        "uid/v4.ts"
       ]
     },
     "uuid/v5": {
@@ -4388,7 +4388,7 @@
       ],
       "module": "uuid",
       "source": [
-        "uuid/v5.ts"
+        "uid/v5.ts"
       ]
     },
     "uuid/v7": {
@@ -4397,7 +4397,7 @@
       ],
       "module": "uuid",
       "source": [
-        "uuid/v7.ts"
+        "uid/v7.ts"
       ]
     },
     "uuid/v6": {
@@ -4406,7 +4406,7 @@
       ],
       "module": "uuid",
       "source": [
-        "uuid/unstable_v6.ts"
+        "uid/unstable_v6.ts"
       ]
     },
     "webgpu": {
@@ -4415,7 +4415,7 @@
       ],
       "module": "webgpu",
       "source": [
-        "webgpu/mod.ts"
+        "ebgpu/mod.ts"
       ]
     },
     "webgpu/create-capture": {
@@ -4424,7 +4424,7 @@
       ],
       "module": "webgpu",
       "source": [
-        "webgpu/create_capture.ts"
+        "ebgpu/create_capture.ts"
       ]
     },
     "webgpu/describe-texture-format": {
@@ -4433,7 +4433,7 @@
       ],
       "module": "webgpu",
       "source": [
-        "webgpu/describe_texture_format.ts"
+        "ebgpu/describe_texture_format.ts"
       ]
     },
     "webgpu/row-padding": {
@@ -4442,7 +4442,7 @@
       ],
       "module": "webgpu",
       "source": [
-        "webgpu/row_padding.ts"
+        "ebgpu/row_padding.ts"
       ]
     },
     "webgpu/texture-with-data": {
@@ -4451,7 +4451,7 @@
       ],
       "module": "webgpu",
       "source": [
-        "webgpu/texture_with_data.ts"
+        "ebgpu/texture_with_data.ts"
       ]
     },
     "xml": {
@@ -4460,7 +4460,7 @@
       ],
       "module": "xml",
       "source": [
-        "xml/mod.ts"
+        "ml/mod.ts"
       ]
     },
     "xml/parse": {
@@ -4469,7 +4469,7 @@
       ],
       "module": "xml",
       "source": [
-        "xml/parse.ts"
+        "ml/parse.ts"
       ]
     },
     "xml/parse-records": {
@@ -4478,7 +4478,7 @@
       ],
       "module": "xml",
       "source": [
-        "xml/parse_records.ts"
+        "ml/parse_records.ts"
       ]
     },
     "xml/parse-stream": {
@@ -4487,7 +4487,7 @@
       ],
       "module": "xml",
       "source": [
-        "xml/parse_stream.ts"
+        "ml/parse_stream.ts"
       ]
     },
     "xml/stringify": {
@@ -4496,7 +4496,7 @@
       ],
       "module": "xml",
       "source": [
-        "xml/stringify.ts"
+        "ml/stringify.ts"
       ]
     },
     "xml/types": {
@@ -4505,7 +4505,7 @@
       ],
       "module": "xml",
       "source": [
-        "xml/types.ts"
+        "ml/types.ts"
       ]
     },
     "yaml": {
@@ -4514,7 +4514,7 @@
       ],
       "module": "yaml",
       "source": [
-        "yaml/mod.ts"
+        "aml/mod.ts"
       ]
     },
     "yaml/parse": {
@@ -4523,7 +4523,7 @@
       ],
       "module": "yaml",
       "source": [
-        "yaml/parse.ts"
+        "aml/parse.ts"
       ]
     },
     "yaml/stringify": {
@@ -4532,7 +4532,7 @@
       ],
       "module": "yaml",
       "source": [
-        "yaml/stringify.ts"
+        "aml/stringify.ts"
       ]
     },
     "yaml/types": {
@@ -4541,7 +4541,7 @@
       ],
       "module": "yaml",
       "source": [
-        "yaml/types.ts"
+        "aml/types.ts"
       ]
     }
   }

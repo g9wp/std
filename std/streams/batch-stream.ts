@@ -1,1 +1,1 @@
-export * from "@std/streams/unstable-batch-stream";
+export * from "@std/streams/batch-stream";

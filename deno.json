@@ -1,6 +1,6 @@
 {
   "name": "@g9wp/std",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": "MIT",
   "tasks": {
     "build": "deno run -A --no-config ./build.ts"

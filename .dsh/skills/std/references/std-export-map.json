@@ -1,6 +1,6 @@
 {
   "package": "@g9wp/std",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "upstream": "https://github.com/denoland/std @ release-2026.09.24",
   "exports": {
     "assert": {

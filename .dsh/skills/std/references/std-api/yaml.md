@@ -1,11 +1,11 @@
 # `$std/yaml` — @std/yaml@1.3.0
 
 <!-- 本文件由 `scripts/gen.ts` 依据 $std 源码自动生成，请勿手工编辑。
-     数据源：https://github.com/g9wp/std（@g9wp/std 0.1.5 的 exports 清单）+ https://github.com/denoland/std（release-2026.09.24 源码）
+     数据源：https://github.com/g9wp/std（@g9wp/std 0.1.6 的 exports 清单）+ https://github.com/denoland/std（release-2026.09.24 源码）
      上游源码：https://github.com/denoland/std/tree/release-2026.09.24/yaml
      需要精确签名时以 `deno doc` 或源码为准。 -->
 
-导入：`import {...} from "$std/yaml";`　别名：`jsr:@g9wp/std@^0.1.5/yaml`
+导入：`import {...} from "$std/yaml";`　别名：`jsr:@g9wp/std@^0.1.6/yaml`
 
 | 子路径 | 上游来源 | 源码 | 导出数 |
 | --- | --- | --- | --- |

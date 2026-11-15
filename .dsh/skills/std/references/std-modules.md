@@ -1,7 +1,7 @@
 # $std (@g9wp/std) 模块总览
 
 <!-- 本文件由 `scripts/gen.ts` 依据 $std 源码自动生成，请勿手工编辑。
-     数据源：https://github.com/g9wp/std（@g9wp/std 0.1.5 的 exports 清单）+ https://github.com/denoland/std（release-2026.09.24 源码）
+     数据源：https://github.com/g9wp/std（@g9wp/std 0.1.6 的 exports 清单）+ https://github.com/denoland/std（release-2026.09.24 源码）
      需要精确签名时以 `deno doc` 或源码为准。 -->
 
 共 42 个模块、487 个导出子路径。
